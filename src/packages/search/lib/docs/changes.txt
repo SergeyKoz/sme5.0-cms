@@ -1,0 +1,8 @@
+0.03a
+--------------------------------------------------------------------------------
++ "location" redirect support
++ headers place to DB
++ badurls array
+& fixed many open connections while indexing
++ now indexing whole document, but description gets from <!-- sea... //--> section
++ small fixed code style for support of new PHP definitions

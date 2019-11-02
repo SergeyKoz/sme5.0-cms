@@ -1,0 +1,76 @@
+<?
+ /**
+   * Search engine module
+   * @package Search
+   * @access  public
+   * @subpackage lib
+   **/
+
+ //if($secure_signature != md5("qwerty")){
+ //    return ;
+ //}
+
+ $offset = $this->page_number;
+
+ if ((!isset($offset))||($offset<=0))
+  $offset=0;
+ $pagesize=$this->_search_package_settings->GetItem("MAIN", "RecordsPerPage");
+ $offset = $offset*$pagesize;
+ $search = $this->keywords;
+
+
+ require ($lib_path."iinc/conf.inc");
+ require ($lib_path."iinc/log.inc");
+ require ($lib_path."iinc/dbconn.inc");
+ require ($lib_path."sinc/search.inc");
+ require ($lib_path."finc/shownum.inc");
+
+
+ if ((isset($search))&&(trim($search)!=""))
+  {
+    $words="";
+    $wid="";
+    $w=explode(" ",$search); // split words by " " (space)
+    if (is_array($w))
+     {
+       for($i=0;$i<count($w);$i++)
+        {
+          $words.="UCASE(word) like UCASE(\"".$w[$i]."%\") or ";
+        }
+       $words=substr($words,0,strlen($words)-3);
+     }
+    else // if only one word
+     $words="UCASE(word) like UCASE(\"".$search."%\")";
+
+    $wids=$conf->DB->selMQuery($conf->getWordsQuery,array("words"=>$words));
+    if (!empty($wids))
+     {
+       while(list($k,$v)=each($wids))
+        $wid.=",".$v["id"];
+       $wid=substr($wid,1);
+
+    $found=$conf->DB->selMQuery($conf->getSearchQuery,array("words"=>$wid));
+    $total=count($found);
+    } else $total=0;
+  }
+ if ((isset($found))&&(is_array($found)) )// found some pages
+  {
+    $num=$pagesize;
+    if ($num+$offset>$total)
+     $num=$total-$offset;
+
+    for ($i=$offset;$i<($offset+$num);$i++)
+     {
+       $v=$found[$i];
+       $xmlWriter->WriteStartElement("row");
+            $xmlWriter->WriteElementString("number", $i+1);
+            $xmlWriter->WriteElementString("title", $v['title']);
+            $xmlWriter->WriteElementString("url", $v['url']);
+            $xmlWriter->WriteStartElement("description");
+                $xmlWriter->WriteCData(GetDescription($w, $v['descr']));
+            $xmlWriter->WriteEndElement("description");
+       $xmlWriter->WriteEndElement("row");
+     }
+  }
+
+?>

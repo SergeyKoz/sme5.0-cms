@@ -1,0 +1,160 @@
+* {border:medium none; margin:0; padding:0; font-size:12px; font-family:sans-serif; color:#444;}
+*:focus {outline: none;}
+html, body {width:100%; height:100%;}
+
+a {color:#444; outline:medium none;}
+a:hover {text-decoration:none;}
+.fl {float:left;}
+.fr {float:right !important;}
+.clr {clear:both;} 
+
+.red {color:#FF0000;}
+
+textarea {background:#FBFBFB; border:1px solid #E5E5E5; box-shadow:1px 1px 2px rgba(200, 200, 200, 0.2) inset; 
+-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:12px; font-weight:200; line-height:1; 
+margin:7px 0 16px 6px; outline:medium none; padding:3px; font-family:sans-serif;}
+	
+input[type="text"] {background:#FBFBFB; border:1px solid #E5E5E5; box-shadow:1px 1px 2px rgba(200, 200, 200, 0.2) inset; font-size:12px; line-height:1;
+-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin:7px 0 16px 6px; padding:3px; font-family:sans-serif;}
+
+input[type="password"] {background:#FBFBFB; border:1px solid #E5E5E5; box-shadow:1px 1px 2px rgba(200, 200, 200, 0.2) inset; font-size:12px; line-height:1;
+-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin:7px 0 16px 6px; padding:3px; font-family:sans-serif;}
+
+input[type="checkbox"] {margin:5px 5px 10px 0;}
+.sort-table td.sfd {text-align:center}
+.sort-table td.sfd input[type="checkbox"] {margin:5px auto; float:none;}
+
+.sort-table a b {min-width:150px;}
+
+td.nowrap {white-space:nowrap; text-align:left;}
+
+select {font-family:sans-serif; border:1px solid #E5E5E5; margin:3px 5px 0 0; background:#fbfbfb; -webkit-border-radius:5px;
+-moz-border-radius:5px; border-radius:5px; padding:2px; box-shadow:1px 1px 2px rgba(200, 200, 200, 0.2) inset; font-size:12px;}
+
+.topframe {margin:0px; background-color:#848484; scroll:no;}
+.navigationframelinks {margin:0px; background-color:#848484;}
+.navigationframenav {margin:0px;}
+
+td.bordered {border-left:1px; border:black;}
+
+.mainwindowhellow {margin:0px; background-position:top; background:url(../_pic/back_main.jpg); background-repeat:no-repeat; background-color:#fcfcfc;}
+.mainwindowlist {margin:0px; background-color:#fcfcfc;}
+
+.whiteshadowed  {color:#ffffff; filter:dropshadow(color=#494949, offx=1, offy=1, positive=1);}
+.blackshadowed  {color:#000000; filter:dropshadow(color=#ffffff, offx=1, offy=1, positive=1);}
+.yellow  {color:#fff5b1;}
+.topstatus  {color:#fff5b1; font-weight:bold;}
+
+.silvergray {width:100%; margin:20px 0 5px; float:left;}
+.silvergray button {margin:0 10px 0 0;}
+.silvergray div.fr button {margin:0 0px 0 10px;}
+
+.margin_lr_10 {margin-left:7px; margin-right::7px;}
+.border_1px {border:1px solid #CCCCCC;}
+.butborder  {background-image:url(../_pic/back_butborder.gif); width:36px;}
+
+.tbllistheader {background-color:#d4d0c8; padding-left:30px; padding-bottom:6px; padding-top:8px;}
+.tbllistrow {padding-left:30px; padding-bottom:6px; padding-top:8px;}
+.tbllistrowtop {background-color:#e5e2db;}
+
+.buttontop  {background-color:#d4d0c8; border:0px; padding-right:2px;}
+.buttontoptext  {background-color:#d4d0c8; border:0px; width:100%;  padding-right:2px;}
+.buttontoptextnoimg  {background-color:#d4d0c8; border:0px; width:100%; padding-right:4px;  padding-left:1px;  padding-top:2px;  padding-bottom:px;}
+.buttonmainnav {background-color:#d4d0c8; padding:3px; width:178px; text-align:center; font-family:tahoma, verdana, sans-serif; font-size:11px; ;}
+.buttonmainnavlinks {background-color:#848484; border:0px; padding:3px;}
+.but100percent {width:99%;}
+
+.pageheader {/*width:100%;*/ font-size:15px; line-height:26px; color:#284F6A; font-weight:bold; padding:5px 0; float:left;}
+
+.pageheader a {/*margin:0 5px 0 0;*/}
+.pageheader span {/*margin:0 5px 0 20px;*/ }
+.pageheader span.ui-button-text {margin:0;}
+
+.pageheader span.blue_tit,
+.pageheader span.itemsedit {font-size:15px; line-height:26px; color:#284F6A; font-weight:bold; /*margin-left:10px;*/}
+
+.error-table {font:icon; border:1px solid threedshadow; background:D4D0C8;}
+.error-table td {color:red; padding:10px;}
+
+.sort-table {border:1px solid #dfdfdf; border-spacing:0; border-bottom:0px; clear:both; margin:0; /*table-layout:fixed;*/ color:#333; width:100%;
+-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+
+.sort-table thead td {background-color:#F1F1F1; background-image:-moz-linear-gradient(center top , #F9F9F9, #ECECEC); text-align:center;}
+.sort-table thead td table {margin:0 auto;}
+.check-column {width:50px; text-align:center;}
+.sort-table td {padding:3px 4px; border-bottom:1px solid #DFDFDF; border-top:1px solid #FFFFFF; font-size:12px;}
+.sort-table td input[type='checkbox'] {margin:0 5px 0 0;}
+
+.sort-table thead td {padding:7px 4px;}
+.sort-table thead td:active {padding:3px 4px 1px 6px;}
+.sort-table-active td {padding:2px 5px; border-bottom-color:#DFDFDF; border-top-color:#FFFFFF;}
+.sort-table-active thead td {border:1px solid; cursor:default;}
+.sort-table-active thead td:active {padding:3px 4px 1px 6px;}
+
+.dynamic-tab-pane-control.tab-pane {position:relative; width:100%;}
+
+.dynamic-tab-pane-control .tab-row .tab {cursor:pointer; display:inline; margin:6px 5px 0 0px; float:left; z-index:1; border:1px solid #D3D3D3;
+position:relative; background:url("../../extranet/img/tabbg.png") repeat-x; line-height:23px; border-bottom:0px;
+-webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.dynamic-tab-pane-control .tab-row .tab:hover {border:1px solid #aaa; border-bottom:0px;}
+.dynamic-tab-pane-control .tab-row .tab.selected {font-weight:bold; background:#fff; border:1px solid #aaa; 
+border-bottom:0px; outline:medium none; top:-1px; height:25px;}
+
+.dynamic-tab-pane-control .tab-row .tab:hover {background-position:0 -92px;}
+.dynamic-tab-pane-control .tab-row .tab a {text-decoration:none; line-height:23px; height:23px; float:left; cursor:pointer; padding:0px 5px;}
+.dynamic-tab-pane-control .tab-row .tab a:hover {background-position:100% -115px;}
+.dynamic-tab-pane-control .tab-page {clear:both; position:relative; top:1px; padding:10px; width:98%; float:left; border:1px solid #aaa;}
+.dynamic-tab-pane-control .tab-page fieldset {width:100%; margin:10px 0 0; float:left;}
+.dynamic-tab-pane-control .tab-page table {/*width:750px; float:left;*/}
+.dynamic-tab-pane-control .tab-page select {margin-top:5px;}
+.dynamic-tab-pane-control .tab-page input {margin:7px 0 0 6px;}
+.dynamic-tab-pane-control .tab-row {white-space:nowrap; float:left; height:29px; width:100%;}
+
+.messagebody {border:0; margin:0; cursor:default; background:D4D0C8;}
+
+.dark {background:buttonshadow; color:white; font:icon; text-align:right; width:70px; padding:0; padding-right:3px;}
+.bright {background:D4D0C8; font:icon; text-align:left; padding:0; padding-right:3px; padding-left:10px;}
+.bright a, .bright a:hover, .bright a:visited, .bright a:active {color:blue; text-decoration:underline;}
+#top {background:D4D0C8; overflow:hidden; width:100%; height:0; margin:0; font-size:1px; 
+/* i don't remember what this was needed for but i'll leave it in */}
+
+#contentarea {position:relative; top:2px; width:100%; height:100%;}
+
+.editorbody {border:0; margin:0; cursor:default; background:D4D0C8;}
+#toptoolbar {background:D4D0C8; width:100%;}
+#headertable {border:1px solid black; width:100%; background:D4D0C8;}
+.dark {background:buttonshadow; color:white; font:icon; text-align:right; padding-right:3px;}
+input.ticket {border:1px solid D4D0C8; font:icon; color:buttonshadow; cursor:edit; width:100%;}
+
+.inputblock {padding-left:4px; padding-right:4px; padding-bottom:1px;}
+.toblock {font:icon; padding:2px; padding-left:4px; padding:right:4px;}
+
+a.none,a.none:hover {text-decoration:none;}
+a.linkup, td.linkup {text-decoration:none;}
+a.linkup:hover {text-decoration:underline;}
+
+.pagename {float:left; line-height:28px;}
+
+table button {margin:0px 5px 0;}
+div.content {margin:0 10px;}
+
+div.drop_menu {float:left;}
+div.dmenu {background:#fff; border:1px solid #ccc; -moz-box-shadow:0 0 3px #ccc; -webkit-box-shadow:0 0 3px #ccc; 
+box-shadow:0 0 3px #ccc; padding:10px 0;}
+div.dmenu a {line-height:20px;}
+
+.category_class {background:#ececec;}
+
+fieldset {width:100%; float:left;}
+
+.nofloat table {float:none !important; width:auto !important;}
+.select_dest {min-width:100px;}
+
+.nav_links {margin:10px 0;}
+.nav_links a {text-decoration:none;}
+
+.mainHeader {color:#444; font-weight:bold; padding:10px; float: left;}
+
+
+
+

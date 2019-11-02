@@ -1,0 +1,34 @@
+Hi!
+
+On site {site_name} has been added comment
+----------------------------------------
+
+Comment
+
+Group     :{group_name}
+Article   :{article_title}
+Link      : {link}
+Date/time :{datatime}
+
+Comment text:
+{comment}
+
+
+Author
+
+Login     :{user_login}
+Name      :{author_name}
+Email     :{author_email}
+
+Actions
+
+Publish comment
+{publish_url}
+
+Delete comment
+{delete_url}
+
+----------------------------------------
+
+Detail info
+{extranet}

@@ -1,0 +1,122 @@
+* {border:medium none; margin:0; padding:0; font-size:12px; font-family:sans-serif; color:#444;}
+*:focus {outline: none;}
+html, body {height:100%; height:100%;}
+
+a {color:#444; outline:medium none;}
+a:hover {text-decoration:none;}
+.fl {float:left;}
+.fr {float:right !important;}
+.clr {clear:both;}
+
+.red {color:#FF0000;}
+div.logonform {width:300px; padding:10px; border:1px solid #E5E5E5; box-shadow:0 4px 10px -1px rgba(200, 200, 200, 0.7); margin:200px auto 90px;}
+
+.topframe {margin:0px; scroll:no;}
+.navigationframelinks {margin:0px; background-color:#ECECEC; border-right:1px solid #ccc;}
+.navigationframenav {margin:0px}
+.logoframe {background:#ECECEC; border-right:1px solid #ccc;}
+
+#adminmenushadow {background:url("../img/menu-shadow.png") repeat-y right top; bottom:0; position:absolute; right:0; top:0; width:6px; z-index:20;}
+
+.mainwindowhellow {margin:0px; background-position :top; background :url(../_pic/back_main.jpg); background-repeat :no-repeat; background-color:#fcfcfc;}
+.mainwindowlist {margin:0px; background-color:#fcfcfc}
+
+.whiteshadowed  {color:#ffffff; filter:dropshadow(color=#494949, offx=1, offy=1, positive=1); }
+.blackshadowed  {color:#000000; filter:dropshadow(color=#ffffff, offx=1, offy=1, positive=1); }
+
+.yellow  {color:#000}
+.topstatus  {color:#fff5b1; font-weight:bold}
+
+.butborder  {background-image:url(../_pic/back_butborder.gif); width:36px;}
+.pageheader {padding-right:20px;  padding-left:20px;  padding-top:10px;  padding-bottom:3px;}
+
+.tbllistheader {background-color:#d4d0c8; padding-left:30px; padding-bottom:6px; padding-top:8px}
+.tbllistrow {padding-left:30px; padding-bottom:6px; padding-top:8px;}
+.tbllistrowtop {background-color:#e5e2db}
+
+button {font-size:11px; padding:0px; padding-left:0px;}
+.buttontop  {background-color:#d4d0c8; border:0px; padding-right:2px;}
+.buttontoptext  {background-color:#d4d0c8; border:0px; width:100%;  padding-right:2px;}
+.buttontoptextnoimg  {background-color:#d4d0c8; border:0px; width:100%; padding-right:4px;  padding-left:1px; padding-top:2px;}
+.buttonmainnav {background-color:#d4d0c8; padding:3px; width:178px; text-align:center; font-size:11px; }
+.buttonmainnavlinks {background-color:#848484; border:0px; padding:3px}
+.but100percent {width:99%;}
+
+/*frameleftmenu */
+.frameleftmenu {padding:0; margin:0}
+.frameleftmenu dd {padding:0; margin:0}
+.frameleftmenu ul {padding:0; margin:0}
+.frameleftmenu li {padding:10px 0; list-style-type:none; text-align:center;}
+.frameleftmenu li a {text-decoration:none; font-size:8pt;}
+.frameleftmenu li a.img:hover {text-decoration:none;}
+.frameleftmenu li a:hover {text-decoration:underline}
+.frameleftmenu img {}
+.frameleftmenu a:hover img {}
+.frameleftmenu dt {background:url("../../context/img/bg_top_btn.png") no-repeat -10px 0;}
+.frameleftmenu input.menubutton {background:transparent; width:99%; height:23px; font-size:12px; cursor:pointer; font-weight:bold; color:#555; 
+padding:0 0 3px}
+.frameleftmenu input.menubutton {border:0px;}
+.frameleftmenu input.menubutton:hover {color:#000; border:0px;}
+.frameleftmenu .selected input {color:#000;}
+
+
+select {font-size:11px;}
+.error-table {font:icon; background:#D4D0C8;}
+.error-table td {color:red; padding:10px;}
+
+.sort-table {}
+.sort-table thead {background:#D4D0C8;}
+.sort-table td {padding:2px 5px; font-size:12px;}
+.sort-table thead td {border:1px solid; cursor:default; font-size:11px;}
+.sort-table thead td:active {padding:3px 4px 1px 6px;}
+.sort-table-active {font:icon; border:1px solid threedshadow; background:threedface;}
+.sort-table-active thead {background:#D4D0C8;}
+.sort-table-active td {padding:2px 5px;}
+.sort-table-active thead td {border:1px solid; cursor:default;}
+.sort-table-active thead td:active {padding:3px 4px 1px 6px;}
+
+.dynamic-tab-pane-control.tab-pane {position:relative; width:100%;}
+.dynamic-tab-pane-control .tab-row .tab {font:menu; cursor:default; display:inline; margin:1px -2px 1px 2px; float:left; padding:2px 5px 3px 5px;
+ border:1px solid; border-bottom:0; z-index:1; position:relative; top:0;}
+.dynamic-tab-pane-control .tab-row .tab.selected {border-bottom:0; z-index:3; padding:2px 6px 5px 7px; margin:1px -3px -2px 0px; top:-2px;}
+.dynamic-tab-pane-control .tab-row .tab a {font:menu; text-decoration:none; cursor:default;}
+.dynamic-tab-pane-control .tab-row .hover a {color:blue;}
+.dynamic-tab-pane-control .tab-page {clear:both; border:1px solid; z-index:2; position:relative; top:-2px; font:message-box; padding:10px; width:100%;}
+.dynamic-tab-pane-control .tab-row {z-index:1; white-space:nowrap;}
+
+.messagebody {border:0; margin:0; cursor:default; background:#D4D0C8;}
+.dark {background:buttonshadow; color:white; font:icon; text-align:right; width:70px; padding:0; padding-right:3px;}
+.bright {background:#D4D0C8; font:icon; text-align:left; padding:0; padding-right:3px; padding-left:10px;}
+.bright a, .bright a:hover, .bright a:visited, .bright a:active {color:blue; text-decoration:underline;}
+#top {background:#D4D0C8; overflow:hidden; width:100%; height:0; margin:0; font-size:1px; /* i don't remember what this was needed for but i'll leave it in */}
+
+#contentarea {position:relative; top:2px; width:100%; height:100%;}
+
+.editorbody {border:0; margin:0; cursor:default; background:#D4D0C8;}
+#toptoolbar {background:#D4D0C8; width:100%;}
+#headertable {border:1px solid black; width:100%; background:#D4D0C8;}
+.dark {background:buttonshadow; color:white; font:icon; text-align:right; padding-right:3px;}
+input.ticket {background:#FBFBFB; border:1px solid #E5E5E5; box-shadow:1px 1px 2px rgba(200, 200, 200, 0.2) inset; font-size:24px; line-height:1;
+-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-weight:200; margin:7px 0 16px 6px; padding:3px; width:270px;}
+
+.greycolor {color:#777; font-size:1.4em; text-align:left;}
+
+.message {background-color:#FFFFE0; border-color:#E6DB55; margin:10px 0 16px 8px; padding:12px; border-radius:3px 3px 3px 3px; border-style:solid; 
+border-width:1px;}
+
+.erlog {background-color:#FFEBE8; border-color:#CC0000; margin:10px 0 16px 8px; padding:12px; border-radius:3px 3px 3px 3px; border-style:solid; 
+border-width:1px;}
+
+.inputblock {padding-left:4px; padding-right:4px; padding-bottom:1px;}
+.toblock {color:windowtext; font:icon; padding:2px; padding-left:4px; padding:right:4px;}
+
+a.none,a.none:hover {text-decoration:none;}
+
+a.linkup, a.linkup:hover, td.linkup {font-size:11px; font-weight:bold; color:102868;}
+.copy {font-size:10px;}
+
+.userinfo {width:99%; float:left;}
+.userinfo div {text-align:right; margin:10px 4px 0 0; float:right;}
+.silvergray button {margin:10px 5px 0;}
+
+

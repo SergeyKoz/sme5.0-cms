@@ -1,0 +1,65 @@
+<?/*
+[MAIN]
+TABLE=UsersTable
+KEY_FIELD=user_id
+UNIQUE_FIELDS=user_login
+
+[LIST]
+RECORDS_PER_PAGE=20
+FIELDS_COUNT=8
+
+[FIELD_0]
+FIELD_NAME=user_login
+SORT=1
+CONTROL=string
+EDIT_CONTROL=statictext
+IN_LIST=1
+LENGTH=40
+BOLD=1
+
+[FIELD_1]
+FIELD_NAME=user_password
+CONTROL=null
+EDIT_CONTROL=password
+IN_LIST=0
+
+[FIELD_2]
+FIELD_NAME = email
+SORT = 1
+CONTROL = string
+EDIT_CONTROL = text
+LENGTH = 255
+IN_LIST = 1
+
+[FIELD_3]
+FIELD_NAME = name
+CONTROL = null
+EDIT_CONTROL = text
+LENGTH = 255
+
+[FIELD_4]
+FIELD_NAME = phone
+CONTROL = null
+EDIT_CONTROL = text
+LENGTH = 255
+
+[FIELD_5]
+FIELD_NAME = additional
+CONTROL = null
+EDIT_CONTROL = textarea
+LENGTH = 2000
+
+[FIELD_6]
+FIELD_NAME = group_id
+CONTROL = null
+EDIT_CONTROL = hidden
+VALUE = 5
+
+[FIELD_7]
+FIELD_NAME = active
+CONTROL = null
+EDIT_CONTROL = hidden
+VALUE = 1
+
+*/
+?>

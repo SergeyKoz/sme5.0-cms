@@ -1,0 +1,188 @@
+<?/*
+[MAIN]
+TABLE=PublicationsTable
+KEY_FIELD=publication_id
+UNIQUE_FIELDS = system
+
+DISABLED_DELETE=1
+DISABLED_EDIT=0
+DISABLED_ADD=1
+DISABLED_COPY=1
+DISABLED_MOVE=1
+
+IS_READONLY=0
+
+IS_MULTILEVEL=0
+GET_ORDERS = _lastmodified
+
+[ACCESS]
+ROLES = PUBLICATIONS_MANAGER,PUBLICATIONS_PUBLISHER,PUBLICATIONS_EDITOR
+
+[LIST]
+RECORDS_PER_PAGE=20
+FIELDS_COUNT=14
+
+GET_DATA_FIELDS=is_modified
+GET_DATA_VALUES=1
+GET_DATA_FIELDS=is_declined
+GET_DATA_VALUES=0
+
+GET_ORDERS = _lastmodified 0
+
+
+[FIELD_0]
+FIELD_NAME=publication_id
+SORT=1
+CONTROL=string
+EDIT_CONTROL=null
+IN_LIST=1
+LENGTH=0
+
+[FIELD_1]
+FIELD_NAME=copy_of_id
+SORT=0
+CONTROL=dbtreepath
+##CONTROL=string
+
+FIELD_TABLE = PublicationsTable
+FIELDVALUE_NAME= publication_id
+FIELDVALUE_CAPTION= _sort_caption_%s
+FIELDVALUE_PARENT= copy_of_id
+
+EDIT_CONTROL=null
+IN_LIST=1
+IS_MULTILANG=1
+BOLD=1
+
+[FIELD_2]
+FIELD_NAME=_sort_caption_%s
+SORT=1
+CONTROL=link
+EDIT_CONTROL=null
+IN_LIST=1
+IS_MULTILANG=1
+BOLD=1
+
+[FIELD_3]
+FIELD_NAME=caption
+SORT=1
+CONTROL=string
+EDIT_CONTROL=text
+IN_LIST=0
+BOLD=1
+
+[FIELD_4]
+FIELD_NAME=system
+CONTROL=null
+EDIT_CONTROL=text
+
+[FIELD_5]
+FIELD_NAME=target_entry_point
+CONTROL=dbtreepath
+FIELD_TABLE = ContentTable
+FIELDVALUE_NAME=page_id
+FIELDVALUE_CAPTION=title_%s
+EDIT_CONTROL=dbtreecombobox
+PARENTVALUE_NAME=parent_id
+FIELDVALUE_PARENT=page_id
+GET_ORDERS = order_num 0
+MULTIPLE=0
+IN_LIST=0
+SORT=0
+
+USE_ENTRIES=1
+ENTRIES_TABLE = ContentTable
+ENTRIESVALUE_NAME = id
+ENTRIESVALUE_CAPTION = path
+ALLOW_CATEGORY_SELECT = 0
+
+USE_ROOT_CAPTION=1
+
+[FIELD_6]
+FIELD_NAME=template_id
+SORT=1
+CONTROL=dbtext
+EDIT_CONTROL=dbcombobox
+FIELD_TABLE=TemplatesTable
+FIELDVALUE_NAME=template_id
+FIELDVALUE_CAPTION=caption
+GET_ORDERS=caption 1
+FIELD_EVENT=onChange changeTemplate();
+IN_LIST=0
+##SIZE=10
+LENGTH=255
+
+[FIELD_7]
+FIELD_NAME=is_priveledged
+SORT=1
+CONTROL=checkbox
+EDIT_CONTROL=checkbox
+CHECKON=1
+CHECKOFF=0
+IN_LIST=0
+ALIGN=center
+CAPTION_PREFIX=ls_
+
+[FIELD_8]
+FIELD_NAME=disable_comments
+SORT=1
+CONTROL=checkbox
+EDIT_CONTROL=checkbox
+CHECKON=1
+CHECKOFF=0
+IN_LIST=0
+ALIGN=center
+CAPTION_PREFIX=ls_
+
+[FIELD_9]
+FIELD_NAME=active_%s
+SORT=1
+CONTROL=checkbox
+EDIT_CONTROL=checkbox
+CHECKON=1
+CHECKOFF=0
+IN_LIST=0
+ALIGN=center
+IS_MULTILANG=1
+
+[FIELD_10]
+FIELD_NAME=_sort_date
+SORT=1
+CONTROL=date
+EDIT_CONTROL=null
+FULLDATE=1
+IN_LIST=0
+ALIGN=center
+
+[FIELD_11]
+FIELD_NAME=_lastmodified
+SORT=1
+CONTROL=date
+EDIT_CONTROL=null
+FULLDATE=1
+IN_LIST=1
+ALIGN=center
+
+[FIELD_12]
+FIELD_NAME=_modified_by
+SORT=1
+CONTROL=dbtext
+EDIT_CONTROL=null
+FIELD_TABLE = UsersTable
+FIELDVALUE_NAME= user_id                        ## Name of field for text items values
+FIELDVALUE_CAPTION= user_login                     ## Name of field for text items captions
+IN_LIST=1
+ALIGN=center
+
+[FIELD_13]
+FIELD_NAME=memo
+SORT=0
+CONTROL=null
+EDIT_CONTROL=textarea
+IN_LIST=0
+LENGTH=40
+ROWS=6
+COLS=60
+
+*/
+?>

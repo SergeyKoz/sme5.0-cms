@@ -1,0 +1,187 @@
+<?/*
+
+[MAIN]
+TABLE=BannersTable
+KEY_FIELD=banner_id
+
+DISABLED_MOVE = 0
+
+ENABLE_NODE_MOVE=1
+
+GROUP_NAME=relation
+GROUP_TITLE_UA=Прив'язка
+GROUP_TITLE_RU=Привязка
+GROUP_TITLE_EN=Relations
+
+GROUP_NAME=internal
+GROUP_TITLE_UA=Внутрішній банер
+GROUP_TITLE_RU=Внутрений баннер
+GROUP_TITLE_EN=Internal banner
+
+GROUP_NAME=external
+GROUP_TITLE_UA=Зовнішній банер
+GROUP_TITLE_RU=Внешний банер
+GROUP_TITLE_EN=External banner
+
+[LIST]
+RECORDS_PER_PAGE=20
+FIELDS_COUNT=16
+GET_ORDERS=banner_id 0
+
+[FIELD_0]
+FIELD_NAME=banner_id
+SORT=1
+CONTROL=string
+EDIT_CONTROL=null
+IN_LIST=1
+LENGTH=0
+
+[FIELD_1]
+FIELD_NAME=language
+SORT=1
+CONTROL=caption
+EDIT_CONTROL=checkboxgroup
+IN_LIST=0
+LENGTH=40
+OPTIONS_FROM_INI_SECTION=LANGUAGE
+OPTIONS_FROM_INI_VALUES=_Language
+OPTIONS_FROM_INI_CAPTIONS=_LangShortName
+MULTIPLE=1
+RELATIONS_TABLE = BannerLanguagesTable
+
+[FIELD_2]
+FIELD_NAME=group_id
+SORT=1
+CONTROL=null
+EDIT_CONTROL=dbcombobox
+FIELD_TABLE=BannerGroupsTable
+FIELDVALUE_NAME=group_id
+FIELDVALUE_CAPTION=group_title
+GET_ORDERS=group_id 0
+
+[FIELD_3]
+FIELD_NAME=banner_type
+SORT=1
+CONTROL=caption
+EDIT_CONTROL=combobox
+IN_LIST=1
+LENGTH=40
+OPTIONS=Внешний|0
+OPTIONS=Изображение (внутренний)|1
+OPTIONS=Flash (внутрений)|2
+OPTIONS=Текст (внутрений)|3
+
+[FIELD_4]
+FIELD_NAME=banner_title
+SORT=1
+CONTROL=link
+EDIT_CONTROL=text
+IN_LIST=1
+BOLD=1
+
+[FIELD_5]
+FIELD_NAME=banner_url
+SORT=1
+CONTROL=string
+EDIT_CONTROL=textarea
+IN_LIST=1
+GROUP=internal
+
+[FIELD_6]
+FIELD_NAME=target
+SORT=1
+CONTROL=caption
+EDIT_CONTROL=combobox
+IN_LIST=0
+LENGTH=40
+OPTIONS=Это же окно|0
+OPTIONS=Новое окно|1
+GROUP=internal
+
+[FIELD_7]
+FIELD_NAME=banner_file
+SORT=1
+CONTROL=file
+EDIT_CONTROL=file
+DIRECTORY=banners
+IN_LIST=1
+GROUP=internal
+
+[FIELD_8]
+FIELD_NAME=height
+SORT=1
+CONTROL=string
+EDIT_CONTROL=text
+IN_LIST=0
+SIZE=10
+LENGTH=10
+GROUP=internal
+
+[FIELD_9]
+FIELD_NAME=width
+SORT=1
+CONTROL=string
+EDIT_CONTROL=text
+IN_LIST=0
+SIZE=10
+LENGTH=10
+GROUP=internal
+
+
+[FIELD_10]
+FIELD_NAME=banner_alt
+EDIT_CONTROL=textarea
+IN_LIST=0
+GROUP=internal
+
+[FIELD_11]
+FIELD_NAME=banner_text
+EDIT_CONTROL=textarea
+IN_LIST=0
+GROUP=external
+
+
+[FIELD_12]
+FIELD_NAME=_lastmodified
+SORT=1
+CONTROL=date
+FULLDATE=1
+EDIT_CONTROL=null
+IN_LIST=1
+
+[FIELD_13]
+FIELD_NAME=active
+SORT=1
+CONTROL=checkbox
+EDIT_CONTROL=checkbox
+CHECKON=1
+CHECKOFF=0
+IN_LIST=1
+ALIGN=center
+
+[FIELD_14]
+FIELD_NAME=place_id
+FIELD_TABLE = BannerPlacesTable
+FIELDVALUE_NAME=place_id
+FIELDVALUE_CAPTION=place_title
+EDIT_CONTROL=dbcombobox
+MULTIPLE=1
+RELATIONS_TABLE=BannerPlacesRelationTable
+SIZE = 15
+GROUP=relation
+
+[FIELD_15]
+FIELD_NAME=page_id
+FIELD_TABLE = ContentTable
+FIELDVALUE_NAME=id
+FIELDVALUE_CAPTION=title_%s
+EDIT_CONTROL=dbtreecombobox
+PARENTVALUE_NAME=parent_id
+GET_ORDERS = order_num 0
+MULTIPLE=1
+RELATIONS_TABLE=BannerPagesTable
+SIZE = 15
+GROUP=relation
+
+*/
+?>

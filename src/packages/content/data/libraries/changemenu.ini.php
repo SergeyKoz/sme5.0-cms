@@ -1,0 +1,21 @@
+<?/*
+[MAIN]
+TABLE=ContentTable
+KEY_FIELD=id
+
+[LIST]
+RECORDS_PER_PAGE=20
+FIELDS_COUNT=2
+
+[FIELD_0]
+FIELD_NAME=page_id
+FIELD_TABLE = null
+EDIT_CONTROL=text
+
+[FIELD_1]
+FIELD_NAME=menu
+EDIT_CONTROL=hidden
+VALUE =
+
+*/
+?>

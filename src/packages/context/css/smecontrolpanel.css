@@ -1,0 +1,112 @@
+.sme-control-panel {/* padding:0 0 0 142px; */
+font: 12px Verdana; background:url('../img/bg_cp.png') repeat-x #bec4c6; /*background of menu bar (default state)*/
+/* border-bottom:3px solid #9ea6a9; */
+width: 100%; }
+.dashed {border:1px dashed green !important;}
+.sme-control-panel li {height:30px;}
+.sme-control-panel li,
+.sme-control-panel a {margin:0; padding:0; /*color:#000;*/}
+.sme-control-panel .icon {width:101px; height:27px; float:left; margin:0 42px 0 15px; background:url('../img/bg_am.png') no-repeat;}
+.sme-control-panel ul {z-index:100; margin: 0; padding: 0; list-style-type: none;}
+
+/*Top level list items*/
+.sme-control-panel ul li {position: relative; display: block; float: left;}
+
+/*Top level menu link items style*/
+.sme-control-panel ul li a {display: block; background: #414141; color: white; height:30px; border-right: 1px solid #778; color: #2d2b2b; text-decoration: none;}
+.sme-control-panel a span {display:block; height:30px; padding:0 8px; line-height:30px;}
+* html .sme-control-panel ul li a {display: inline-block;}
+
+.sme-control-panel ul li a:link, .sme-control-panel ul li a:visited {color: white;}
+
+.sme-control-panel ul li a.selected {background: black; color: white;}
+
+.sme-control-panel ul li a:hover {background: black; /*background of menu items during onmouseover (hover state)*/
+color: white;}
+
+/*1st sub level menu*/
+.sme-control-panel ul li ul {position: absolute; left: 0; }
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.sme-control-panel ul li ul li {display: block; float: none; width: 170px; border:1px solid red;}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.sme-control-panel ul li ul li ul {top: 0;}
+
+/* Sub level menu links style */
+.sme-control-panel ul li ul li a {font: normal 13px Verdana; /* width: 170px; */ /*width of sub menus*/
+/* padding: 5px; */
+margin: 0; border-top-width: 0; border-bottom: 1px solid gray;}
+
+/* Holly Hack for IE \*/
+* html .sme-control-panel {height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass {/* position: absolute; top: 12px; right: 7px; */}
+.rightarrowclass {/* position: absolute; top: 6px; right: 5px; */}
+
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow {position: absolute; left: 0; top: 0; width: 0; height: 0; /*background: silver;*/}
+
+.toplevelshadow {opacity: 0.8; filter:alpha(opacity=80);}
+
+.menu_item_deactivate a {background: url('../img/ico_deactivate.png') 2px 2px no-repeat  !important;}
+.menu_item_activate a {background: url('../img/ico_activate.png') 3px 5px no-repeat !important;}
+.menu_item_add a {background: url(../img/ico_add.gif) 2px 2px no-repeat !important;}
+.menu_item_edit a {background: url('../img/ico_edit.png') 3px 3px no-repeat !important;}
+.menu_item_delete a {background: url('../img/ico_delete.png') 4px 5px no-repeat !important;}
+
+.sme-control-panel_ {position: relative; z-index: 999; height:30px; background:url('../img/bg_cp.png') repeat-x #bec4c6;}
+.sme-control-panel_ .icon {width:101px; height:27px; float:left; margin:0 42px 0 15px; background:url('../img/bg_am.png') no-repeat;}
+.sme-control-panel_ ul {font-size:12px !important;}
+.sme-control-panel_ a {display:block; height:23px; background:url('../img/bg_top_btn.png') no-repeat; text-decoration:none; color:#000;}
+.sme-control-panel_ a.clcache {display:block; width:18px; height:19px; background:url('../img/exit.png') no-repeat; margin:0 10px;}
+.sme-control-panel_ a.clcache:hover {background:url('../img/exit.png') no-repeat 0 -29px;}
+.sme-control-panel_ a span {display:block; /* margin:0 1px 0 0; */
+	padding:0 15px 0 13px; border:none; background:url('../img/bg_top_btn.png') no-repeat 100% -23px; font:normal 12px/22px serif !important;}
+.sme-control-panel_ b a span {font:bold 12px/22px serif !important;}
+.sme-control-panel_ a:hover {background-position:0 -92px;}
+.sme-control-panel_ a:hover span {background-position:100% -115px;}
+.sme-control-panel_ ul ul ul a:hover span {background-color:#d1d9dd;}
+.sme-control-panel_ ul li {position:relative; float:left; height:23px; line-height:22px !important; background-color:#c2cdd2;}
+.sme-control-panel_ ul li.rb {position:relative; float:right; height:23px; line-height:22px; background:none;}
+
+.sme-control-panel_ ul ul {position:absolute;}
+.sme-control-panel_ ul ul a span {padding:0 5px; border-bottom:1px solid #9ba4a8; background:#c2cdd2; height:23px;}
+.sme-control-panel_ ul ul ul {position:absolute; left:170px; top:0;}
+.sme-control-panel_ ul ul li {clear:left; float:left; width:170px;}
+
+.sme-control-panel_ ul.langul li {width:58px;}
+.sme-control-panel_ li {list-style-type:none;}
+.sme-control-panel_ .downarrowclass span {padding:0 24px 0 13px; background-position:100% -69px;}
+.sme-control-panel_ .downarrowclass:hover span {background-position:100% -161px;}
+.sme-control-panel_ .rightarrowclass {background:none;}
+.sme-control-panel_ .rightarrowclass span {background:url('../img/arr-right.png') #c2cdd2 no-repeat 158px 50%;}
+.sme-control-panel_ .rightarrowclass:hover span,
+.sme-control-panel_ ul ul .selected span {background:url('../img/arr-right.png') #d1d9dd no-repeat 158px 50%;}
+
+body.edit .sme-area-data {position:relative; zoom:1;}
+
+.sme-item-control-panel {position:absolute; top:2px; left:2px; z-index:30; padding:5px 5px 2px; border:1px solid #DDD; background:#fff;
+text-align: left;}
+
+.sme-item-control-panel li a {float: none !important; margin:0 !important; text-decoration: none !important; width: 100% !important;}
+
+.sme-item-control-panel ul ul {margin:0 0 3px; background:#c2cdd2; min-width:200px !important;}
+.sme-item-control-panel ul {padding:0px; float:none !important; margin:0 !important; width:auto; height:auto;}
+
+.sme-item-control-panel li {list-style-type:none  !important; list-style-image:none  !important; padding:0  !important; margin:0  !important;
+float:none !important; height:auto !important;}
+.sme-item-control-panel ul ul a {display:block; padding:3px 5px 3px 20px; font:normal 16px/20px serif !important; background-color:transparent !important; text-decoration:none !important; color:#000 !important;}
+.sme-item-control-panel ul ul a:hover {text-decoration:underline;}
+.sme-item-control-panel a.icon {width:25px; height:22px; cursor:move; padding:0 !important;}
+
+.sme-item-control-panel:hover {z-index:100;}
+.sme-item-control-panel a img {float:none !important; margin:0px !important;}
+
+.sme-item-control-panel ul ul a hr {width:100% !important; background:#aaa !important; height:1px !important;
+margin:0 0 0 -20px !important; float:none !important;display:block !important;}

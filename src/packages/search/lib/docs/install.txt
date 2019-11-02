@@ -1,0 +1,58 @@
+# Copyright (c) 2001 Sergey Frolovithev (siteindexer@idesign.ru). All rights reserved.
+# * Redistribution and use in source and binary forms, with or without 
+# * modification, are permitted provided that the following conditions are met:
+#
+# * Redistributions must retain all copyright notices, this 
+#   list of conditions and the following disclaimer.
+#
+# * All rights to the Sergey Frolovithev software and documentation not expressly
+#   granted under this agreement are reserved to Sergey Frolovithev.
+#
+# * Neither name of the phpSiteIndexer nor the names of its contributors 
+#   may be used to endorse or promote products derived from this 
+#   software without specific prior written permission. 
+
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+# PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE
+# LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+# OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+#####################
+#  VERSION HISTORY  #
+#####################
+       Date: 26.02.2001
+    Version: 0.01a
+Description: First realize
+
+
+#######################
+#  PERFORMANCE NOTES  #
+#######################
+This script was tested on 100-200 pages site.
+Indexing works with it fine and quickly - about 10-15 minutes on PII-400/128Mb.
+Seacrh is where quickly.
+If you try it on site with more pages, please mail me - siteindexer@idesign.ru
+
+
+####################################
+#  INSTALLATION INSTRUCTIONS  #
+####################################
+
+1. FTP siteindexerX.X.tar.gz file to your web-site dir (binary transfer mode)
+2. Uncompress the file: type "gzip -d siteindexerX.X.tar.gz"(replace X.X)
+3. Unpack siteindexerX.X.tar: type "tar -xvf siteindexerX.X.tar"
+4. create database structure: type: "mysql -u root < data/indexer.sql"
+5. edit "iinc/conf.inc". this file is commented well.
+6. run "indexer.phtml" from terminal like this "nohup php -q indexer.phtml &"
+7. Wait till your site indexing ends.
+8. Locate your browser to "search.phtml" for search.
+
+

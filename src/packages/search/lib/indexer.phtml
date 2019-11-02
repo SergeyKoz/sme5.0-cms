@@ -1,0 +1,72 @@
+<?
+  /**
+   * Indexer engine module
+   * @package Search
+   * @access  public
+   * @subpackage lib
+   **/
+
+ $lib_path = $this->Kernel->Package->Settings->GetItem("INDEXER", "IndexerPath");
+
+ // unlimited timeout
+ //@set_time_limit(0);
+ // config params
+ require ($lib_path."iinc/conf.inc");
+
+ // log files init
+ require ($lib_path."iinc/log.inc");
+ // mysql connect
+ require ($lib_path."iinc/dbconn.inc");
+ // classes and queries
+ require ($lib_path."cinc/chttp.inc");
+ require ($lib_path."cinc/ctags.inc");
+
+ require ($lib_path."cinc/cindexer.inc");
+
+ require ($lib_path."sinc/indexer.inc");
+
+ // deleting old tables
+ if($_GET["restore"]!="yes"){
+	 $conf->DB->updMQuery($conf->delPagesQuery,array());
+	 $conf->DB->updMQuery($conf->delWordsQuery,array());
+	 $conf->DB->updMQuery($conf->delWordsToPagesQuery,array());
+	 $conf->DB->updMQuery($conf->delUrlFromProcessQuery,array());
+	 $conf->START_URL =  $conf->CONFhost;
+ } else {
+     $row = $conf->DB->selMRow( $conf->selUrlFromProcessQuery, array());
+     $conf->START_URL = $row["url"];
+ }
+ if($conf->START_URL!=""){
+ // indexer process
+   $conf->DB->insMQuery($conf->insUrlToProcessQuery,array("url"=>$conf->START_URL));
+   $I=new cindexer($conf->START_URL,$conf->ilog, $conf);
+ }
+
+
+ // table change
+ $conf->DB->updMQuery($conf->alterPage1Query,array());
+ $conf->DB->updMQuery($conf->alterWord1Query,array());
+ $conf->DB->updMQuery($conf->alterWord1ToPageQuery,array());
+ $conf->DB->updMQuery($conf->alterPage2Query,array());
+ $conf->DB->updMQuery($conf->alterWord2Query,array());
+ $conf->DB->updMQuery($conf->alterWord2ToPageQuery,array());
+ $conf->DB->updMQuery($conf->alterPage3Query,array());
+ $conf->DB->updMQuery($conf->alterWord3Query,array());
+ $conf->DB->updMQuery($conf->alterWord3ToPageQuery,array());
+
+ // deleting old tables
+ $conf->DB->updMQuery($conf->delPagesQuery,array());
+ $conf->DB->updMQuery($conf->delWordsQuery,array());
+ $conf->DB->updMQuery($conf->delWordsToPagesQuery,array());
+
+?>
+<p style="color:FF0000; font-weight:bold; font-size:16px;">
+DONE
+</p>
+<script>
+	parent.indexDone();
+//window.close();
+</script>
+<?
+die();
+?>

@@ -1,0 +1,16 @@
+Hi, {name}!
+
+This message was is generated from a site {site}
+By service of registration.
+
+Your new data were brought in a database
+
+E-mail: {email}
+Login: {login}
+Password: {password}
+
+We thank you for interest to our site!
+
+Yours respectfully,
+
+Administration of a site
