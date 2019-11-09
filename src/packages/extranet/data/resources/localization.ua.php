@@ -3,16 +3,16 @@
 _PageTitle=Extranet
 
 [SessionTimeoutPage]
-_PageTitle=Час вашої сесії закінчився
-timeoutText=Час вашої сесії закінчився. Будь ласка <a href="javascript:Redirect('?page=logon&package=extranet')">перейдіть за лінком</a> щоб потрапити в екстранет
+_PageTitle=Р§Р°СЃ РІР°С€РѕС— СЃРµСЃС–С— Р·Р°РєС–РЅС‡РёРІСЃСЏ
+timeoutText=Р§Р°СЃ РІР°С€РѕС— СЃРµСЃС–С— Р·Р°РєС–РЅС‡РёРІСЃСЏ. Р‘СѓРґСЊ Р»Р°СЃРєР° <a href="javascript:Redirect('?page=logon&package=extranet')">РїРµСЂРµР№РґС–С‚СЊ Р·Р° Р»С–РЅРєРѕРј</a> С‰РѕР± РїРѕС‚СЂР°РїРёС‚Рё РІ РµРєСЃС‚СЂР°РЅРµС‚
 
 [LogonPage]
-INVALID_LOGIN=Логін введено невірно
-INVALID_PASSWORD=Пароль введено невірно
-_PageTitle=Увійти
+INVALID_LOGIN=Р›РѕРіС–РЅ РІРІРµРґРµРЅРѕ РЅРµРІС–СЂРЅРѕ
+INVALID_PASSWORD=РџР°СЂРѕР»СЊ РІРІРµРґРµРЅРѕ РЅРµРІС–СЂРЅРѕ
+_PageTitle=РЈРІС–Р№С‚Рё
 
 [TopmenuPage]
-logOffText=Вийти
+logOffText=Р’РёР№С‚Рё
 _PageTitle = Top menu
 
 [LogoPage]
@@ -23,7 +23,7 @@ LogoText=Logo text
 _PageTitle = Left menu
 
 [FramelistPage]
-_PageTitle= Система управління вмістом сайту :: (c) Activemedia, LLC. 2010
+_PageTitle= РЎРёСЃС‚РµРјР° СѓРїСЂР°РІР»С–РЅРЅСЏ РІРјС–СЃС‚РѕРј СЃР°Р№С‚Сѓ :: (c) Activemedia, LLC. 2010
 
 [DefaultPage]
 _PageTitle= Welcome

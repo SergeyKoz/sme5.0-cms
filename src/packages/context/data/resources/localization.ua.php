@@ -3,13 +3,13 @@
 [MAIN]
 
 [CONTEXT]
-context_view_mode = Ïåðåãëÿä
-context_edit_mode = Ðåäàãóâàííÿ
-context_control_panel = Àäì³íèñòðàòèâíà ïàíåëü
-context_exit = Âèõ³ä
-context_user = Êîðèñòóâà÷
-context_clean_cache= Î÷èñòèòè êåø
-context_cache_cleaned = Êåø î÷èùåíèé
+context_view_mode = ÐŸÐµÑ€ÐµÐ³Ð»ÑÐ´
+context_edit_mode = Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ
+context_control_panel = ÐÐ´Ð¼Ñ–Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¸Ð²Ð½Ð° Ð¿Ð°Ð½ÐµÐ»ÑŒ
+context_exit = Ð’Ð¸Ñ…Ñ–Ð´
+context_user = ÐšÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡
+context_clean_cache= ÐžÑ‡Ð¸ÑÑ‚Ð¸Ñ‚Ð¸ ÐºÐµÑˆ
+context_cache_cleaned = ÐšÐµÑˆ Ð¾Ñ‡Ð¸Ñ‰ÐµÐ½Ð¸Ð¹
 
 **/
 ?>

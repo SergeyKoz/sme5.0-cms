@@ -1,79 +1,79 @@
 <?/*
 [MAIN]
-_caption_button_submit_feedback=Âiäïðàâèòè
-_caption_select_departments=Êîìó
-_caption_select_subjects=Çàãàëüíà òåìà
-_caption_reply_to=Çâîðîòíÿ  àäðåñà
+_caption_button_submit_feedback=Ð’iÐ´Ð¿Ñ€Ð°Ð²Ð¸Ñ‚Ð¸
+_caption_select_departments=ÐšÐ¾Ð¼Ñƒ
+_caption_select_subjects=Ð—Ð°Ð³Ð°Ð»ÑŒÐ½Ð° Ñ‚ÐµÐ¼Ð°
+_caption_reply_to=Ð—Ð²Ð¾Ñ€Ð¾Ñ‚Ð½Ñ  Ð°Ð´Ñ€ÐµÑÐ°
 
 [SUBJECTS]
-_LIST_TITLE=Ñïèñîê òåì
-_EDIT_TITLE=Òåìà
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ‚ÐµÐ¼
+_EDIT_TITLE=Ð¢ÐµÐ¼Ð°
 subject_id=#
-subject_ru=Òåìà ëèñòà
-subject_ua=Òåìà ëèñòà
-subject_en=Òåìà ëèñòà
-subject_de=Òåìà ëèñòà
-subject_fr=Òåìà ëèñòà
-subject_pl=Òåìà ëèñòà
-subject_es=Òåìà ëèñòà
-subject_lv=Òåìà ëèñòà
-internal_subject=Âíóòð³øíÿ òåìà
-active=Àêòèâíà
+subject_ru=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_ua=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_en=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_de=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_fr=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_pl=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_es=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+subject_lv=Ð¢ÐµÐ¼Ð° Ð»Ð¸ÑÑ‚Ð°
+internal_subject=Ð’Ð½ÑƒÑ‚Ñ€Ñ–ÑˆÐ½Ñ Ñ‚ÐµÐ¼Ð°
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð°
 
 
 [DEPARTMENTS]
-_LIST_TITLE=Ñïèñîê ï³äðîçä³ë³â
-_EDIT_TITLE=Ï³äðîçä³ë
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ñ–Ð´Ñ€Ð¾Ð·Ð´Ñ–Ð»Ñ–Ð²
+_EDIT_TITLE=ÐŸÑ–Ð´Ñ€Ð¾Ð·Ð´Ñ–Ð»
 
 department_id=#
-active=Àêòèâíèé
-caption_ru=Íàçâà
-caption_ua=Íàçâà
-caption_en=Íàçâà
-caption_de=Íàçâà
-caption_fr=Íàçâà
-caption_pl=Íàçâà
-caption_es=Íàçâà
-caption_lv=Íàçâà
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð¸Ð¹
+caption_ru=ÐÐ°Ð·Ð²Ð°
+caption_ua=ÐÐ°Ð·Ð²Ð°
+caption_en=ÐÐ°Ð·Ð²Ð°
+caption_de=ÐÐ°Ð·Ð²Ð°
+caption_fr=ÐÐ°Ð·Ð²Ð°
+caption_pl=ÐÐ°Ð·Ð²Ð°
+caption_es=ÐÐ°Ð·Ð²Ð°
+caption_lv=ÐÐ°Ð·Ð²Ð°
 
-description_ru=Îïèñ
-description_en=Îïèñ
-description_ua=Îïèñ
-description_de=Îïèñ
-description_fr=Îïèñ
-description_pl=Îïèñ
-description_es=Îïèñ
-description_lv=Îïèñ
+description_ru=ÐžÐ¿Ð¸Ñ
+description_en=ÐžÐ¿Ð¸Ñ
+description_ua=ÐžÐ¿Ð¸Ñ
+description_de=ÐžÐ¿Ð¸Ñ
+description_fr=ÐžÐ¿Ð¸Ñ
+description_pl=ÐžÐ¿Ð¸Ñ
+description_es=ÐžÐ¿Ð¸Ñ
+description_lv=ÐžÐ¿Ð¸Ñ
 
-subject_id=Òåìè
+subject_id=Ð¢ÐµÐ¼Ð¸
 
-emails=Ñïèñîê e-mail àäðåñ, êîæíà àäðåñà ç íîâîãî ðÿäêà
-content_type=Òèï çì³ñòó ëèñòà
-encoding=Êîäóâàííÿ ëèñò³â
+emails=Ð¡Ð¿Ð¸ÑÐ¾Ðº e-mail Ð°Ð´Ñ€ÐµÑ, ÐºÐ¾Ð¶Ð½Ð° Ð°Ð´Ñ€ÐµÑÐ° Ð· Ð½Ð¾Ð²Ð¾Ð³Ð¾ Ñ€ÑÐ´ÐºÐ°
+content_type=Ð¢Ð¸Ð¿ Ð·Ð¼Ñ–ÑÑ‚Ñƒ Ð»Ð¸ÑÑ‚Ð°
+encoding=ÐšÐ¾Ð´ÑƒÐ²Ð°Ð½Ð½Ñ Ð»Ð¸ÑÑ‚Ñ–Ð²
 
 [FORM]
-_LIST_TITLE=Ñïèñîê ïîë³â ôîðìè
-_EDIT_TITLE=Ïîëå ôîðìè
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»Ñ–Ð² Ñ„Ð¾Ñ€Ð¼Ð¸
+_EDIT_TITLE=ÐŸÐ¾Ð»Ðµ Ñ„Ð¾Ñ€Ð¼Ð¸
 field_id=#
-caption_ru=Íàçâà
-caption_ua=Íàçâà
-caption_en=Íàçâà
-caption_de=Íàçâà
-caption_pl=Íàçâà
-caption_fr=Íàçâà
-caption_es=Íàçâà
-caption_lv=Íàçâà
-default_value_ru=Ñòàíäàðòíå çíà÷åííÿ
-default_value_ua=Ñòàíäàðòíå çíà÷åííÿ
-default_value_en=Ñòàíäàðòíå çíà÷åííÿ
-default_value_de=Ñòàíäàðòíå çíà÷åííÿ
-default_value_fr=Ñòàíäàðòíå çíà÷åííÿ
-default_value_pl=Ñòàíäàðòíå çíà÷åííÿ
-default_value_es=Ñòàíäàðòíå çíà÷åííÿ
-default_value_lv=Ñòàíäàðòíå çíà÷åííÿ
-not_null=Íå ìîæå áóòè ïîðîæí³ì
-field_type=Òèï ïîëÿ
-active=Àêòèâíå
-max_length=Ìàêñèìàëüíà äîâæèíà
+caption_ru=ÐÐ°Ð·Ð²Ð°
+caption_ua=ÐÐ°Ð·Ð²Ð°
+caption_en=ÐÐ°Ð·Ð²Ð°
+caption_de=ÐÐ°Ð·Ð²Ð°
+caption_pl=ÐÐ°Ð·Ð²Ð°
+caption_fr=ÐÐ°Ð·Ð²Ð°
+caption_es=ÐÐ°Ð·Ð²Ð°
+caption_lv=ÐÐ°Ð·Ð²Ð°
+default_value_ru=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_ua=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_en=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_de=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_fr=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_pl=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_es=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+default_value_lv=Ð¡Ñ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚Ð½Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ
+not_null=ÐÐµ Ð¼Ð¾Ð¶Ðµ Ð±ÑƒÑ‚Ð¸ Ð¿Ð¾Ñ€Ð¾Ð¶Ð½Ñ–Ð¼
+field_type=Ð¢Ð¸Ð¿ Ð¿Ð¾Ð»Ñ
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ðµ
+max_length=ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð° Ð´Ð¾Ð²Ð¶Ð¸Ð½Ð°
 
 */?>

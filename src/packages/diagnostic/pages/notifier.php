@@ -73,7 +73,7 @@
                 //echo pr($xmlWriter->Stream);
 
                 $html = $xmlWriter->ProcessXSLT();
-                $emailSender    =& new EmailTemplate(null, $email, "windows-1251", "text/html");
+                $emailSender    =& new EmailTemplate(null, $email, "utf-8", "text/html");
                 $res = $emailSender->sendEmail($email, $subject, $html);
             }
         }

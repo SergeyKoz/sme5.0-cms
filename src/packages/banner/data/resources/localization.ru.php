@@ -1,92 +1,92 @@
 <?/**
 [BANNER_PLACES]
-_LIST_TITLE=Áàíåðíàÿ ñèñòåìà::ñïèñîê ïëîùàäîê
-_EDIT_TITLE==Áàíåðíàÿ ñèñòåìà::ïðîñìîòð ïëîùàäêè
+_LIST_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::ÑÐ¿Ð¸ÑÐ¾Ðº Ð¿Ð»Ð¾Ñ‰Ð°Ð´Ð¾Ðº
+_EDIT_TITLE==Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::Ð¿Ñ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ Ð¿Ð»Ð¾Ñ‰Ð°Ð´ÐºÐ¸
 place_id=id
-place_title=Íàçâàíèå
-max_banners_qty=Ìàêñèìàëüíî êîëè÷åñòâî áàííåðîâ â ïëîùàäêå
-ls_max_banners_qty=Ìàêñ. áàííåðîâ
-is_random = Ñëó÷àéíàÿ âûáîðêà
+place_title=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+max_banners_qty=ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð² Ð² Ð¿Ð»Ð¾Ñ‰Ð°Ð´ÐºÐµ
+ls_max_banners_qty=ÐœÐ°ÐºÑ. Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²
+is_random = Ð¡Ð»ÑƒÑ‡Ð°Ð¹Ð½Ð°Ñ Ð²Ñ‹Ð±Ð¾Ñ€ÐºÐ°
 
 [BANNER_GROUPS]
-_LIST_TITLE=Áàíåðíàÿ ñèñòåìà::ñïèñîê ãðóïï
-_EDIT_TITLE=Áàíåðíàÿ ñèñòåìà::ðåäàêòèðîâàíèå/äîáàâëåíèå ãðóïïû
-_LIST_LEVEL_UP=Íà óðîâåíü âûøå
-_caption_root_tree=Êîðåíü
+_LIST_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::ÑÐ¿Ð¸ÑÐ¾Ðº Ð³Ñ€ÑƒÐ¿Ð¿
+_EDIT_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ/Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð³Ñ€ÑƒÐ¿Ð¿Ñ‹
+_LIST_LEVEL_UP=ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+_caption_root_tree=ÐšÐ¾Ñ€ÐµÐ½ÑŒ
 group_id=#
-group_title=Íàçâàíèå ãðóïïû
-active=Àêòèâíàÿ
+group_title=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð³Ñ€ÑƒÐ¿Ð¿Ñ‹
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð°Ñ
 
 [BANNERS]
-_LIST_TITLE=Áàíåðíàÿ ñèñòåìà::ñïèñîê áàíåðîâ
-_EDIT_TITLE=Áàíåðíàÿ ñèñòåìà::ðåäàêòèðîâàíèå/äîáàâëåíèå áàíåðà
+_LIST_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::ÑÐ¿Ð¸ÑÐ¾Ðº Ð±Ð°Ð½ÐµÑ€Ð¾Ð²
+_EDIT_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ/Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð±Ð°Ð½ÐµÑ€Ð°
 banner_id = id
-banner_title=Íàçâàíèå
+banner_title=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
 banner_url=URL
-banner_alt=ALT-òåêñò èëè òåêñò áàííåðà
-banner_alt_hint=(òîëüêî äëÿ áàííåðîâ-èçîáðàæåíèé èëè áàííåðîâ-òåêñòîâ)
-banner_text=Òåêñò áàííåðà
-banner_text_hint=(òîëüêî äëÿ âíåøíèõ áàííåðîâ)
-active=Àêòèâåí
-banner_type=Òèï áàííåðà
-OPTIONS_BANNER_TYPE=Âíåøíèé|0
-OPTIONS_BANNER_TYPE=Èçîáðàæåíèå (âíóòðåííèé)|1
-OPTIONS_BANNER_TYPE=Flash (âíóòðåíèé)|2
-OPTIONS_BANNER_TYPE=Òåêñò (âíóòðåíèé)|3
-banner_file=Ôàéë áàííåðà
-target=Öåëåâîå îêíî
-OPTIONS_TARGET=Ýòî æå îêíî|0
-OPTIONS_TARGET=Íîâîå îêíî|1
-height=Âûñîòà èçîáðàæåíèÿ (îáÿçàòàëüíà äëÿ Flash)
-width=Øèðèíà èçîáðàæåíèÿ (îáÿçàòàëüíà äëÿ Flash)
-place_id=Ïëîùàäêè
-page_id=Ñòðàíèöû
-language=ßçûê
+banner_alt=ALT-Ñ‚ÐµÐºÑÑ‚ Ð¸Ð»Ð¸ Ñ‚ÐµÐºÑÑ‚ Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+banner_alt_hint=(Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²-Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ð¹ Ð¸Ð»Ð¸ Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²-Ñ‚ÐµÐºÑÑ‚Ð¾Ð²)
+banner_text=Ð¢ÐµÐºÑÑ‚ Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+banner_text_hint=(Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ Ð²Ð½ÐµÑˆÐ½Ð¸Ñ… Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²)
+active=ÐÐºÑ‚Ð¸Ð²ÐµÐ½
+banner_type=Ð¢Ð¸Ð¿ Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+OPTIONS_BANNER_TYPE=Ð’Ð½ÐµÑˆÐ½Ð¸Ð¹|0
+OPTIONS_BANNER_TYPE=Ð˜Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ (Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½Ð¸Ð¹)|1
+OPTIONS_BANNER_TYPE=Flash (Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð¸Ð¹)|2
+OPTIONS_BANNER_TYPE=Ð¢ÐµÐºÑÑ‚ (Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð¸Ð¹)|3
+banner_file=Ð¤Ð°Ð¹Ð» Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+target=Ð¦ÐµÐ»ÐµÐ²Ð¾Ðµ Ð¾ÐºÐ½Ð¾
+OPTIONS_TARGET=Ð­Ñ‚Ð¾ Ð¶Ðµ Ð¾ÐºÐ½Ð¾|0
+OPTIONS_TARGET=ÐÐ¾Ð²Ð¾Ðµ Ð¾ÐºÐ½Ð¾|1
+height=Ð’Ñ‹ÑÐ¾Ñ‚Ð° Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ (Ð¾Ð±ÑÐ·Ð°Ñ‚Ð°Ð»ÑŒÐ½Ð° Ð´Ð»Ñ Flash)
+width=Ð¨Ð¸Ñ€Ð¸Ð½Ð° Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ (Ð¾Ð±ÑÐ·Ð°Ñ‚Ð°Ð»ÑŒÐ½Ð° Ð´Ð»Ñ Flash)
+place_id=ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÐºÐ¸
+page_id=Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹
+language=Ð¯Ð·Ñ‹Ðº
 
 [BANNERADD]
-_LIST_TITLE=Áàíåðíàÿ ñèñòåìà::ñïèñîê áàíåðîâ
-_EDIT_TITLE=Áàíåðíàÿ ñèñòåìà::ðåäàêòèðîâàíèå/äîáàâëåíèå áàíåðà
+_LIST_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::ÑÐ¿Ð¸ÑÐ¾Ðº Ð±Ð°Ð½ÐµÑ€Ð¾Ð²
+_EDIT_TITLE=Ð‘Ð°Ð½ÐµÑ€Ð½Ð°Ñ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°::Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ/Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð±Ð°Ð½ÐµÑ€Ð°
 banner_id = id
-banner_title=Íàçâàíèå
+banner_title=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
 banner_url=URL
-banner_alt=ALT-òåêñò èëè òåêñò áàííåðà
-banner_alt_hint=(òîëüêî äëÿ áàííåðîâ-èçîáðàæåíèé èëè áàííåðîâ-òåêñòîâ)
-banner_text=Òåêñò áàííåðà
-banner_text_hint=(òîëüêî äëÿ âíåøíèõ áàííåðîâ)
-active=Àêòèâåí
-banner_type=Òèï áàííåðà
-OPTIONS_BANNER_TYPE=Âíåøíèé|0
-OPTIONS_BANNER_TYPE=Èçîáðàæåíèå (âíóòðåííèé)|1
-OPTIONS_BANNER_TYPE=Flash (âíóòðåíèé)|2
-OPTIONS_BANNER_TYPE=Òåêñò (âíóòðåíèé)|3
-banner_file=Ôàéë áàííåðà
-target=Öåëåâîå îêíî
-OPTIONS_TARGET=Ýòî æå îêíî|0
-OPTIONS_TARGET=Íîâîå îêíî|1
-height=Âûñîòà èçîáðàæåíèÿ (îáÿçàòàëüíà äëÿ Flash)
-width=Øèðèíà èçîáðàæåíèÿ (îáÿçàòàëüíà äëÿ Flash)
-place_id=Ïëîùàäêè
-page_id=Ñòðàíèöû
-language=ßçûê
-group_id = Ãðóïïà áàííåðîâ
+banner_alt=ALT-Ñ‚ÐµÐºÑÑ‚ Ð¸Ð»Ð¸ Ñ‚ÐµÐºÑÑ‚ Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+banner_alt_hint=(Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²-Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ð¹ Ð¸Ð»Ð¸ Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²-Ñ‚ÐµÐºÑÑ‚Ð¾Ð²)
+banner_text=Ð¢ÐµÐºÑÑ‚ Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+banner_text_hint=(Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ Ð²Ð½ÐµÑˆÐ½Ð¸Ñ… Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²)
+active=ÐÐºÑ‚Ð¸Ð²ÐµÐ½
+banner_type=Ð¢Ð¸Ð¿ Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+OPTIONS_BANNER_TYPE=Ð’Ð½ÐµÑˆÐ½Ð¸Ð¹|0
+OPTIONS_BANNER_TYPE=Ð˜Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ (Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½Ð¸Ð¹)|1
+OPTIONS_BANNER_TYPE=Flash (Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð¸Ð¹)|2
+OPTIONS_BANNER_TYPE=Ð¢ÐµÐºÑÑ‚ (Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð¸Ð¹)|3
+banner_file=Ð¤Ð°Ð¹Ð» Ð±Ð°Ð½Ð½ÐµÑ€Ð°
+target=Ð¦ÐµÐ»ÐµÐ²Ð¾Ðµ Ð¾ÐºÐ½Ð¾
+OPTIONS_TARGET=Ð­Ñ‚Ð¾ Ð¶Ðµ Ð¾ÐºÐ½Ð¾|0
+OPTIONS_TARGET=ÐÐ¾Ð²Ð¾Ðµ Ð¾ÐºÐ½Ð¾|1
+height=Ð’Ñ‹ÑÐ¾Ñ‚Ð° Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ (Ð¾Ð±ÑÐ·Ð°Ñ‚Ð°Ð»ÑŒÐ½Ð° Ð´Ð»Ñ Flash)
+width=Ð¨Ð¸Ñ€Ð¸Ð½Ð° Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ (Ð¾Ð±ÑÐ·Ð°Ñ‚Ð°Ð»ÑŒÐ½Ð° Ð´Ð»Ñ Flash)
+place_id=ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÐºÐ¸
+page_id=Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹
+language=Ð¯Ð·Ñ‹Ðº
+group_id = Ð“Ñ€ÑƒÐ¿Ð¿Ð° Ð±Ð°Ð½Ð½ÐµÑ€Ð¾Ð²
 
 [BannerStatsPage]
-_caption_clicks=Ïåðåõîäîâ
-_caption_views=Ïîêàçîâ
+_caption_clicks=ÐŸÐµÑ€ÐµÑ…Ð¾Ð´Ð¾Ð²
+_caption_views=ÐŸÐ¾ÐºÐ°Ð·Ð¾Ð²
 _caption_ctr=CTR
-_caption_period=Ïåðèîä
-_caption_day=Äåíü
-_caption_today=Ñåãîäíÿ
-_caption_yesterday=Â÷åðà
-_caption_this_month=Çà ìåñÿö
-_caption_daily_stats=Ñòàòèñòèêà ïî äíÿì
-_caption_submit_filter=Ïîêàçàòü
-_caption_banner_title=Áàííåð
-_caption_daily_report=Íàçàä ê ñòàòèñòèêå çà ìåñÿö
+_caption_period=ÐŸÐµÑ€Ð¸Ð¾Ð´
+_caption_day=Ð”ÐµÐ½ÑŒ
+_caption_today=Ð¡ÐµÐ³Ð¾Ð´Ð½Ñ
+_caption_yesterday=Ð’Ñ‡ÐµÑ€Ð°
+_caption_this_month=Ð—Ð° Ð¼ÐµÑÑÑ†
+_caption_daily_stats=Ð¡Ñ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Ð¿Ð¾ Ð´Ð½ÑÐ¼
+_caption_submit_filter=ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ
+_caption_banner_title=Ð‘Ð°Ð½Ð½ÐµÑ€
+_caption_daily_report=ÐÐ°Ð·Ð°Ð´ Ðº ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐµ Ð·Ð° Ð¼ÐµÑÑÑ†
 
-banner_id_caption_tree_root = Âñå áàííåðû
-page_id_caption_tree_root = Âñå ñòðàíèöû
-place_id_caption_tree_root = Âñå ïëîùàäêè
+banner_id_caption_tree_root = Ð’ÑÐµ Ð±Ð°Ð½Ð½ÐµÑ€Ñ‹
+page_id_caption_tree_root = Ð’ÑÐµ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹
+place_id_caption_tree_root = Ð’ÑÐµ Ð¿Ð»Ð¾Ñ‰Ð°Ð´ÐºÐ¸
 
 
 **/

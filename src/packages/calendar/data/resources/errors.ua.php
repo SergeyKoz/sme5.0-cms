@@ -1,17 +1,17 @@
 <?/*
 [MESSAGES]
-MSG_NOT_VALID_DATE_END = Íåïðàâèëüíà äàòà ê³íöÿ ïîä³¿
+MSG_NOT_VALID_DATE_END = ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð° Ð´Ð°Ñ‚Ð° ÐºÑ–Ð½Ñ†Ñ Ð¿Ð¾Ð´Ñ–Ñ—
 
 [MESSAGE]
-EVENTS_NOT_FOUND = Ïîä³é íå çíàéäåíî
+EVENTS_NOT_FOUND = ÐŸÐ¾Ð´Ñ–Ð¹ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾
 
 [CONTEXT_MESSAGES]
-CTX_EVENTS_CATEGORY_DEACTIVATED = Êàòåãîð³ÿ ïîä³é äåàêòèâîâàíà
-CTX_EVENTS_CATEGORY_ACTIVATED = Êàòåãîðèÿ ïîä³é àêòèâîâàíà
+CTX_EVENTS_CATEGORY_DEACTIVATED = ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ñ–Ñ Ð¿Ð¾Ð´Ñ–Ð¹ Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¾Ð²Ð°Ð½Ð°
+CTX_EVENTS_CATEGORY_ACTIVATED = ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ Ð¿Ð¾Ð´Ñ–Ð¹ Ð°ÐºÑ‚Ð¸Ð²Ð¾Ð²Ð°Ð½Ð°
 
-CTX_EVENT_DEACTIVATED = Ïîä³ÿ äåàêòèâîâàíà
-CTX_EVENT_ACTIVATED = Ïîä³ÿ àêòèâîâàíà
-CTX_EVENT_DELETED = Ïîä³ÿ âèäàëåíà
+CTX_EVENT_DEACTIVATED = ÐŸÐ¾Ð´Ñ–Ñ Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¾Ð²Ð°Ð½Ð°
+CTX_EVENT_ACTIVATED = ÐŸÐ¾Ð´Ñ–Ñ Ð°ÐºÑ‚Ð¸Ð²Ð¾Ð²Ð°Ð½Ð°
+CTX_EVENT_DELETED = ÐŸÐ¾Ð´Ñ–Ñ Ð²Ð¸Ð´Ð°Ð»ÐµÐ½Ð°
 
 */
 ?>

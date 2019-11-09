@@ -1,27 +1,27 @@
-<?/**
+<?php /**
 
 [COMMENTS_MESSAGES]
-COMMENTS_FORM_NAME_ISNULL = Óêàæèòå âàøå èìÿ
-COMMENTS_FORM_NAME_LENGTH_ERROR = Äëèíà èìåíè ïðåâûøàåò 255 ñèìâîëîâ
-COMMENTS_FORM_EMAIL_ISNULL =  Óêàæèòå âàø email
-COMMENTS_FORM_EMAIL_LENGTH_ERROR = Äëèíà email ïðåâûøàåò 255 ñèìâîëîâ
-COMMENTS_FORM_EMAIL_INVALID = Óêàæèòå ïðàâåëüíèé email
-COMMENTS_FORM_COMMENT_ISNULL = Ââåäèòå âàø êîìåíòàðèé
-COMMENTS_FORM_COMMENT_LENGTH_ERROR = Äëèíà êîìåíòàðèÿ ïðåâûøàåò {1} ñèìâîëîâ
-COMMENT_PREMODERATED = Âàø êîìåíòàðèé áóäåò îïóáëèêîâàí ïîñëå ìîäåðàöèè
-COMMENT_ADDED = Êîììåíòàðèé äîáàâëåí
-COMMENT_PUBLISHED = Êîìåíòàðèé îïóáëèêîâàí
-COMMENT_DELETED = Êîìåíòàðèé óäàëåí
+COMMENTS_FORM_NAME_ISNULL = Ð£ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ð²Ð°ÑˆÐµ Ð¸Ð¼Ñ
+COMMENTS_FORM_NAME_LENGTH_ERROR = Ð”Ð»Ð¸Ð½Ð° Ð¸Ð¼ÐµÐ½Ð¸ Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°ÐµÑ‚ 255 ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²
+COMMENTS_FORM_EMAIL_ISNULL =  Ð£ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ email
+COMMENTS_FORM_EMAIL_LENGTH_ERROR = Ð”Ð»Ð¸Ð½Ð° email Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°ÐµÑ‚ 255 ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²
+COMMENTS_FORM_EMAIL_INVALID = Ð£ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ð¿Ñ€Ð°Ð²ÐµÐ»ÑŒÐ½Ð¸Ð¹ email
+COMMENTS_FORM_COMMENT_ISNULL = Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹
+COMMENTS_FORM_COMMENT_LENGTH_ERROR = Ð”Ð»Ð¸Ð½Ð° ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ñ Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°ÐµÑ‚ {1} ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²
+COMMENT_PREMODERATED = Ð’Ð°Ñˆ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð±ÑƒÐ´ÐµÑ‚ Ð¾Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ¾Ð²Ð°Ð½ Ð¿Ð¾ÑÐ»Ðµ Ð¼Ð¾Ð´ÐµÑ€Ð°Ñ†Ð¸Ð¸
+COMMENT_ADDED = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½
+COMMENT_PUBLISHED = ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð¾Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ¾Ð²Ð°Ð½
+COMMENT_DELETED = ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ ÑƒÐ´Ð°Ð»ÐµÐ½
 
 [CONTEXT_MESSAGES]
-CTX_COMMENTS_ENABLED = Êîììåíòàðèè ðàçðåøåíû
-CTX_COMMENTS_DISABLES = Êîììåíòàðèè çàïðåùåíû
+CTX_COMMENTS_ENABLED = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸ Ñ€Ð°Ð·Ñ€ÐµÑˆÐµÐ½Ñ‹
+CTX_COMMENTS_DISABLES = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸ Ð·Ð°Ð¿Ñ€ÐµÑ‰ÐµÐ½Ñ‹
 
-COMMENT_PUBLISHED = Êîììåíòàðèé îïóáëèêîâàí
-COMMENT_DELETED = Êîììåíòàðèé óäàëåí
+COMMENT_PUBLISHED = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð¾Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ¾Ð²Ð°Ð½
+COMMENT_DELETED = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ ÑƒÐ´Ð°Ð»ÐµÐ½
 
-CTX_COMMENT_DECLINED = Êîììåíòàðèé îòêëîíåí
-CTX_COMMENT_DELETED = Êîììåíòàðèé óäàëåí
+CTX_COMMENT_DECLINED = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ Ð¾Ñ‚ÐºÐ»Ð¾Ð½ÐµÐ½
+CTX_COMMENT_DELETED = ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹ ÑƒÐ´Ð°Ð»ÐµÐ½
 
 **/
 ?>

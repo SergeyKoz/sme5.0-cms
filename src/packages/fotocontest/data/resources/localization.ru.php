@@ -1,88 +1,88 @@
 <?/*
 
 [MAIN]
-_caption_fotos_count=Âñåãî ðàáîò
-_caption_contest_details = Äåòàëüíåå î êîíêóðñå
-_caption_contest_results = Ðåçóëüòàòû êîíêóðñà
-_caption_votes_count=Ãîëîñîâ
-_caption_sort_by=Ñîðòèðîâàòü
-_caption_sort_by_date=Ïî Äàòå
-_caption_sort_by_votes=Ïî Ðåéòèíãó
-_caption_no_fotos=Íå íàéäåíî íè îäíîé ôîòîãðàôèè
-_caption_foto_vote = Ãîëîñóþ!
-_caption_foto_next=Ñëåäóþùàÿ ôîòîãðàôèÿ
-_caption_foto_prev=Ïðåäûäóùàÿ ôîòîãðàôèÿ
+_caption_fotos_count=Ð’ÑÐµÐ³Ð¾ Ñ€Ð°Ð±Ð¾Ñ‚
+_caption_contest_details = Ð”ÐµÑ‚Ð°Ð»ÑŒÐ½ÐµÐµ Ð¾ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐµ
+_caption_contest_results = Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+_caption_votes_count=Ð“Ð¾Ð»Ð¾ÑÐ¾Ð²
+_caption_sort_by=Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ
+_caption_sort_by_date=ÐŸÐ¾ Ð”Ð°Ñ‚Ðµ
+_caption_sort_by_votes=ÐŸÐ¾ Ð ÐµÐ¹Ñ‚Ð¸Ð½Ð³Ñƒ
+_caption_no_fotos=ÐÐµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð½Ð¸ Ð¾Ð´Ð½Ð¾Ð¹ Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ð¸
+_caption_foto_vote = Ð“Ð¾Ð»Ð¾ÑÑƒÑŽ!
+_caption_foto_next=Ð¡Ð»ÐµÐ´ÑƒÑŽÑ‰Ð°Ñ Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ
+_caption_foto_prev=ÐŸÑ€ÐµÐ´Ñ‹Ð´ÑƒÑ‰Ð°Ñ Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ
 
-_caption_contest_results=Ðåçóëüòàòû êîíêóðñà
-_caption_contest_full_description=Äåòàëüíî î êîíêóðñå
+_caption_contest_results=Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+_caption_contest_full_description=Ð”ÐµÑ‚Ð°Ð»ÑŒÐ½Ð¾ Ð¾ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐµ
 
 [FOTOCONTEST]
-_EDIT_TITLE= Ðåäàêòèðîâàíèå/Äîáàâëåíèå êîíêóðñà
-_LIST_TITLE= Ñïèñîê Êîíêóðñîâ
-contest_id = ¹
-total_voted = Âñåãî ïðîãîëîñîâàëî
-contest_logo = Ëîãîòèï êîíêóðñà
-starts_from = Íà÷àëî êîíêóðñà
-ends_to = Îêîí÷àíèå êoíêóðñà
-expert_voting = Ãîëîñóþò Ýêñïåðòû (æþðè)
-contest_finished = Êîíêóðñ çàâåðøåí
-disable_voting = Ãîëîñîâàíèå çàïðåùåíî
-active = Àêòèâíûé
-show_results_count=Êîëè÷åñòâî ïîáåäèòåëåé äëÿ ïîêàçà â ðåçóëüòàòàõ
+_EDIT_TITLE= Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ/Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+_LIST_TITLE= Ð¡Ð¿Ð¸ÑÐ¾Ðº ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ¾Ð²
+contest_id = â„–
+total_voted = Ð’ÑÐµÐ³Ð¾ Ð¿Ñ€Ð¾Ð³Ð¾Ð»Ð¾ÑÐ¾Ð²Ð°Ð»Ð¾
+contest_logo = Ð›Ð¾Ð³Ð¾Ñ‚Ð¸Ð¿ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+starts_from = ÐÐ°Ñ‡Ð°Ð»Ð¾ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+ends_to = ÐžÐºÐ¾Ð½Ñ‡Ð°Ð½Ð¸Ðµ ÐºoÐ½ÐºÑƒÑ€ÑÐ°
+expert_voting = Ð“Ð¾Ð»Ð¾ÑÑƒÑŽÑ‚ Ð­ÐºÑÐ¿ÐµÑ€Ñ‚Ñ‹ (Ð¶ÑŽÑ€Ð¸)
+contest_finished = ÐšÐ¾Ð½ÐºÑƒÑ€Ñ Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½
+disable_voting = Ð“Ð¾Ð»Ð¾ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð°Ð¿Ñ€ÐµÑ‰ÐµÐ½Ð¾
+active = ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
+show_results_count=ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¿Ð¾Ð±ÐµÐ´Ð¸Ñ‚ÐµÐ»ÐµÐ¹ Ð´Ð»Ñ Ð¿Ð¾ÐºÐ°Ð·Ð° Ð² Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ð°Ñ…
 
-caption_ru = Íàçâàíèå Êîíêóðñà
-caption_en = Íàçâàíèå Êîíêóðñà
-caption_ua = Íàçâàíèå Êîíêóðñà
+caption_ru = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+caption_en = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+caption_ua = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ°
 
-description_ru = Îïèñàíèå Êîíêóðñà
-description_en = Îïèñàíèå Êîíêóðñà
-description_ua = Îïèñàíèå Êîíêóðñà
+description_ru = ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+description_en = ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ°
+description_ua = ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐ°
 
-full_description_ru = Äåòàëüíàÿ èíôîðìàöèÿ î Êîíêóðñå
-full_description_en = Äåòàëüíàÿ èíôîðìàöèÿ î Êîíêóðñå
-full_description_ua = Äåòàëüíàÿ èíôîðìàöèÿ î Êîíêóðñå
+full_description_ru = Ð”ÐµÑ‚Ð°Ð»ÑŒÐ½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¾ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐµ
+full_description_en = Ð”ÐµÑ‚Ð°Ð»ÑŒÐ½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¾ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐµ
+full_description_ua = Ð”ÐµÑ‚Ð°Ð»ÑŒÐ½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¾ ÐšÐ¾Ð½ÐºÑƒÑ€ÑÐµ
 
-results_ru = Ðåçóëüòàòû/Èòîãè
-results_en = Ðåçóëüòàòû/Èòîãè
-results_ua = Ðåçóëüòàòû/Èòîãè
+results_ru = Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹/Ð˜Ñ‚Ð¾Ð³Ð¸
+results_en = Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹/Ð˜Ñ‚Ð¾Ð³Ð¸
+results_ua = Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹/Ð˜Ñ‚Ð¾Ð³Ð¸
 
-rpp=Êîëè÷åñòâî ôîòîãðàôèé â ñïèñêå
-ppd=Êîëè÷åñòâî ñòðàíèö â áëîêå ïîñòðàíè÷íîé íàâèãàöèè
+rpp=ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ð¹ Ð² ÑÐ¿Ð¸ÑÐºÐµ
+ppd=ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ† Ð² Ð±Ð»Ð¾ÐºÐµ Ð¿Ð¾ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ‡Ð½Ð¾Ð¹ Ð½Ð°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ð¸
 
-is_default = Îñíîâíîé
+is_default = ÐžÑÐ½Ð¾Ð²Ð½Ð¾Ð¹
 
-rotate_fotos=Ðîòàöèÿ ôîòîãðàôèé â áëîêå
+rotate_fotos=Ð Ð¾Ñ‚Ð°Ñ†Ð¸Ñ Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ð¹ Ð² Ð±Ð»Ð¾ÐºÐµ
 
-_caption_root_tree=Êîíêóðñû
+_caption_root_tree=ÐšÐ¾Ð½ÐºÑƒÑ€ÑÑ‹
 
-_LIST_LEVEL_UP= Íàçàä ê ñïèñêó êîíêóðñîâ
+_LIST_LEVEL_UP= ÐÐ°Ð·Ð°Ð´ Ðº ÑÐ¿Ð¸ÑÐºÑƒ ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐ¾Ð²
 
 [FOTOS]
 
-_LIST_TITLE=Ñïèñîê ôîòîãðàôèé
-_EDIT_TITLE=Ðåäàêòèðîâàíèå/Äîáàâëåíèå ôîòîãðàôèè
-foto_id=¹
-caption_ru=Íàçâàíèå
-caption_en=Íàçâàíèå
-caption_ua=Íàçâàíèå
-foto_file=Ôîòîãðàôèÿ (ïîëíûé ðàçìåð)
-ls_foto_file=Ôîòî (á)
-foto_file_thumb=Ôîòîãðàôèÿ (óìåíüøåííàÿ)
-ls_foto_file_thumb=Ôîòî (ì)
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ð¹
+_EDIT_TITLE=Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ/Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ñ„Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ð¸
+foto_id=â„–
+caption_ru=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_en=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_ua=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+foto_file=Ð¤Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ (Ð¿Ð¾Ð»Ð½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€)
+ls_foto_file=Ð¤Ð¾Ñ‚Ð¾ (Ð±)
+foto_file_thumb=Ð¤Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ (ÑƒÐ¼ÐµÐ½ÑŒÑˆÐµÐ½Ð½Ð°Ñ)
+ls_foto_file_thumb=Ð¤Ð¾Ñ‚Ð¾ (Ð¼)
 author_email = E-Mail
-author_ru=Àâòîð
-author_en=Àâòîð
-author_ua=Àâòîð
-description_ru=Îïèñàíèå
-description_en=Îïèñàíèå
-description_ua=Îïèñàíèå
-date_posted=Äàòà ïóáëèêàöèè
-ls_votes_count=Ãîëîñîâ
-votes_count=Ïðîãîëîñîâàëî
-active=Àêòèâíàÿ
+author_ru=ÐÐ²Ñ‚Ð¾Ñ€
+author_en=ÐÐ²Ñ‚Ð¾Ñ€
+author_ua=ÐÐ²Ñ‚Ð¾Ñ€
+description_ru=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_en=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_ua=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+date_posted=Ð”Ð°Ñ‚Ð° Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+ls_votes_count=Ð“Ð¾Ð»Ð¾ÑÐ¾Ð²
+votes_count=ÐŸÑ€Ð¾Ð³Ð¾Ð»Ð¾ÑÐ¾Ð²Ð°Ð»Ð¾
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð°Ñ
 
-shown = Ôîòîãðàôèÿ ïîêàçàíà
-ls_shown=Ïîêàç.
+shown = Ð¤Ð¾Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ Ð¿Ð¾ÐºÐ°Ð·Ð°Ð½Ð°
+ls_shown=ÐŸÐ¾ÐºÐ°Ð·.
 
 
 

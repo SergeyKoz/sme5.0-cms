@@ -33,7 +33,7 @@
 		   							"caption"=>$record["caption"],
 		   							"description"=>$description,
 		   							"language"=>"ru");
-                $tagsItemsStorage->Insert(&$insert_data);
+                $tagsItemsStorage->Insert($insert_data);
 		   	}
 	   	}
     }

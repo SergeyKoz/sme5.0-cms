@@ -1,4 +1,4 @@
-<?php
+<?
 /**
 
 [MAIN]
@@ -22,8 +22,8 @@ _sub_init_text4 = Subscribe started.
 _EDIT_TITLE = Edit theme
 _LIST_TITLE = List of themes
 _caption_root_tree = Themes list
-theme_title_ua = Theme title (ï¿½ï¿½ï¿½.)
-theme_title_ru = Theme title (ï¿½ï¿½ï¿½.)
+theme_title_ua = Theme title (Óêð.)
+theme_title_ru = Theme title (Ðóñ.)
 theme_title_en = Theme title (Eng.)
 theme_id = NN
 active = Active
@@ -94,11 +94,11 @@ active = Active
 _EDIT_TITLE = Edit template
 _LIST_TITLE = Templates of subscribe emails
 template_id = NN
-name_ua = Template name (ï¿½ï¿½ï¿½.)
-name_ru = Template name (ï¿½ï¿½ï¿½.)
+name_ua = Template name (Óêð.)
+name_ru = Template name (Ðóñ.)
 name_en = Template name (Eng.)
-template_text_ua = Template text (ï¿½ï¿½ï¿½.)
-template_text_ru = Template text (ï¿½ï¿½ï¿½.)
+template_text_ua = Template text (Óêð.)
+template_text_ru = Template text (Ðóñ.)
 template_text_en = Template text (Eng.)
 active = Active
 

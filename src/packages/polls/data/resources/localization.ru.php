@@ -1,65 +1,65 @@
-<?php
+<?
 /**
 
 [MAIN]
-_caption_reset = ���������
-_title_reset = ���������
-_answer_link = ��������
-_caption_variants = ��������
-_title_variants = ���� �������
-_reset_confirm = �� ������������� ������ �������� ���������� ������?
+_caption_reset = Обнуление
+_title_reset = Обнуление
+_answer_link = Ответить
+_caption_variants = Смотреть
+_title_variants = Свой вариант
+_reset_confirm = Вы действительно хотите очистить результаты опроса?
 
 [POLLS]
-_LIST_TITLE=������
-_EDIT_TITLE= ��������������/���������� ������
-_LIST_LEVEL_UP=� ������  �������
-poll_id = ��
-caption_ru = �������� (���.)
-caption_ua = �������� (���.)
-caption_en = �������� (���.)
-description_ua = �������� (���.)
-description_ru = �������� (���.)
-description_en = �������� (���.)
-active_ru = �������� (���.)
-active_ua = �������� (���.)
-active_en = �������� (���.)
-res_visible= ���������� ���������
-poll_visible = ��������� �����������
-_lastmodified = �������
-votes = �������
-page_id = ��������
-variants = ���� �������
-tags_ua = ���� (���.)
-tags_ru = ���� (���.)
-tags_en = ���� (���.)
-system = ��������� ���
+_LIST_TITLE=Опросы
+_EDIT_TITLE= Редактирование/добавление опроса
+_LIST_LEVEL_UP=К списку  опросов
+poll_id = №№
+caption_ru = Название (Рус.)
+caption_ua = Название (Укр.)
+caption_en = Название (Анг.)
+description_ua = Описание (Укр.)
+description_ru = Описание (Рус.)
+description_en = Описание (Анг.)
+active_ru = Активный (Рус.)
+active_ua = Активный (Укр.)
+active_en = Активный (Анг.)
+res_visible= Показывать результат
+poll_visible = Разрешить голосование
+_lastmodified = Изменен
+votes = Голосов
+page_id = Страница
+variants = Свой вариант
+tags_ua = Теги (Укр.)
+tags_ru = Теги (Рус.)
+tags_en = Теги (Анг.)
+system = Системное имя
 
 [POLLS_VARIANTS]
-_LIST_TITLE=�������� �������
-_EDIT_TITLE=��������������/���������� �������� ������
-_LIST_LEVEL_UP=� ������  �������
-poll_id = ��
-caption_ru = �������� (���.)
-caption_ua = �������� (���.)
-caption_en = �������� (���.)
-description_ua = �������� (���.)
-description_ru = �������� (���.)
-description_en = �������� (���.)
-active_ru = �������� (���.)
-active_ua = �������� (���.)
-active_en = �������� (���.)
-active = ��������
-_lastmodified = �������
-votes = �������
-priority = ���������
-variants = ���� �������
+_LIST_TITLE=Варианты ответов
+_EDIT_TITLE=Редактирование/добавление варианта ответа
+_LIST_LEVEL_UP=К списку  опросов
+poll_id = №№
+caption_ru = Название (Рус.)
+caption_ua = Название (Укр.)
+caption_en = Название (Анг.)
+description_ua = Описание (Укр.)
+description_ru = Описание (Рус.)
+description_en = Описание (Анг.)
+active_ru = Активный (Рус.)
+active_ua = Активный (Укр.)
+active_en = Активный (Анг.)
+active = Активный
+_lastmodified = Изменен
+votes = Голосов
+priority = Приоритет
+variants = Свой вариант
 
 [POLLS_VAR]
-_LIST_TITLE=�������� ������� �������������
-_EDIT_TITLE= ��������
-id = ��
-variant_text = �����
-count_var = ����������
+_LIST_TITLE=Варианты ответов пользователей
+_EDIT_TITLE= Просмотр
+id = №№
+variant_text = Ответ
+count_var = Количество
 
 **/
 ?>

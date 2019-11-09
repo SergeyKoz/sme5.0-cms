@@ -3,8 +3,8 @@
 
 [Publication]
 link_url=?package=tags&library=tags&page=tagslist
-link_title_ru=Теги публикаций
-link_title_ua=Теги публікацiй
+link_title_ru=РўРµРіРё РїСѓР±Р»РёРєР°С†РёР№
+link_title_ua=РўРµРіРё РїСѓР±Р»С–РєР°С†iР№
 link_title_en=Publications tags
 link_image=img/tags.gif
 link_package=tags

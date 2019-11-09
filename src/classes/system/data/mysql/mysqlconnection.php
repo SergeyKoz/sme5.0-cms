@@ -12,7 +12,7 @@
      * @access public
      */
 
-    define('MYSQL_CP_NAMES_DEFAULT', 'cp1251');
+    define('MYSQL_CP_NAMES_DEFAULT', 'utf8');
 
     class MySqlConnection extends IConnection {
         // Class information
@@ -48,9 +48,13 @@
          */
        function Open($properties = null) {
 
-             $tmp["description"] = "Connecting to DB : type=".$this->DBType.";host=".$properties["host"]."; ";//user=".$properties["user"]."; pwd: ".$properties["password"];
+             $tmp["description"] = "Connecting to comDB : type=".$this->DBType.";host=".$properties["host"]."; ";//user=".$properties["user"]."; pwd: ".$properties["password"];
              $tmp["time"] = __microtime();
-             $this->_Res = mysql_connect($properties["host"], $properties["user"], $properties["password"]);
+             //$this->_Res = mysql_connect($properties["host"], $properties["user"], $properties["password"]);
+
+            $this->_Res = mysqli_connect($properties["host"], $properties["user"], $properties["password"]);
+            //echo print_r($this->_Res);
+            //$this->_Res =  new mysqli($properties["host"], $properties["user"], $properties["password"], $properties["database"]);
 
              $tmp["time"] = __microtime()-$tmp["time"];
             if ($this->_Res) {
@@ -62,7 +66,7 @@
                 //add debug info
                 $this->Kernel->Debug->AddDebugItem("sql",$tmp);
                 $tmp["time"] = __microtime();
-                if (mysql_select_db($properties["database"], $this->_Res))
+                if (mysqli_select_db($this->_Res, $properties["database"]))
                 {
                     $this->State = DB_CONNECTION_STATE_OPENED;
                     $tmp["description"] = "Changing DB to: ".$properties["database"];
@@ -72,7 +76,7 @@
                $this->Properties = $properties;
            $this->Kernel->Debug->AddDebugItem("sql",$tmp);
             }   else    {
-                die("Can't connect to DB: ".mysql_error());
+                die("Can't connect to DB: ".mysqli_error($this->_Re));
             }
 
             return true;
@@ -106,11 +110,11 @@
 
                 }
 
-                if(@mysql_query(sprintf("SET NAMES %s", $properties["names"]), $this->_Res)){
+                if(@mysqli_query($this->_Res, sprintf("SET NAMES %s", $properties["names"]))){
                     $tmp["result"]="OK";
                 } else {
                     $tmp["result"]="Error";
-                    $tmp["error"] = mysql_error();
+                    $tmp["error"] = mysqli_error($this->_Res);
                 }
 
                 $tmp["time"] = __microtime()-$tmp["time"];
@@ -129,7 +133,7 @@
                 $tmp["description"] = "Closing connection to DB";
                 $tmp["result"]="OK";
                             $this->Kernel->Debug->AddDebugItem("sql",$tmp);
-                                mysql_close($this->_Res);
+                                mysqli_close($this->_Res);
                 $this->State = DB_CONNECTION_STATE_CLOSED;
             }
         }
@@ -148,7 +152,7 @@
 
             $tmp["result"]="OK";
                         $tmp["time"] = __microtime();
-                        mysql_select_db($database, $this->_Res);
+                        mysqli_select_db($this->_Res, $database);
                         $tmp["time"] = __microtime()-$tmp["time"];
                         $this->Properties["database"] = $database;
             //add debug info
@@ -170,7 +174,7 @@
         * @access   private
         ***/
         function GetLastInsertId(){
-            return mysql_insert_id($this->_Res);
+            return mysqli_insert_id($this->_Res);
         }
 
 
@@ -181,7 +185,7 @@
         * @access   public
         ***/
         function EscapeString($string){
-            return mysql_escape_string($string);
+            return mysqli_escape_string($this->_Res, $string);
         }
 
         /**
@@ -197,10 +201,10 @@
             $tmp["description"] = $query;
             if ($this->State == DB_CONNECTION_STATE_OPENED) {
                 $tmp["time"] = __microtime();
-                $_res = mysql_query($query, $this->_Res);
+                $_res = mysqli_query($this->_Res, $query);
                 $tmp["time"] = __microtime()-$tmp["time"];
                 $tmp["result"] = $_res ? "Ok":"Error";
-                $tmp["error"] = mysql_error();
+                $tmp["error"] = mysqli_error($this->_Res);
                 $this->Kernel->Debug->AddDebugItem("sql",$tmp);
                 return $_res;
             }
@@ -224,16 +228,16 @@
             $tmp["description"] = $query;
             if ($this->State == DB_CONNECTION_STATE_OPENED) {
                 $tmp["time"] = __microtime();
-                $_res = mysql_query($query, $this->_Res);
+                $_res = mysqli_query($this->_Res, $query);
                 $tmp["time"] = __microtime()-$tmp["time"];
                 $tmp["result"] = ($_res !== false ? "OK":"Error");
-                $_num = mysql_num_rows($_res);
-                $tmp["error"] = mysql_error();
+                $_num = mysqli_num_rows($_res);
+                $tmp["error"] = mysqli_error($this->_Res);
                 $tmp["records"] = $_num;
                 $this->Kernel->Debug->AddDebugItem("sql",$tmp);
                 $MySqlDataReader = new MySqlDataReader;
                 $MySqlDataReader->RecordCount = $_num;
-                $MySqlDataReader->FieldCount = mysql_num_fields($_res);
+                $MySqlDataReader->FieldCount = mysqli_num_fields($_res);
                 $MySqlDataReader->queryId = $_res;
                 $MySqlDataReader->state = DB_READER_STATE_OPENED;
                 //$this->debug_array[] = $tmp;
@@ -261,21 +265,21 @@
                     $tmp["description"] = $query;
             if ($this->State == DB_CONNECTION_STATE_OPENED) {
                 $tmp["time"] = __microtime();
-                $res = mysql_query($query, $this->_Res);
+                $res = mysqli_query($this->_Res, $query);
                 $tmp["time"] = __microtime()-$tmp["time"];
-                $tmp["error"] = mysql_error();
+                $tmp["error"] = mysqli_error($this->_Res);
                 if(!$res){
                     die(pr($tmp));
 
                 }
 
-                $num = @mysql_num_rows($res);
+                $num = @mysqli_num_rows($res);
                 $tmp["result"] = $res ? "Ok":"Error";
                 $tmp["records"] = $num;
 
                 $this->Kernel->Debug->AddDebugItem("sql",$tmp);
                 if ($num > 0) {
-                    $ret = mysql_fetch_array($res,MYSQL_ASSOC);
+                    $ret = mysqli_fetch_array($res, MYSQLI_ASSOC);
                     return $ret;
                 }
                 else {
@@ -306,7 +310,7 @@
         **/
         function GetServerVersion(){
             if ($this->State == DB_CONNECTION_STATE_CONNECTED) {
-               $server_info = explode(".", mysql_get_server_info(),3);
+               $server_info = explode(".", mysqli_get_server_info($this->_Res),3);
                $this->_server_major_version = (int)$server_info[0];
                $this->_server_minor_version = (int)$server_info[1];
                $this->_server_subversion = (string)$server_info[2];

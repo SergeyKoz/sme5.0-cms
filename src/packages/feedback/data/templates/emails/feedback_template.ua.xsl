@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:output method="html" version="1.0" encoding="windows-1251" omit-xml-declaration="no"  media-type="text/html"/>
+    <xsl:output method="html" version="1.0" encoding="utf-8" omit-xml-declaration="no"  media-type="text/html"/>
 
     <xsl:include href="layouts/email_default.xsl"/>
     <xsl:template match="/"><xsl:apply-templates/></xsl:template>
@@ -9,26 +9,26 @@
 
     <table width="500" border="0">
     <tr>
-      <td>Кому:
+      <td>РљРѕРјСѓ:
       </td>
       <td><xsl:value-of select="department"/>
       </td>
     </tr>
     <tr>
-      <td>От:
+      <td>РћС‚:
       </td>
       <td><xsl:value-of select="from"/>
       </td>
     </tr>
     
     <tr>
-      <td>Тема:
+      <td>РўРµРјР°:
       </td>
       <td><xsl:value-of select="subject"/>
       </td>
     </tr>
     <tr>
-      <td>Дата:
+      <td>Р”Р°С‚Р°:
       </td>
       <td><xsl:value-of select="date"/>
       </td>

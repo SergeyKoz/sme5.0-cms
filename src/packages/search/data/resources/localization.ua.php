@@ -1,12 +1,12 @@
 <?/**
 [Main]
-_caption_site_search=Ïîøóê ïî ñàéòó
-_caption_search=Øóêàòè
-_caption_total_found=Âñüîãî çíàéäåíî
-_caption_search_not_found=Íi÷îãî íå çíàéäåíî çà âàøèì çàïðîñîì
+_caption_site_search=ÐŸÐ¾ÑˆÑƒÐº Ð¿Ð¾ ÑÐ°Ð¹Ñ‚Ñƒ
+_caption_search=Ð¨ÑƒÐºÐ°Ñ‚Ð¸
+_caption_total_found=Ð’ÑÑŒÐ¾Ð³Ð¾ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾
+_caption_search_not_found=ÐiÑ‡Ð¾Ð³Ð¾ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð·Ð° Ð²Ð°ÑˆÐ¸Ð¼ Ð·Ð°Ð¿Ñ€Ð¾ÑÐ¾Ð¼
 
 [IndexerPage]
-_PageTitle = Iíäåêñàòîð ñàéòó
+_PageTitle = IÐ½Ð´ÐµÐºÑÐ°Ñ‚Ð¾Ñ€ ÑÐ°Ð¹Ñ‚Ñƒ
 
 
 

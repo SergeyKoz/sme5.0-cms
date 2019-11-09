@@ -1,65 +1,65 @@
 <?php /**
 
 [Main]
-_caption_filter=Фiльтр
-_caption_select_all=Усi
-_caption_delete=Видалити
-_caption_edit=Змінити
-_caption_view=Переглянути
-_caption_apply=Підтвердити
-_caption_delete_all=Видалити все
-_caption_add=Додати
-_caption_copy=Створити копію
-_caption_save=Зберегти
-_caption_back=Назад
-_caption_cancel = Відмінити
-_caption_next=Далі
-_caption_move=Перенести до...
-_caption_jump=Перейти до...
-_caption_confirm_apply=Ви дійсно хочете застосувати вказані зміни?
-_caption_confirm_save=Ви впевнені що хочете зберегти?
-_caption_confirm_move=Ви впевнені що хочете перенести вибрані елементи до іншої гілки?
-_caption_confirm_delete=Ви впевнені що хочете видалити?
-_caption_confirm_delete_all=Ви впевнені що хочете видалити ВСІ вказані гілки з усіма асоційованими категоріями?
-_caption_empty_list=Список порожній.
-_caption_move_up=Перемістити угору
-_caption_move_down=Перемістити униз
-_caption_priority=Пріоритет
-_caption_confirm_close = Ви дійсно хочете закрити?
-_caption_confirm_cancel = Отменить?
-_title_delete_all=Всі обрані вами для видалення єлементи будуть видалені, навіть якшо вони мають Дочерні гілки та асоційовані категорії.
-_title_apply=Змінює статус вибраних вами елементів та видаляє вказані записи, якщо такі є
-_title_add=Додати елемент до списку
-_title_move=Переносить обрані єлементи до вказаної гілки каталогу
-_title_jump=Виберіть гілку у віпадаючому списку та натисніть "Перейти до..."
+_caption_filter=Р¤iР»СЊС‚СЂ
+_caption_select_all=РЈСЃi
+_caption_delete=Р’РёРґР°Р»РёС‚Рё
+_caption_edit=Р—РјС–РЅРёС‚Рё
+_caption_view=РџРµСЂРµРіР»СЏРЅСѓС‚Рё
+_caption_apply=РџС–РґС‚РІРµСЂРґРёС‚Рё
+_caption_delete_all=Р’РёРґР°Р»РёС‚Рё РІСЃРµ
+_caption_add=Р”РѕРґР°С‚Рё
+_caption_copy=РЎС‚РІРѕСЂРёС‚Рё РєРѕРїС–СЋ
+_caption_save=Р—Р±РµСЂРµРіС‚Рё
+_caption_back=РќР°Р·Р°Рґ
+_caption_cancel = Р’С–РґРјС–РЅРёС‚Рё
+_caption_next=Р”Р°Р»С–
+_caption_move=РџРµСЂРµРЅРµСЃС‚Рё РґРѕ...
+_caption_jump=РџРµСЂРµР№С‚Рё РґРѕ...
+_caption_confirm_apply=Р’Рё РґС–Р№СЃРЅРѕ С…РѕС‡РµС‚Рµ Р·Р°СЃС‚РѕСЃСѓРІР°С‚Рё РІРєР°Р·Р°РЅС– Р·РјС–РЅРё?
+_caption_confirm_save=Р’Рё РІРїРµРІРЅРµРЅС– С‰Рѕ С…РѕС‡РµС‚Рµ Р·Р±РµСЂРµРіС‚Рё?
+_caption_confirm_move=Р’Рё РІРїРµРІРЅРµРЅС– С‰Рѕ С…РѕС‡РµС‚Рµ РїРµСЂРµРЅРµСЃС‚Рё РІРёР±СЂР°РЅС– РµР»РµРјРµРЅС‚Рё РґРѕ С–РЅС€РѕС— РіС–Р»РєРё?
+_caption_confirm_delete=Р’Рё РІРїРµРІРЅРµРЅС– С‰Рѕ С…РѕС‡РµС‚Рµ РІРёРґР°Р»РёС‚Рё?
+_caption_confirm_delete_all=Р’Рё РІРїРµРІРЅРµРЅС– С‰Рѕ С…РѕС‡РµС‚Рµ РІРёРґР°Р»РёС‚Рё Р’РЎР† РІРєР°Р·Р°РЅС– РіС–Р»РєРё Р· СѓСЃС–РјР° Р°СЃРѕС†С–Р№РѕРІР°РЅРёРјРё РєР°С‚РµРіРѕСЂС–СЏРјРё?
+_caption_empty_list=РЎРїРёСЃРѕРє РїРѕСЂРѕР¶РЅС–Р№.
+_caption_move_up=РџРµСЂРµРјС–СЃС‚РёС‚Рё СѓРіРѕСЂСѓ
+_caption_move_down=РџРµСЂРµРјС–СЃС‚РёС‚Рё СѓРЅРёР·
+_caption_priority=РџСЂС–РѕСЂРёС‚РµС‚
+_caption_confirm_close = Р’Рё РґС–Р№СЃРЅРѕ С…РѕС‡РµС‚Рµ Р·Р°РєСЂРёС‚Рё?
+_caption_confirm_cancel = РћС‚РјРµРЅРёС‚СЊ?
+_title_delete_all=Р’СЃС– РѕР±СЂР°РЅС– РІР°РјРё РґР»СЏ РІРёРґР°Р»РµРЅРЅСЏ С”Р»РµРјРµРЅС‚Рё Р±СѓРґСѓС‚СЊ РІРёРґР°Р»РµРЅС–, РЅР°РІС–С‚СЊ СЏРєС€Рѕ РІРѕРЅРё РјР°СЋС‚СЊ Р”РѕС‡РµСЂРЅС– РіС–Р»РєРё С‚Р° Р°СЃРѕС†С–Р№РѕРІР°РЅС– РєР°С‚РµРіРѕСЂС–С—.
+_title_apply=Р—РјС–РЅСЋС” СЃС‚Р°С‚СѓСЃ РІРёР±СЂР°РЅРёС… РІР°РјРё РµР»РµРјРµРЅС‚С–РІ С‚Р° РІРёРґР°Р»СЏС” РІРєР°Р·Р°РЅС– Р·Р°РїРёСЃРё, СЏРєС‰Рѕ С‚Р°РєС– С”
+_title_add=Р”РѕРґР°С‚Рё РµР»РµРјРµРЅС‚ РґРѕ СЃРїРёСЃРєСѓ
+_title_move=РџРµСЂРµРЅРѕСЃРёС‚СЊ РѕР±СЂР°РЅС– С”Р»РµРјРµРЅС‚Рё РґРѕ РІРєР°Р·Р°РЅРѕС— РіС–Р»РєРё РєР°С‚Р°Р»РѕРіСѓ
+_title_jump=Р’РёР±РµСЂС–С‚СЊ РіС–Р»РєСѓ Сѓ РІС–РїР°РґР°СЋС‡РѕРјСѓ СЃРїРёСЃРєСѓ С‚Р° РЅР°С‚РёСЃРЅС–С‚СЊ "РџРµСЂРµР№С‚Рё РґРѕ..."
 
-_MainSectionShortName   =    Головна                            ## Main section short title for edit
-_MainSectionLongName    =    Загальні дані       ## Main section long title
-_InfoSectionShortName       =       Інформація   ## Information section short title for edit
-_InfoSectionLongName        =       Інформація   ## Information section long    title for edit
+_MainSectionShortName   =    Р“РѕР»РѕРІРЅР°                            ## Main section short title for edit
+_MainSectionLongName    =    Р—Р°РіР°Р»СЊРЅС– РґР°РЅС–       ## Main section long title
+_InfoSectionShortName       =       Р†РЅС„РѕСЂРјР°С†С–СЏ   ## Information section short title for edit
+_InfoSectionLongName        =       Р†РЅС„РѕСЂРјР°С†С–СЏ   ## Information section long    title for edit
 
 _caption_root_tree = Root level
 
-_InfoSectionLongName = Інформація
-_lastmodified=Дата зміни
-_createrid=Створив
-_ownerid=Змінив
+_InfoSectionLongName = Р†РЅС„РѕСЂРјР°С†С–СЏ
+_lastmodified=Р”Р°С‚Р° Р·РјС–РЅРё
+_createrid=РЎС‚РІРѕСЂРёРІ
+_ownerid=Р—РјС–РЅРёРІ
 _navigation_next_10 =>>
 _navigation_prev_10 =<<
-_spaweditor_hint = <br/>Вы можете использовать  переменные , ограничители имени  <b>{</b>,<b>}</b>  <br>
-_spaweditor_hint = <b>url</b> -  URL-сайта. В данном редакторе должен использовать синтаксис http://{url}<br>
-_spaweditor_hint = <b>files_url</b> -  URL к хранилищу файлов. В данном редакторе должен использовать синтаксис http://{files_url}<br>
-_spaweditor_hint = <b>language</b> -  текущая языковая версия<br>
-_spaweditor_hint = Пример использования: <i>http://{url}{language}/news/</i><br/><br/>
-_spaweditor_not_supported_caption=Ваш бразур не пiдтримуе WYSIWYG редактор
-##_navigation_next_10 =Наступнi %s >>
-##_navigation_prev_10 =<< Попереднi %s
+#_spaweditor_hint = <br/>Р’С‹ РјРѕР¶РµС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ  РїРµСЂРµРјРµРЅРЅС‹Рµ , РѕРіСЂР°РЅРёС‡РёС‚РµР»Рё РёРјРµРЅРё  <b>{</b>,<b>}</b>  <br>
+#_spaweditor_hint = <b>url</b> -  URL-СЃР°Р№С‚Р°. Р’ РґР°РЅРЅРѕРј СЂРµРґР°РєС‚РѕСЂРµ РґРѕР»Р¶РµРЅ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРёРЅС‚Р°РєСЃРёСЃ http://{url}<br>
+#_spaweditor_hint = <b>files_url</b> -  URL Рє С…СЂР°РЅРёР»РёС‰Сѓ С„Р°Р№Р»РѕРІ. Р’ РґР°РЅРЅРѕРј СЂРµРґР°РєС‚РѕСЂРµ РґРѕР»Р¶РµРЅ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРёРЅС‚Р°РєСЃРёСЃ http://{files_url}<br>
+#_spaweditor_hint = <b>language</b> -  С‚РµРєСѓС‰Р°СЏ СЏР·С‹РєРѕРІР°СЏ РІРµСЂСЃРёСЏ<br>
+#_spaweditor_hint = РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ: <i>http://{url}{language}/news/</i><br/><br/>
+#_spaweditor_not_supported_caption=Р’Р°С€ Р±СЂР°Р·СѓСЂ РЅРµ РїiРґС‚СЂРёРјСѓРµ WYSIWYG СЂРµРґР°РєС‚РѕСЂ
+##_navigation_next_10 =РќР°СЃС‚СѓРїРЅi %s >>
+##_navigation_prev_10 =<< РџРѕРїРµСЂРµРґРЅi %s
 [USERS]
 userid = #
 username = Username
 
 [IntranetLogonPage]
-_PageTitle= Вхід до Intranet
+_PageTitle= Р’С…С–Рґ РґРѕ Intranet
 
 [ItemsListPage]
 _PageTitle=List page

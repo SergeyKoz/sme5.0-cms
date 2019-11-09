@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template match="machtmleditor">
         <xsl:param name="class"/>    
@@ -31,7 +31,7 @@ etcode_<xsl:value-of select="name"/>= new Array();
 <br/>
 <input type="text" class="" name="helpbox_{name}" size="100" maxlength="100"  value="Help line" disabled="yes"/><br/>
 <select class="FormSelect" name="edittools18_{name}" onChange="etfontstyle('&lt;font style=\'color:' + this.form.edittools18_{name}.options[this.form.edittools18_{name}.selectedIndex].value + '\'&gt;', '&lt;/font&gt;','{name}')" onMouseOver="helpline('s','{name}')">
-<option style="color:black;" value="#444444" class="genmed">Цвет</option>
+<option style="color:black;" value="#444444" class="genmed">Р¦РІРµС‚</option>
 <option style="color:darkred;" value="darkred" class="genmed">Dark Red</option>
 <option style="color:red; " value="red" class="genmed">Red</option>
 <option style="color:orange; " value="orange" class="genmed">Orange</option>
@@ -48,22 +48,22 @@ etcode_<xsl:value-of select="name"/>= new Array();
 <option style="color:black; " value="black" class="genmed">Black</option>
 </select> &amp;nbsp;
 <select class="FormSelect" name="edittools20_{name}" onChange="etfontstyle('&lt;font style=\'font-size:' + this.form.edittools20_{name}.options[this.form.edittools20_{name}.selectedIndex].value + '\'&gt;', '&lt;/font&gt;','{name}')" onMouseOver="helpline('f','{name}')">
-<option value="" class="genmed">Размер</option>
-<option value="7px" class="genmed">Мелкий</option>
-<option value="10px" class="genmed">Маленький</option>
-<option value="12px" class="genmed">Нормалный</option>
-<option value="18px" class="genmed">Средний</option>
-<option  value="24px" class="genmed">Большой</option>
+<option value="" class="genmed">Р Р°Р·РјРµСЂ</option>
+<option value="7px" class="genmed">РњРµР»РєРёР№</option>
+<option value="10px" class="genmed">РњР°Р»РµРЅСЊРєРёР№</option>
+<option value="12px" class="genmed">РќРѕСЂРјР°Р»РЅС‹Р№</option>
+<option value="18px" class="genmed">РЎСЂРµРґРЅРёР№</option>
+<option  value="24px" class="genmed">Р‘РѕР»СЊС€РѕР№</option>
 </select>
 <select class="FormSelect" name="edittools24_{name}" onChange="etfontstyle('&lt;font face=\'' + this.form.edittools24_{name}.options[this.form.edittools24_{name}.selectedIndex].value + '\'&gt;', '&lt;/font&gt;','{name}')" onMouseOver="helpline('q','{name}')">
-<option value="0"> шрифт </option>
+<option value="0"> С€СЂРёС„С‚ </option>
 <option value="arial">Arial</option>
 <option value="verdana">Verdana</option>
 <option value="times new roman">Times</option>
 <option value="courier new">Courier</option>
 <option value="century gothic">Century</option>
 </select>
-<a href="javascript:etstyle(-1,'{name}')" class="genmed" onMouseOver="helpline('a','{name}')">Закрыть тэги</a>
+<a href="javascript:etstyle(-1,'{name}')" class="genmed" onMouseOver="helpline('a','{name}')">Р—Р°РєСЂС‹С‚СЊ С‚СЌРіРё</a>
 </span>
 <br/>
 

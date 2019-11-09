@@ -1,40 +1,40 @@
 <?/*
 
 [SITES]
-_LIST_TITLE=Ñïèñîê ñàéòîâ
-_EDIT_TITLE=Ñàéò
-site_id=¹
-caption=Íàçâàíèå
-url=URL ñàéòà
-tester_url=URL òåñòåðà
-active=Àêòèâíûé
-site_password=Ïàðîëü
-transport_method=Òèï ïåðåäà÷è òåñòîâ
-_LIST_LEVEL_UP=Ê ñïèñêó ñàéòîâ
-_caption_root_tree=Âñå ñàéòû 
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº ÑÐ°Ð¹Ñ‚Ð¾Ð²
+_EDIT_TITLE=Ð¡Ð°Ð¹Ñ‚
+site_id=â„–
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+url=URL ÑÐ°Ð¹Ñ‚Ð°
+tester_url=URL Ñ‚ÐµÑÑ‚ÐµÑ€Ð°
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
+site_password=ÐŸÐ°Ñ€Ð¾Ð»ÑŒ
+transport_method=Ð¢Ð¸Ð¿ Ð¿ÐµÑ€ÐµÐ´Ð°Ñ‡Ð¸ Ñ‚ÐµÑÑ‚Ð¾Ð²
+_LIST_LEVEL_UP=Ðš ÑÐ¿Ð¸ÑÐºÑƒ ÑÐ°Ð¹Ñ‚Ð¾Ð²
+_caption_root_tree=Ð’ÑÐµ ÑÐ°Ð¹Ñ‚Ñ‹ 
 
 [TESTS]
-_LIST_TITLE=Ñïèñîê òåñòîâ
-_EDIT_TITLE=Òåñò
-test_id=¹
-caption=Íàçâàíèå
-test_file=Ôàéë òåñòà
-active=Àêòèâíûé
-description=Îïèñàíèå òåñòà
-init_description=Îïèñàíèå äàííûõ äëÿ èíèöèàëèçàöèè òåñòà
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ‚ÐµÑÑ‚Ð¾Ð²
+_EDIT_TITLE=Ð¢ÐµÑÑ‚
+test_id=â„–
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+test_file=Ð¤Ð°Ð¹Ð» Ñ‚ÐµÑÑ‚Ð°
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
+description=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ Ñ‚ÐµÑÑ‚Ð°
+init_description=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð´Ð»Ñ Ð¸Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ Ñ‚ÐµÑÑ‚Ð°
  
 
 [SITETESTS]
-_LIST_LEVEL_UP=Ê ñïèñêó ñàéòîâ
-_LIST_TITLE=Ñïèñîê òåñòîâ ñàéòà
-_EDIT_TITLE=Òåñò ñàéòà
-init=Äàííûå èíèöèàëèçàöèè òåñòà
-site_test_id=¹
-test_id=Òåñò
-active=Àêòèâíûé
+_LIST_LEVEL_UP=Ðš ÑÐ¿Ð¸ÑÐºÑƒ ÑÐ°Ð¹Ñ‚Ð¾Ð²
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ‚ÐµÑÑ‚Ð¾Ð² ÑÐ°Ð¹Ñ‚Ð°
+_EDIT_TITLE=Ð¢ÐµÑÑ‚ ÑÐ°Ð¹Ñ‚Ð°
+init=Ð”Ð°Ð½Ð½Ñ‹Ðµ Ð¸Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ Ñ‚ÐµÑÑ‚Ð°
+site_test_id=â„–
+test_id=Ð¢ÐµÑÑ‚
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
 
 
 [StatusPage] 
-_PageTitle=Ñîñòîÿíèå ñàéòîâ
+_PageTitle=Ð¡Ð¾ÑÑ‚Ð¾ÑÐ½Ð¸Ðµ ÑÐ°Ð¹Ñ‚Ð¾Ð²
 
 */?>

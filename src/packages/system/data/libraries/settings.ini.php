@@ -7,9 +7,9 @@ KEY_FIELD=settingid
 ICON_FILE=img/libraries/ico_properties.gif
 
 GROUP_NAME = comments
-GROUP_TITLE_EN = Сomments
-GROUP_TITLE_UA = Коментарі
-GROUP_TITLE_RU = Комментарии
+GROUP_TITLE_EN = РЎomments
+GROUP_TITLE_UA = РљРѕРјРµРЅС‚Р°СЂС–
+GROUP_TITLE_RU = РљРѕРјРјРµРЅС‚Р°СЂРёРё
 
 [LIST]
 RECORDS_PER_PAGE=20

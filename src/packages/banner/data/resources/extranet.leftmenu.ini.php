@@ -5,21 +5,21 @@
 sections=Banner
 
 [Banner]
-_title_ru=Банерная система
-_title_ua=Банерна система
+_title_ru=Р‘Р°РЅРµСЂРЅР°СЏ СЃРёСЃС‚РµРјР°
+_title_ua=Р‘Р°РЅРµСЂРЅР° СЃРёСЃС‚РµРјР°
 _title_en=Banner system
 
 link_url=?package=banner&page=bannerplaceslist
-link_title_ru=Банерные площадки
-link_title_ua=Банерні місця
+link_title_ru=Р‘Р°РЅРµСЂРЅС‹Рµ РїР»РѕС‰Р°РґРєРё
+link_title_ua=Р‘Р°РЅРµСЂРЅС– РјС–СЃС†СЏ
 link_title_en=Banners places
 link_image=/img/ico_bannerplaces.gif
 link_package=banner
 link_access=BANNER_ADMINISTRATOR
 
 link_url=?package=banner&page=bannerslist
-link_title_ru=Банеры
-link_title_ua=Банери
+link_title_ru=Р‘Р°РЅРµСЂС‹
+link_title_ua=Р‘Р°РЅРµСЂРё
 link_title_en=Banners
 link_image=/img/ico_banners.gif
 link_package=banner
@@ -34,8 +34,8 @@ link_access=BANNER_ADMINISTRATOR,BANNER_PUBLISHER
 ##link_access=BANNER_ADMINISTRATOR,BANNER_PUBLISHER
 
 ##link_url=?package=banner&page=bannerstats
-##link_title_ru=Статистика
-##link_title_ua=Статистика
+##link_title_ru=РЎС‚Р°С‚РёСЃС‚РёРєР°
+##link_title_ua=РЎС‚Р°С‚РёСЃС‚РёРєР°
 ##link_title_en=Statistics
 ##link_image=/img/ico_banners.gif
 ##link_package=banner

@@ -4,13 +4,13 @@
 sections=Search
 
 [Search]
-_title_ru=Поиск
-_title_ua=Пошук
+_title_ru=РџРѕРёСЃРє
+_title_ua=РџРѕС€СѓРє
 _title_en=Search
 
 link_url=?package=search&page=indexer
-link_title_ru=Индексирование для поиска
-link_title_ua=Індексація для пошуку
+link_title_ru=РРЅРґРµРєСЃРёСЂРѕРІР°РЅРёРµ РґР»СЏ РїРѕРёСЃРєР°
+link_title_ua=Р†РЅРґРµРєСЃР°С†С–СЏ РґР»СЏ РїРѕС€СѓРєСѓ
 link_title_en=Search Indexind
 link_image=img/site_indexing.gif
 link_package=search

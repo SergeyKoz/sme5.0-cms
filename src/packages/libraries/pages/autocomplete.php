@@ -13,7 +13,7 @@
         var $moder_page = false;
         var $GetAutocompleteMethod="GetAutocompleteWords";
         var $WordsDelimeter=",";
-        var $encoding="windows-1251";
+        var $encoding="utf-8";
         var $PageMode="Frontend";
         var $AutocompleteLibrary="autocomplete";
 

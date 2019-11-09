@@ -1,40 +1,40 @@
 <?/*
 [MAIN]
-_guestbook_submit_button_caption=Äîáàâèòü ñîîáùåíèå
-_guestbook_form_title=Äîáàâüòå çàïèñü â ãîñòåâóþ êíèãó
-_guestbook_no_messages=Ñîîáùåíèé íåò. Äîáàâüòå ñâî¸, áóäüòå ïåðâûì.
+_guestbook_submit_button_caption=Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ
+_guestbook_form_title=Ð”Ð¾Ð±Ð°Ð²ÑŒÑ‚Ðµ Ð·Ð°Ð¿Ð¸ÑÑŒ Ð² Ð³Ð¾ÑÑ‚ÐµÐ²ÑƒÑŽ ÐºÐ½Ð¸Ð³Ñƒ
+_guestbook_no_messages=Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹ Ð½ÐµÑ‚. Ð”Ð¾Ð±Ð°Ð²ÑŒÑ‚Ðµ ÑÐ²Ð¾Ñ‘, Ð±ÑƒÐ´ÑŒÑ‚Ðµ Ð¿ÐµÑ€Ð²Ñ‹Ð¼.
 
 [GB_MESSAGE_FORM]
-field_1=Ïîäïèñü
-field_2=Ñîîáùåíèå
+field_1=ÐŸÐ¾Ð´Ð¿Ð¸ÑÑŒ
+field_2=Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ
 field_3=E-mail
 
 [MESSAGES]
-_LIST_TITLE=Ñïèñîê ñîîáùåíèé
-_EDIT_TITLE=Ñîîáùåíèå
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹
+_EDIT_TITLE=Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ
 message_id=#
-signature=Ïîäïèñü
-message=Ñîîáùåíèå
-comment=Êîìåíòàðèé
+signature=ÐŸÐ¾Ð´Ð¿Ð¸ÑÑŒ
+message=Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ
+comment=ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹
 email=E-mail
 language=
-posted_date=Äàòà íàïèñàíèÿ
-active=Àêòèâíàÿ
+posted_date=Ð”Ð°Ñ‚Ð° Ð½Ð°Ð¿Ð¸ÑÐ°Ð½Ð¸Ñ
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð°Ñ
 
 
 [FORM]
-_LIST_TITLE=Ñïèñîê ïîëåé ôîðìû
-_EDIT_TITLE=Ïîëå ôîðìû
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»ÐµÐ¹ Ñ„Ð¾Ñ€Ð¼Ñ‹
+_EDIT_TITLE=ÐŸÐ¾Ð»Ðµ Ñ„Ð¾Ñ€Ð¼Ñ‹
 field_id=#
-caption_ru=Íàçâàíèå
-caption_ua=Íàçâàíèå
-caption_en=Íàçâàíèå
-default_value_ru=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_ua=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_en=Çíà÷åíèå ïî-óìîë÷àíèþ
-not_null=Íå ìîæåò áûòü ïóñòûì
-field_type=Òèï ïîëÿ
-active=Àêòèâíîå
-max_length=Ìàêñèìàëüíàÿ äëèííà
+caption_ru=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_ua=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_en=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+default_value_ru=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_ua=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_en=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+not_null=ÐÐµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¿ÑƒÑÑ‚Ñ‹Ð¼
+field_type=Ð¢Ð¸Ð¿ Ð¿Ð¾Ð»Ñ
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð¾Ðµ
+max_length=ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ Ð´Ð»Ð¸Ð½Ð½Ð°
 
 */?>

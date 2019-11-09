@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template match="dbeditblock2">
         <xsl:param name="class"/>    
         <xsl:param name="disabled"/>    
         <xsl:if test="count(options/option) > 0">
-            <b>Цены на сайтах</b><br /><br />
+            <b>Р¦РµРЅС‹ РЅР° СЃР°Р№С‚Р°С…</b><br /><br />
             <xsl:for-each select="options/option">
                 <xsl:if test="position() > 1">
                     <br />
@@ -31,7 +31,7 @@
             </xsl:for-each>
         </xsl:if> 
         <xsl:if test="count(options/option) = 0">
-            <b>Товар не экспортируется на сайты</b>
+            <b>РўРѕРІР°СЂ РЅРµ СЌРєСЃРїРѕСЂС‚РёСЂСѓРµС‚СЃСЏ РЅР° СЃР°Р№С‚С‹</b>
         </xsl:if> 
     </xsl:template>
 </xsl:stylesheet>

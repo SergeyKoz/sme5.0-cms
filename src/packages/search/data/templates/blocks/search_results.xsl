@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template match="search_results">
-<!-- Форма поиска -->
+<!-- Р¤РѕСЂРјР° РїРѕРёСЃРєР° -->
                         <table cellspacing="0" cellpadding="0" border="0">
                             <tr><td></td><td colspan="3" class="titlesearch" nowrap=""><xsl:value-of select="//_caption_site_search"/>:</td></tr>
                             <tr><td><img src="{/page/@url}img/1x1.gif" width="1" height="4"/></td></tr>
@@ -9,7 +9,7 @@
                             <tr><td><img src="{/page/@url}img/1x1.gif" width="17" height="1"/></td><td class="search"><input value="{keywords}" type="text" name="search" size="80"/></td><td><img src="img/1x1.gif" width="9" height="1"/></td><td><input type="submit" alt="{//_caption_search}" value="{//_caption_search}"/></td></tr>
                             </form>
                         </table>
-<!-- Конец Форме поиска -->
+<!-- РљРѕРЅРµС† Р¤РѕСЂРјРµ РїРѕРёСЃРєР° -->
                         <table cellspacing="0" cellpadding="0" border="0" width="100%">
                             <tr><td><img src="{/page/@url}img/1x1.gif" width="1" height="26"/></td></tr>
                             <tr><td bgcolor="#c91432"><img src="img/1x1.gif" width="1" height="1"/></td></tr>

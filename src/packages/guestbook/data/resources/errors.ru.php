@@ -1,10 +1,10 @@
 <?/*
 [MESSAGES]
-MESSAGE_ADDED=Âàøå ñîîáùåíèå áûëî äîáàâëåíî.
+MESSAGE_ADDED=Ð’Ð°ÑˆÐµ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð±Ñ‹Ð»Ð¾ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¾.
 
 [GB_MESSAGE_FORM]
-INVALID_LENGTH_field_1=Ââåäèòå âàøó ïîäïèñü
-INVALID_LENGTH_field_2=Ââåäèòå ñîîáùåíèå
-INVALID_LENGTH_field_3=Ââåäèòå e-mail
+INVALID_LENGTH_field_1=Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°ÑˆÑƒ Ð¿Ð¾Ð´Ð¿Ð¸ÑÑŒ
+INVALID_LENGTH_field_2=Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ
+INVALID_LENGTH_field_3=Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ e-mail
 
 */?>

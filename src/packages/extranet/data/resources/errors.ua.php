@@ -5,7 +5,7 @@ INVALID_LOGIN=Your login is invalid
 INVALID_PASSWORD=Password invalid
 
 [MESSAGES]
-ACCESS_DENIED=Äîñòóï äî ö³º¿ ñòîð³íêè çàáîðîíåíèé
+ACCESS_DENIED=Ð”Ð¾ÑÑ‚ÑƒÐ¿ Ð´Ð¾ Ñ†Ñ–Ñ”Ñ— ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ Ð·Ð°Ð±Ð¾Ñ€Ð¾Ð½ÐµÐ½Ð¸Ð¹
 
 **/
 ?>

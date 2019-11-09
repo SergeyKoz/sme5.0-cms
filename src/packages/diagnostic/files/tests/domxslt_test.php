@@ -9,14 +9,14 @@ if(!is_object($xsldoc) || !is_object($xmldoc)){
  echo "RES[".$TEST_ID."]:STATUS=1\n";
 }
 }
-$xml='<?xml version="1.0" encoding="windows-1251" ?> 
+$xml='<?xml version="1.0" encoding="UTF-8" ?> 
 <page>
 <content>this is page content test xslt transform engine</content>
 </page>
 ';
-$xsl='<?xml version="1.0" encoding="windows-1251" ?> 
+$xsl='<?xml version="1.0" encoding="UTF-8" ?> 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="html" version="1.0" encoding="windows-1251" omit-xml-declaration="no" media-type="text/html" /> 
+<xsl:output method="html" version="1.0" encoding="UTF-8" omit-xml-declaration="no" media-type="text/html" /> 
 <xsl:template match="/">
 <xsl:apply-templates /> 
 </xsl:template>

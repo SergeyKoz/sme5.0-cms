@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <xsl:template match="detailed">
        <a href="?page=bannerstats&amp;package=banner&amp;banner_id={../filter/banner_id}&amp;page_id={../filter/page_id}&amp;place_id={../filter/place_id}&amp;month_id={../filter/month_id}&amp;event=daily">

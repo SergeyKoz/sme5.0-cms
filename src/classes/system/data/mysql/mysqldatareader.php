@@ -48,7 +48,7 @@
 		*  @return        mixed   Read items on success, false otherwise
 		*/
 		function Read() {
-			if (($this->state == DB_READER_STATE_OPENED) && ($this->Item = mysql_fetch_array($this->queryId, MYSQL_ASSOC))) {
+			if (($this->state == DB_READER_STATE_OPENED) && ($this->Item = mysqli_fetch_array($this->queryId, MYSQLI_ASSOC))) {
 				$this->currentRecord++;
 				return $this->Item;
 			}

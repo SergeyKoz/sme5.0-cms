@@ -22,8 +22,8 @@ _LIST_LEVEL_UP = One level up
 _LIST_TITLE=Users/List of user groups
 _EDIT_TITLE=View user groups
 group_id=#
-group_name_ru=Название
-group_name_ua=Назва
+group_name_ru=РќР°Р·РІР°РЅРёРµ
+group_name_ua=РќР°Р·РІР°
 group_name_en=Name
 
 [USER_ACCOUNTS]

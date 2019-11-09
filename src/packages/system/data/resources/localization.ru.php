@@ -1,105 +1,105 @@
 <?/**
 [MAIN]
-_hint_form_1=Ïîëÿ, ïîìå÷åííûå çâåçäî÷êîé (
-_hint_form_2 = ) îáÿçàòåëüíû äëÿ çàïîëíåíèÿ
+_hint_form_1=ÐŸÐ¾Ð»Ñ, Ð¿Ð¾Ð¼ÐµÑ‡ÐµÐ½Ð½Ñ‹Ðµ Ð·Ð²ÐµÐ·Ð´Ð¾Ñ‡ÐºÐ¾Ð¹ (
+_hint_form_2 = ) Ð¾Ð±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ
 
-_button_add = Ðåãèñòðàöèÿ
-_button_change = Ñîõðàíèòü
+_button_add = Ð ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ñ
+_button_change = Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ
 
-_mail_edit_title = Èçìåíåíèå ïðîôàéëà
-_mail_reg_title = Ðåãèñòðàöèÿ ïîëüçîâàòåëÿ
-_rem_mail_title = Ñëóæáà âîññòàíîâëåíèÿ ïàðîëÿ
-_pass_not_changed = íå èçìåíèëñÿ
+_mail_edit_title = Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¾Ñ„Ð°Ð¹Ð»Ð°
+_mail_reg_title = Ð ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ
+_rem_mail_title = Ð¡Ð»ÑƒÐ¶Ð±Ð° Ð²Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ñ Ð¿Ð°Ñ€Ð¾Ð»Ñ
+_pass_not_changed = Ð½Ðµ Ð¸Ð·Ð¼ÐµÐ½Ð¸Ð»ÑÑ
 
-_rem_login = Ëîãèí
+_rem_login = Ð›Ð¾Ð³Ð¸Ð½
 _rem_email = E-mail
-_rem_code = Çàùèòíûé êîä
-_rem_send = Îòïðàâèòü
+_rem_code = Ð—Ð°Ñ‰Ð¸Ñ‚Ð½Ñ‹Ð¹ ÐºÐ¾Ð´
+_rem_send = ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ
 
 [USERS]
-_caption_root_tree=Ãðóïïû
-_LIST_LEVEL_UP = Íà óðîâåíü âûøå
-_LIST_TITLE=Ïîëüçîâàòåëè/Ñïèñîê ãðóïï ïîëüçîâàòåëåé
-_EDIT_TITLE=Ïðîñìîòð ãðóïïû ïîëüçîâàòåëåé
+_caption_root_tree=Ð“Ñ€ÑƒÐ¿Ð¿Ñ‹
+_LIST_LEVEL_UP = ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+_LIST_TITLE=ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ð¸/Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð³Ñ€ÑƒÐ¿Ð¿ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹
+_EDIT_TITLE=ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ Ð³Ñ€ÑƒÐ¿Ð¿Ñ‹ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹
 group_id=#
-group_name_ru=Íàçâàíèå
-group_name_ua=Íàçâà
+group_name_ru=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+group_name_ua=ÐÐ°Ð·Ð²Ð°
 group_name_en=Name
 
 [USER_ACCOUNTS]
-_LIST_TITLE=Ïîëüçîâàòåëè/Ñïèñîê ïîëüçîâàòåëåé
-_EDIT_TITLE=Ðåäàêòèðîâàíèå/äîáàâëåíèå ïîëüçîâàòåëÿ
+_LIST_TITLE=ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ð¸/Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹
+_EDIT_TITLE=Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ/Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ
 user_id=#
-user_login=Ëîãèí
-user_password=Ïàðîëü
-user_password_2=Ïîâòîðèòå ïàðîëü
-role_id=Ðîëè
-active=Àêòèâåí
+user_login=Ð›Ð¾Ð³Ð¸Ð½
+user_password=ÐŸÐ°Ñ€Ð¾Ð»ÑŒ
+user_password_2=ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ
+role_id=Ð Ð¾Ð»Ð¸
+active=ÐÐºÑ‚Ð¸Ð²ÐµÐ½
 email = E-mail
-name = Èìÿ
-additional = Äîïîëíèòåëüíàÿ èíôîðìàöèÿ
-phone = Òåëåôîí
+name = Ð˜Ð¼Ñ
+additional = Ð”Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ
+phone = Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½
 
-filter_user_login = Ëîãèí
+filter_user_login = Ð›Ð¾Ð³Ð¸Ð½
 filter_email = E-mail
 
 [SETTINGS]
-_EDIT_TITLE=Íàñòðîéêè ñàéòà
-title_ru = Íàçâàíèå ñàéòà (Ðóñ)
-title_ua = Íàçâàíèå ñàéòà (Óêð)
-title_en = Íàçâàíèå ñàéòà (Àíã)
-email = Ñèñòåìíûé email
-meta_keywords_ru = Meta-keywords (ðóñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðóñ.)
-meta_description_en = Meta-description (àíã.)
-meta_description_ua = Meta-description (óêð.)
+_EDIT_TITLE=ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ÑÐ°Ð¹Ñ‚Ð°
+title_ru = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ°Ð¹Ñ‚Ð° (Ð ÑƒÑ)
+title_ua = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ°Ð¹Ñ‚Ð° (Ð£ÐºÑ€)
+title_en = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ°Ð¹Ñ‚Ð° (ÐÐ½Ð³)
+email = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ñ‹Ð¹ email
+meta_keywords_ru = Meta-keywords (Ñ€ÑƒÑ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€ÑƒÑ.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
 settingid = #
-rpp = Êîëè÷åñòâî çàïèñåé íà ñòðàíèöå (Ïî óìîë÷àíèþ)
+rpp = ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð°Ð¿Ð¸ÑÐµÐ¹ Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ (ÐŸÐ¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ)
 
-comments_auto_publishing = Ïóáëèêîâàòü êîìåíòàðèè áåç ïðåäìîäåðàöèè
-comments_only_register = Ðàçðåøèòü òîëüêî çàðåãèñòðèðîâàííûì ïîëüçîâàòåëÿì
-comments_voting = Ðàçðåøèòü ãîëîñîâàíèå çà êîììåíòàðèè
-comments_emails = Email ìîäåðàòîðîâ
-comments_length = Ìàêñèìàëüíàÿ äëèíà êîìåíòàðèÿ
-comments_pp = Êîëè÷åñòâî êîìåíòàðèåâ íà ñòðàíèöó
+comments_auto_publishing = ÐŸÑƒÐ±Ð»Ð¸ÐºÐ¾Ð²Ð°Ñ‚ÑŒ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸ Ð±ÐµÐ· Ð¿Ñ€ÐµÐ´Ð¼Ð¾Ð´ÐµÑ€Ð°Ñ†Ð¸Ð¸
+comments_only_register = Ð Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð·Ð°Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¼ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑÐ¼
+comments_voting = Ð Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ Ð³Ð¾Ð»Ð¾ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð° ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
+comments_emails = Email Ð¼Ð¾Ð´ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð¾Ð²
+comments_length = ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ Ð´Ð»Ð¸Ð½Ð° ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ñ
+comments_pp = ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸ÐµÐ² Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñƒ
 
 
 [UsersListPage]
-_PageTitle=Ñïèñîê ïîëüçîâàòåëåé
+_PageTitle=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹
 
 [UsersEditPage]
-_PageTitle=Ðåäàêòèðîâàíèå ïîëüçîâàòåëÿ/ãðóïïû ïîëüçîâàòåëåé
+_PageTitle=Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ/Ð³Ñ€ÑƒÐ¿Ð¿Ñ‹ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹
 
 [SettingsListPage]
-_PageTitle=Ñïèñîê íàñòðîåê
-_PageTitle=Ðåäàêòèðîâàíèå íàñòðîéêè
+_PageTitle=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð½Ð°ÑÑ‚Ñ€Ð¾ÐµÐº
+_PageTitle=Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸
 
 [UserLogonPage]
-fieldname_login=Ëîãèí
-fieldname_password=Ïàðîëü
-_caption_logon=Âîéòè
+fieldname_login=Ð›Ð¾Ð³Ð¸Ð½
+fieldname_password=ÐŸÐ°Ñ€Ð¾Ð»ÑŒ
+_caption_logon=Ð’Ð¾Ð¹Ñ‚Ð¸
 
 
 [FEEDBACK_SYS]
 _EDIT_TITLE =
-email=Âàø E-Mail
-subject=Òåìà
-author=Âàøå èìÿ
-message=Ñîîáùåíèå
-_caption_send_request=Ïîñëàòü îòçûâ
+email=Ð’Ð°Ñˆ E-Mail
+subject=Ð¢ÐµÐ¼Ð°
+author=Ð’Ð°ÑˆÐµ Ð¸Ð¼Ñ
+message=Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ
+_caption_send_request=ÐŸÐ¾ÑÐ»Ð°Ñ‚ÑŒ Ð¾Ñ‚Ð·Ñ‹Ð²
 _Subject = FEEDBACK: %s
 
 [PROFILEEDIT]
 _EDIT_TITLE=
-user_login=Ëîãèí
-user_password=Ïàðîëü
-active=Àêòèâåí
+user_login=Ð›Ð¾Ð³Ð¸Ð½
+user_password=ÐŸÐ°Ñ€Ð¾Ð»ÑŒ
+active=ÐÐºÑ‚Ð¸Ð²ÐµÐ½
 email = E-mail
-name = Èìÿ
-additional = Äîïîëíèòåëüíàÿ èíôîðìàöèÿ
-phone = Òåëåôîí
+name = Ð˜Ð¼Ñ
+additional = Ð”Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ
+phone = Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½
 group_id =
 
 **/

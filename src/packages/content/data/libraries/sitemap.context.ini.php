@@ -10,8 +10,8 @@ PARAMETER =page|changemenu
 PARAMETER =menu|sitemap
 PARAMETER =event|EditItem
 
-CAPTION_UA = Редагувати мапу сайта
-CAPTION_RU = Редактировать карту сайта
+CAPTION_UA = Р РµРґР°РіСѓРІР°С‚Рё РјР°РїСѓ СЃР°Р№С‚Р°
+CAPTION_RU = Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ РєР°СЂС‚Сѓ СЃР°Р№С‚Р°
 CAPTION_EN = Change site map
 ACCESS = STRUCTURE_MANAGER
 MODE = frame

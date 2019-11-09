@@ -1,4 +1,4 @@
-<?/**
+<?php /**
 
 [COMMENTS_MESSAGES]
 COMMENTS_FORM_NAME_ISNULL = Enter your name

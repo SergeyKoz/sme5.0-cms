@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
 
 	<xsl:template name="comments">
@@ -24,7 +24,7 @@
 					<xsl:for-each select="commments_list[@p=$p]/item">
 						<xsl:variable name="margin" select="level*20"/>
 						<li style="margin-left:{$margin}px;">
-							Автор:
+							РђРІС‚РѕСЂ:
 							<xsl:choose>
 								<xsl:when test="user_login!=''">
 									<xsl:value-of select="user_login"/>
@@ -33,7 +33,7 @@
 							</xsl:choose>
 							
 							<xsl:if test="parent_user_login!='' or parent_author_name!=''">
-								відповів користовачу
+								РІС–РґРїРѕРІС–РІ РєРѕСЂРёСЃС‚РѕРІР°С‡Сѓ
 								<xsl:choose>
 									<xsl:when test="parent_user_login!=''">
 										<xsl:value-of select="parent_user_login"/>
@@ -45,7 +45,7 @@
 							<br/>
 								
 								
-							Опубліковано:<xsl:value-of select="posted"/><br/>
+							РћРїСѓР±Р»С–РєРѕРІР°РЅРѕ:<xsl:value-of select="posted"/><br/>
 							<xsl:if test="/page/content/cms_comments/comments_voting=1">
 								<xsl:choose>
 									<xsl:when test="rating=0">0</xsl:when>
@@ -71,7 +71,7 @@
 											</xsl:when>
 										
 										<xsl:otherwise>
-											<a href="" onclick="return {$p}answer({comment_id});">Відповісти</a>
+											<a href="" onclick="return {$p}answer({comment_id});">Р’С–РґРїРѕРІС–СЃС‚Рё</a>
 										</xsl:otherwise>
 									</xsl:choose>
 								</div><br/>							
@@ -87,7 +87,7 @@
 				<div  id="{$p}main_comment_form_container_0">
 					<xsl:choose>
 						<xsl:when test="form_data/parent>0">
-							<a href="" onclick="return {$p}answer(0)">Додати коментар</a>
+							<a href="" onclick="return {$p}answer(0)">Р”РѕРґР°С‚Рё РєРѕРјРµРЅС‚Р°СЂ</a>
 						</xsl:when>
 						<xsl:otherwise>
 							<xsl:call-template name="comment_form">
@@ -137,7 +137,7 @@
 						
 						newFormContainerObject.innerHTML=currentFormContainerObject.innerHTML;
 	
-						answerCaption=(currentContaiter==0 ? 'Додати коментар' : 'Відповісти');
+						answerCaption=(currentContaiter==0 ? 'Р”РѕРґР°С‚Рё РєРѕРјРµРЅС‚Р°СЂ' : 'Р’С–РґРїРѕРІС–СЃС‚Рё');
 						currentFormContainerObject.innerHTML='&lt;a href="" onclick="return <xsl:value-of select="$p"/>answer('+currentContaiter+');">'+answerCaption+'&lt;/a>';
 						
 						<xsl:if test="editor_url"><xsl:value-of select="$p"/>tinyInit();</xsl:if>
@@ -172,9 +172,9 @@
 
 					<xsl:choose>
 						<xsl:when test="err_data/name and $article=form_data/article">
-							<span class="red">Имя *:</span>
+							<span class="red">РРјСЏ *:</span>
 						</xsl:when>
-						<xsl:otherwise>Имя *:</xsl:otherwise>
+						<xsl:otherwise>РРјСЏ *:</xsl:otherwise>
 					</xsl:choose>
 					<xsl:variable name="name_value">
 						<xsl:if test="$article=form_data/article"><xsl:value-of select="form_data/name"/></xsl:if>
@@ -192,15 +192,15 @@
 					<input type="text" name="email" value="{$email_value}"/><br/>
 				</xsl:when>
 				<xsl:otherwise>
-					Автор:<b><xsl:value-of select="/page/@user_name"/></b><br/>
+					РђРІС‚РѕСЂ:<b><xsl:value-of select="/page/@user_name"/></b><br/>
 				</xsl:otherwise>
 			</xsl:choose>
 
 			<xsl:choose>
 				<xsl:when test="err_data/comment and $article=form_data/article">
-					<span class="red">Коментар <xsl:value-of select="comments_length"/> символів *</span>
+					<span class="red">РљРѕРјРµРЅС‚Р°СЂ <xsl:value-of select="comments_length"/> СЃРёРјРІРѕР»С–РІ *</span>
 				</xsl:when>
-				<xsl:otherwise>Коментар <xsl:value-of select="comments_length"/> символів *</xsl:otherwise>
+				<xsl:otherwise>РљРѕРјРµРЅС‚Р°СЂ <xsl:value-of select="comments_length"/> СЃРёРјРІРѕР»С–РІ *</xsl:otherwise>
 			</xsl:choose>
 			
 			<xsl:variable name="comment_value">
@@ -211,9 +211,9 @@
 			<xsl:if test="/page/@user_id=''">
 				<xsl:choose>
 					<xsl:when test="err_data/securecode and $article=form_data/article">
-						<span class="red">Захисний код *</span>
+						<span class="red">Р—Р°С…РёСЃРЅРёР№ РєРѕРґ *</span>
 					</xsl:when>
-					<xsl:otherwise>Захисний код *</xsl:otherwise>
+					<xsl:otherwise>Р—Р°С…РёСЃРЅРёР№ РєРѕРґ *</xsl:otherwise>
 				</xsl:choose><br/>
 				<input name="securecode" value="" /><br/>
 				<img src="{/page/@url}scripts/securecode.php" /><br/>
@@ -222,8 +222,8 @@
 			<input type="hidden" name="module" value="{$module}"/>
 			<input type="hidden" name="parent" value="{form_data/parent}" id="{$p}parent"/>
 			<input type="hidden" name="event" value="AddComment"/>
-			<input type="submit" value="Відправити"/>
-			<input type="submit" style="display:none;" value="Відмінити" onclick="return {$p}answer(0);" id="{$p}comment_cancel_button"/>
+			<input type="submit" value="Р’С–РґРїСЂР°РІРёС‚Рё"/>
+			<input type="submit" style="display:none;" value="Р’С–РґРјС–РЅРёС‚Рё" onclick="return {$p}answer(0);" id="{$p}comment_cancel_button"/>
 		</form>
 	</xsl:template>
 </xsl:stylesheet>

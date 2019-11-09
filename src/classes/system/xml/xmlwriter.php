@@ -1,6 +1,8 @@
 <?php
 /** @const XML_WRITER_ENCODING_DEFAULT XML WRITER ENCODING DEFAULT value **/
-define("XML_WRITER_ENCODING_DEFAULT", "windows-1251");
+//define("XML_WRITER_ENCODING_DEFAULT", "windows-1251");
+define("XML_WRITER_ENCODING_DEFAULT", "UTF-8");
+
 
 /** Class represents single web page writer
  * @author Sergey Grishko <sgrishko@reaktivate.com>
@@ -243,7 +245,6 @@ class SMEXmlWriter {
 		$result=$proc->transformToXML($xmldoc);
 
 		return $result;
-
     }
 
     /** Writes out a comment <!--...--> containing the specified text.
@@ -340,12 +341,18 @@ class SMEXmlWriter {
      * @param     string    $text   Text content
      * @access    public
      */
-    function WriteString($text){
+    function WriteString($text)
+    {
+        if (is_array($text)) {
+            echo print_r($text);
+        }
     	$this->xw->text(SMEXmlWriter::utf8($text));
     }
 
-    static function utf8($text){
-    	return iconv('CP1251', 'UTF-8', (string)$text);
+    static function utf8($text) {
+        //echo print_r($text) . '<br/>';
+        //echo print_r(debug_backtrace());
+    	return $text;//iconv('CP1251', 'UTF-8', (string)$text);
     }
 
     function CheckCachedTemplatePaths($template){

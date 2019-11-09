@@ -1,17 +1,17 @@
 <?/*
 
 [ExtranetLogonPage]
-INVALID_LOGIN=Ëîãèí ââåäåí íåâåðíî
-INVALID_PASSWORD=Ïàðîëü ââåäåí íåâåðíî
+INVALID_LOGIN=Ð›Ð¾Ð³Ð¸Ð½ Ð²Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐ²ÐµÑ€Ð½Ð¾
+INVALID_PASSWORD=ÐŸÐ°Ñ€Ð¾Ð»ÑŒ Ð²Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐ²ÐµÑ€Ð½Ð¾
 
 [MESSAGES]
-ACCESS_DENIED=Äîñòóï  çàïðåùåí
+ACCESS_DENIED=Ð”Ð¾ÑÑ‚ÑƒÐ¿  Ð·Ð°Ð¿Ñ€ÐµÑ‰ÐµÐ½
 
 [FileStorageDlgPage]
-ACCESS_DENIED=Äîñòóï  çàïðåùåí
+ACCESS_DENIED=Ð”Ð¾ÑÑ‚ÑƒÐ¿  Ð·Ð°Ð¿Ñ€ÐµÑ‰ÐµÐ½
 
 [LogonPage]
-INVALID_LOGIN=Íåïðàâèëüíûé èëè ïóñòîé ëîãèí
-INVALID_PASSWORD=Íåïðàâèëüíûé èëè ïóñòîé ïàðîëü
+INVALID_LOGIN=ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ð¸Ð»Ð¸ Ð¿ÑƒÑÑ‚Ð¾Ð¹ Ð»Ð¾Ð³Ð¸Ð½
+INVALID_PASSWORD=ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ð¸Ð»Ð¸ Ð¿ÑƒÑÑ‚Ð¾Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ
 
 */?>

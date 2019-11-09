@@ -4,30 +4,30 @@
 sections=Diagnostic
 
 [DIAGNOSTIC]
-_title_ru=Диагностика
-_title_ua=Діагностіка
+_title_ru=Р”РёР°РіРЅРѕСЃС‚РёРєР°
+_title_ua=Р”С–Р°РіРЅРѕСЃС‚С–РєР°
 _title_en=Diagnostic
 
 link_url=?package=diagnostic&library=tests&page=testslist
-link_title_ru=Тесты
-link_title_ua=Тесты
-link_title_en=Тесты
+link_title_ru=РўРµСЃС‚С‹
+link_title_ua=РўРµСЃС‚С‹
+link_title_en=РўРµСЃС‚С‹
 link_image=/img/diag_tests.gif
 link_access=ADMIN
 link_package=diagnostic
 
 link_url=?package=diagnostic&library=sites&page=testslist
-link_title_ru=Сайты
-link_title_ua=Сайты
-link_title_en=Сайты
+link_title_ru=РЎР°Р№С‚С‹
+link_title_ua=РЎР°Р№С‚С‹
+link_title_en=РЎР°Р№С‚С‹
 link_image=/img/diag_sites.gif
 link_access=ADMIN
 link_package=diagnostic
 
 link_url=?package=diagnostic&page=status
-link_title_ru=Состояние сайтов
-link_title_ua=Состояние сайтов
-link_title_en=Состояние сайтов
+link_title_ru=РЎРѕСЃС‚РѕСЏРЅРёРµ СЃР°Р№С‚РѕРІ
+link_title_ua=РЎРѕСЃС‚РѕСЏРЅРёРµ СЃР°Р№С‚РѕРІ
+link_title_en=РЎРѕСЃС‚РѕСЏРЅРёРµ СЃР°Р№С‚РѕРІ
 link_image=/img/diag_site_diag.gif
 link_access=ADMIN
 link_package=diagnostic

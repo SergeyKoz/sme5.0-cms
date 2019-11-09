@@ -1,4 +1,4 @@
-<?php
+<?
 /*
 
 [MAIN]
@@ -28,8 +28,8 @@ categories_caption = Categories
 _LIST_TITLE=List of event categories
 _EDIT_TITLE=Add/edit category
 category_id=#
-caption_ua=Category title (���.)
-caption_ru=Category title (���.)
+caption_ua=Category title (Укр.)
+caption_ru=Category title (Рус.)
 caption_en=Category title (Eng.)
 system = System name
 active=Active
@@ -40,17 +40,17 @@ _LIST_TITLE=Events
 _EDIT_TITLE=Add/edit of event
 event_id=#
 system = System name
-title_ua= Event title (���.)
-title_ru= Event title (���.)
+title_ua= Event title (Укр.)
+title_ru= Event title (Рус.)
 title_en= Event title (Eng.)
-short_description_ua = Short description (���.)
-short_description_ru = Short description (���.)
+short_description_ua = Short description (Укр.)
+short_description_ru = Short description (Рус.)
 short_description_en = Short description (Eng.)
-full_description_ua = Full description (���.)
-full_description_ru = Full description (���.)
+full_description_ua = Full description (Укр.)
+full_description_ru = Full description (Рус.)
 full_description_en = Full description (Eng.)
-contacts_ua = Contact info (���.)
-contacts_ru = Contact info (���.)
+contacts_ua = Contact info (Укр.)
+contacts_ru = Contact info (Рус.)
 contacts_en = Contact info (Eng.)
 small_image = Image
 email = Email

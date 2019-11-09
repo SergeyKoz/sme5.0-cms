@@ -1,9 +1,9 @@
 <?/*
 [CONTEXT_MESSAGES]
-CTX_PUBLICATION_DEACTIVATED = Ïóáëèêàöèÿ äåàêòèâèðîâàíà
-CTX_PUBLICATION_ACTIVATED = Ïóáëèêàöèÿ àêòèâèðîâàíà
-CTX_PUBLICATION_DELETED = Ïóáëèêàöèÿ óäàëåíà
-CTX_MAPPING_DEACTIVATED = Ñïèñîê ïóëèêàöèé äåàêòèâèðîâàí
+CTX_PUBLICATION_DEACTIVATED = ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð°
+CTX_PUBLICATION_ACTIVATED = ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ Ð°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð°
+CTX_PUBLICATION_DELETED = ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ ÑƒÐ´Ð°Ð»ÐµÐ½Ð°
+CTX_MAPPING_DEACTIVATED = Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÐ»Ð¸ÐºÐ°Ñ†Ð¸Ð¹ Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½
 
 */
 ?>

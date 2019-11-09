@@ -1,80 +1,80 @@
 <?/*
 [MAIN]
-_caption_button_submit_feedback=Îòïðàâèòü
-_caption_select_departments=Êîìó
-_caption_select_subjects=Îáùàÿ òåìà
-_caption_reply_to=Îáðàòíûé àäðåñ
+_caption_button_submit_feedback=ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ
+_caption_select_departments=ÐšÐ¾Ð¼Ñƒ
+_caption_select_subjects=ÐžÐ±Ñ‰Ð°Ñ Ñ‚ÐµÐ¼Ð°
+_caption_reply_to=ÐžÐ±Ñ€Ð°Ñ‚Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ
 
 
 [SUBJECTS]
-_LIST_TITLE=Ñïèñîê òåì
-_EDIT_TITLE=Òåìà
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ñ‚ÐµÐ¼
+_EDIT_TITLE=Ð¢ÐµÐ¼Ð°
 subject_id=#
-subject_ru=Òåìà ïèñüìà (ïîëüçîâ)
-subject_ua=Òåìà ïèñüìà (ïîëüçîâ)
-subject_en=Òåìà ïèñüìà (ïîëüçîâ)
-subject_de=Òåìà ïèñüìà (ïîëüçîâ)
-subject_fr=Òåìà ïèñüìà (ïîëüçîâ)
-subject_pl=Òåìà ïèñüìà (ïîëüçîâ)
-subject_es=Òåìà ïèñüìà (ïîëüçîâ)
-subject_lv=Òåìà ïèñüìà (ïîëüçîâ)
-internal_subject=Âíóòðåííÿÿ òåìà
-active=Àêòèâíàÿ
+subject_ru=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_ua=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_en=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_de=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_fr=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_pl=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_es=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+subject_lv=Ð¢ÐµÐ¼Ð° Ð¿Ð¸ÑÑŒÐ¼Ð° (Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²)
+internal_subject=Ð’Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½ÑÑ Ñ‚ÐµÐ¼Ð°
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð°Ñ
 
 
 [DEPARTMENTS]
-_LIST_TITLE=Ñïèñîê ïîäðàçäåëåíèé
-_EDIT_TITLE=Ïîäðàçäåëåíèå
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð´Ñ€Ð°Ð·Ð´ÐµÐ»ÐµÐ½Ð¸Ð¹
+_EDIT_TITLE=ÐŸÐ¾Ð´Ñ€Ð°Ð·Ð´ÐµÐ»ÐµÐ½Ð¸Ðµ
 
 department_id=#
-active=Àêòèâíûé
-caption_ru=Íàçâàíèå
-caption_ua=Íàçâàíèå
-caption_en=Íàçâàíèå
-caption_de=Íàçâàíèå
-caption_fr=Íàçâàíèå
-caption_pl=Íàçâàíèå
-caption_es=Íàçâàíèå
-caption_lv=Íàçâàíèå
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
+caption_ru=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_ua=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_en=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_de=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_fr=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_pl=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_es=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_lv=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
 
-description_ru=Îïèñàíèå
-description_en=Îïèñàíèå
-description_ua=Îïèñàíèå
-description_de=Îïèñàíèå
-description_fr=Îïèñàíèå
-description_pl=Îïèñàíèå
-description_es=Îïèñàíèå
-description_lv=Îïèñàíèå
+description_ru=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_en=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_ua=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_de=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_fr=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_pl=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_es=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
+description_lv=ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ
 
-subject_id=Òåìû
+subject_id=Ð¢ÐµÐ¼Ñ‹
 
-emails=Ñïèñîê e-mail àäðåñîâ, êàæäûé àäðåñ ñ íîâîé ñòðîêè
-content_type=Òèï ñîäåðæèìîãî ïèñüìà
-encoding=Êîäèðîâêà ïèñåì
+emails=Ð¡Ð¿Ð¸ÑÐ¾Ðº e-mail Ð°Ð´Ñ€ÐµÑÐ¾Ð², ÐºÐ°Ð¶Ð´Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ Ñ Ð½Ð¾Ð²Ð¾Ð¹ ÑÑ‚Ñ€Ð¾ÐºÐ¸
+content_type=Ð¢Ð¸Ð¿ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ð³Ð¾ Ð¿Ð¸ÑÑŒÐ¼Ð°
+encoding=ÐšÐ¾Ð´Ð¸Ñ€Ð¾Ð²ÐºÐ° Ð¿Ð¸ÑÐµÐ¼
 
 [FORM]
-_LIST_TITLE=Ñïèñîê ïîëåé ôîðìû
-_EDIT_TITLE=Ïîëå ôîðìû
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»ÐµÐ¹ Ñ„Ð¾Ñ€Ð¼Ñ‹
+_EDIT_TITLE=ÐŸÐ¾Ð»Ðµ Ñ„Ð¾Ñ€Ð¼Ñ‹
 field_id=#
-caption_ru=Íàçâàíèå
-caption_ua=Íàçâàíèå
-caption_en=Íàçâàíèå
-caption_de=Íàçâàíèå
-caption_fr=Íàçâàíèå
-caption_pl=Íàçâàíèå
-caption_es=Íàçâàíèå
-caption_lv=Íàçâàíèå
-default_value_ru=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_ua=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_en=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_de=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_fr=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_pl=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_es=Çíà÷åíèå ïî-óìîë÷àíèþ
-default_value_lv=Çíà÷åíèå ïî-óìîë÷àíèþ
-not_null=Íå ìîæåò áûòü ïóñòûì
-field_type=Òèï ïîëÿ
-active=Àêòèâíîå
-max_length=Ìàêñèìàëüíàÿ äëèííà
+caption_ru=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_ua=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_en=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_de=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_fr=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_pl=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_es=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+caption_lv=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+default_value_ru=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_ua=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_en=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_de=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_fr=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_pl=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_es=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+default_value_lv=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+not_null=ÐÐµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¿ÑƒÑÑ‚Ñ‹Ð¼
+field_type=Ð¢Ð¸Ð¿ Ð¿Ð¾Ð»Ñ
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð¾Ðµ
+max_length=ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ Ð´Ð»Ð¸Ð½Ð½Ð°
 
 */?>

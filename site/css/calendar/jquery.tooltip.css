@@ -1,0 +1,20 @@
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	/* border: 1px solid #111; */
+	/* background-color: #eee; */
+	/* padding: 5px; */
+	background:url('../imgs/bg_tooltip.png') no-repeat;
+	/* opacity: 0.85; */
+}
+#tooltip h3, #tooltip div { margin: 0; }
+#tooltip .body {
+	position:relative;
+	left:10px;
+	height:33px;
+	padding:0 8px 0 0;
+	font-size:13px;
+	line-height:24px;
+	background:url('../imgs/bg_tooltip.png') no-repeat 100% 0;
+	color:#737474;
+}

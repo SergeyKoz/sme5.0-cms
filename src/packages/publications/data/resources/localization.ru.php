@@ -1,444 +1,444 @@
 <?/**
 [main]
-_root_documents=Âñå
+_root_documents=Ð’ÑÐµ
 
-publication_combobox_caption_tree_root = Âñå ðàçäåëû
-combo_categories_title = Êàòåãîðèè äîêóìåíòàöèè
-combo_documents_per_page = Äîêóìåíòîâ íà ñòðàíèöó
-text_key_words = Êëþ÷åâûå ñëîâà
-button_find = Íàéòè
+publication_combobox_caption_tree_root = Ð’ÑÐµ Ñ€Ð°Ð·Ð´ÐµÐ»Ñ‹
+combo_categories_title = ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°Ñ†Ð¸Ð¸
+combo_documents_per_page = Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñƒ
+text_key_words = ÐšÐ»ÑŽÑ‡ÐµÐ²Ñ‹Ðµ ÑÐ»Ð¾Ð²Ð°
+button_find = ÐÐ°Ð¹Ñ‚Ð¸
 
-_caption_publications_approve=Îïóáëèêîâàòü
-_caption_publications_decline=Îòêëîíèòü
+_caption_publications_approve=ÐžÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ¾Ð²Ð°Ñ‚ÑŒ
+_caption_publications_decline=ÐžÑ‚ÐºÐ»Ð¾Ð½Ð¸Ñ‚ÑŒ
 
 [TEMPLATES]
-_LIST_TITLE=Ñïèñîê øàáëîíîâ ïóáëèêàöèé
-_EDIT_TITLE=Øàáëîí ïóáëèêàöèé
-_LIST_LEVEL_UP=Ê ñïèñêó øàáëîíîâ
-caption=Íàçâàíèå øàáëîíà
-template_id=¹¹
-active=Àêòèâíûé
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
-is_category=Êàòåãîðèÿ
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
-show_empty_fields=+ïóñòûå ïîëÿ
-enable_tags = Èñïîëüçîâàòü òåãè
-enable_seo_params = Äîáàâëÿòü SEO ïàðàìåòðû
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº ÑˆÐ°Ð±Ð»Ð¾Ð½Ð¾Ð² Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_EDIT_TITLE=Ð¨Ð°Ð±Ð»Ð¾Ð½ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_LIST_LEVEL_UP=Ðš ÑÐ¿Ð¸ÑÐºÑƒ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð¾Ð²
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+template_id=â„–â„–
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+is_category=ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
+show_empty_fields=+Ð¿ÑƒÑÑ‚Ñ‹Ðµ Ð¿Ð¾Ð»Ñ
+enable_tags = Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ñ‚ÐµÐ³Ð¸
+enable_seo_params = Ð”Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ SEO Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹
 
-base_mapping_tags_caption_tree_root = --- Íå âûáðàíî ---
-base_mapping_tags = Áàçîâîå îòîáðàæåíèå ïóáëèêàöèé (èñïîëüçóåòñÿ â ñèñòåìå òåãîâ)
+base_mapping_tags_caption_tree_root = --- ÐÐµ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð¾ ---
+base_mapping_tags = Ð‘Ð°Ð·Ð¾Ð²Ð¾Ðµ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹ (Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚ÑÑ Ð² ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ Ñ‚ÐµÐ³Ð¾Ð²)
 
 
 [PARAMS]
-_LIST_TITLE=Ñïèñîê ïîëåé øàáëîíîâ
-_EDIT_TITLE=Ïîëå øàáëîíà
-param_id=¹¹
-caption=Íàçâàíèå
-system_name=Òèï ïîëÿ
-active=Àêòèâíûé
-_modified_by=Èçìåíåíî
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-param_name = Íàçâàíèå ïåðåìåòðà
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»ÐµÐ¹ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð¾Ð²
+_EDIT_TITLE=ÐŸÐ¾Ð»Ðµ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+param_id=â„–â„–
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+system_name=Ð¢Ð¸Ð¿ Ð¿Ð¾Ð»Ñ
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ñ‹Ð¹
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+param_name = ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÑ‚Ñ€Ð°
 
 
 [TEMPLATE_PARAMS]
-_LIST_TITLE=Ñïèñîê ïîëåé øàáëîíà
-_EDIT_TITLE=Ïîëå øàáëîíà
-tp_id=¹¹
-param_id=Ïîëå
-param_type = Òèï ïàðàìåòðà
-OPTIONS_PARAM_TYPE=Òåêñòîâàÿ ñòðîêà|text
-OPTIONS_PARAM_TYPE=Òåêñòîâûé áëîê|textarea
-OPTIONS_PARAM_TYPE=Êîíòåíòíûé áëîê|spaweditor
-OPTIONS_PARAM_TYPE=Äàòà|date
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð»ÐµÐ¹ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+_EDIT_TITLE=ÐŸÐ¾Ð»Ðµ ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+tp_id=â„–â„–
+param_id=ÐŸÐ¾Ð»Ðµ
+param_type = Ð¢Ð¸Ð¿ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð°
+OPTIONS_PARAM_TYPE=Ð¢ÐµÐºÑÑ‚Ð¾Ð²Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ°|text
+OPTIONS_PARAM_TYPE=Ð¢ÐµÐºÑÑ‚Ð¾Ð²Ñ‹Ð¹ Ð±Ð»Ð¾Ðº|textarea
+OPTIONS_PARAM_TYPE=ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚Ð½Ñ‹Ð¹ Ð±Ð»Ð¾Ðº|spaweditor
+OPTIONS_PARAM_TYPE=Ð”Ð°Ñ‚Ð°|date
 OPTIONS_PARAM_TYPE=URL|url
 OPTIONS_PARAM_TYPE=E-mail|email
-OPTIONS_PARAM_TYPE=Èçîáðàæåíèå|picture
-OPTIONS_PARAM_TYPE=Ïðèêðåïëÿåìûé ôàéë|file
-caption_ru=Íàçâàíèå ïîëÿ (ðóñ.)
-caption_en=Íàçâàíèå ïîëÿ (àíã.)
-caption_ua=Íàçâàíèå ïîëÿ (óêð.)
-param_name=Ñèñòåìíîå èìÿ
-_priority=Ïðèîðèòåò
-active=Àêòèâíîå
-_default=Çíà÷åíèå ïî-óìîë÷àíèþ
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
+OPTIONS_PARAM_TYPE=Ð˜Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ|picture
+OPTIONS_PARAM_TYPE=ÐŸÑ€Ð¸ÐºÑ€ÐµÐ¿Ð»ÑÐµÐ¼Ñ‹Ð¹ Ñ„Ð°Ð¹Ð»|file
+caption_ru=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ð¾Ð»Ñ (Ñ€ÑƒÑ.)
+caption_en=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ð¾Ð»Ñ (Ð°Ð½Ð³.)
+caption_ua=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ð¾Ð»Ñ (ÑƒÐºÑ€.)
+param_name=Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
+_priority=ÐŸÑ€Ð¸Ð¾Ñ€Ð¸Ñ‚ÐµÑ‚
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð¾Ðµ
+_default=Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
 
-is_in_list=Îòîáðàæàòü â ñïèñêå
-is_in_publication=Îòîáðàæàòü íà ñòðàíèöå ïóáëèêàöèè
-max_length=Ìàêñèìàëüíàÿ äëèíà çíà÷åíèÿ ïîëÿ
-cut_to_length=Ñîêðàùàòü äëèíó äî ... ñèìâîëîâ
-is_link=ßâëÿåòñÿ ññûëêîé
-is_caption=ßâëÿåòñÿ íàçâàíèåì
-show_list_fieldcaption=Ïîêàçûâàòü íàçâàíèå ïîëÿ â ñïèñêå
-show_publication_fieldcaption=Ïîêàçûâàòü íàçâàíèå ïîëÿ â ïóáëèêàöèè
-is_multilang=Ìíîãîÿçû÷íîå ïîëå
-is_not_null=Îáÿçàòåëüíîå ïîëå
+is_in_list=ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ Ð² ÑÐ¿Ð¸ÑÐºÐµ
+is_in_publication=ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+max_length=ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ Ð´Ð»Ð¸Ð½Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ð¿Ð¾Ð»Ñ
+cut_to_length=Ð¡Ð¾ÐºÑ€Ð°Ñ‰Ð°Ñ‚ÑŒ Ð´Ð»Ð¸Ð½Ñƒ Ð´Ð¾ ... ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²
+is_link=Ð¯Ð²Ð»ÑÐµÑ‚ÑÑ ÑÑÑ‹Ð»ÐºÐ¾Ð¹
+is_caption=Ð¯Ð²Ð»ÑÐµÑ‚ÑÑ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸ÐµÐ¼
+show_list_fieldcaption=ÐŸÐ¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ð¾Ð»Ñ Ð² ÑÐ¿Ð¸ÑÐºÐµ
+show_publication_fieldcaption=ÐŸÐ¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿Ð¾Ð»Ñ Ð² Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+is_multilang=ÐœÐ½Ð¾Ð³Ð¾ÑÐ·Ñ‹Ñ‡Ð½Ð¾Ðµ Ð¿Ð¾Ð»Ðµ
+is_not_null=ÐžÐ±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ð¿Ð¾Ð»Ðµ
 
-ls_is_in_list=+Ñïèñîê
-ls_is_in_publication=+Ïóáëèê.
-ls_is_caption=+Íàçâàíèå
-ls_is_multilang=+ßçûê
-ls_is_not_null=+Îáÿç.
+ls_is_in_list=+Ð¡Ð¿Ð¸ÑÐ¾Ðº
+ls_is_in_publication=+ÐŸÑƒÐ±Ð»Ð¸Ðº.
+ls_is_caption=+ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+ls_is_multilang=+Ð¯Ð·Ñ‹Ðº
+ls_is_not_null=+ÐžÐ±ÑÐ·.
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
 
 
 [PUBLICATIONS]
-_caption_root_tree=Êîðåíü
-_LIST_TITLE=Ñïèñîê ïóáëèêàöèé
-_EDIT_TITLE=Ïóáëèêàöèÿ
-_LIST_LEVEL_UP=Íà óðîâåíü âûøå
-publication_id=¹¹
-template_id=Øàáëîí ïóáëèêàöèè
-caption=Íàçâàíèå
-system = Ñèñòåìíîå èìÿ
+_caption_root_tree=ÐšÐ¾Ñ€ÐµÐ½ÑŒ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_EDIT_TITLE=ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ
+_LIST_LEVEL_UP=ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+publication_id=â„–â„–
+template_id=Ð¨Ð°Ð±Ð»Ð¾Ð½ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+system = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
 
-active_ru=Àêòèâíà(ðóñ.)
-active_en=Àêòèâíà (àíã.)
-active_ua=Àêòèâíà (óêð.)
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð°(Ñ€ÑƒÑ.)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³.)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€.)
 
-PARAMETERS_GROUP_NAME=Ïîëÿ ïóáëèêàöèè
-PARAMETERS_GROUP_NAME_RU=Ïîëÿ ïóáëèêàöèè (ðóñ.)
-PARAMETERS_GROUP_NAME_UA=Ïîëÿ ïóáëèêàöèè (óêð.)
-PARAMETERS_GROUP_NAME_EN=Ïîëÿ ïóáëèêàöèè (eng.)
-_sort_caption_ru=Çàãîëîâîê&amp;nbsp;(ðóñ.)
-_sort_caption_ua=Çàãîëîâîê&amp;nbsp;(óêð.)
-_sort_caption_en=Çàãîëîâîê&amp;nbsp;(eng.)
-_sort_date=Äàòà
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
+PARAMETERS_GROUP_NAME=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+PARAMETERS_GROUP_NAME_RU=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (Ñ€ÑƒÑ.)
+PARAMETERS_GROUP_NAME_UA=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME_EN=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (eng.)
+_sort_caption_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº&amp;nbsp;(Ñ€ÑƒÑ.)
+_sort_caption_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº&amp;nbsp;(ÑƒÐºÑ€.)
+_sort_caption_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº&amp;nbsp;(eng.)
+_sort_date=Ð”Ð°Ñ‚Ð°
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
 
 is_modified=
 original_publication_caption=
 is_declined=
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
 
-ls_is_priveledged = Ïðèâèë.
-is_priveledged = Ïðèâèëåãèðîâàííàÿ
-disable_comments = Çàïðåòèòü êîììåíòàðèè
-ls_disable_comments = - Êîììåíòàðèè
+ls_is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð».
+is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð»ÐµÐ³Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ
+disable_comments = Ð—Ð°Ð¿Ñ€ÐµÑ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
+ls_disable_comments = - ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
 
-target_entry_point=Òî÷êà âõîäà äëÿ ôîðìèðîâàíèÿ ññûëîê
-target_entry_point_caption_tree_root = >>> Ïî-óìîë÷àíèþ
+target_entry_point=Ð¢Ð¾Ñ‡ÐºÐ° Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑÑ‹Ð»Ð¾Ðº
+target_entry_point_caption_tree_root = >>> ÐŸÐ¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 
-tags_ua = Òåãè (óêð.)
-tags_ru = Òåãè (ðîñ.)
-tags_en = Òåãè (eng.)
+tags_ua = Ð¢ÐµÐ³Ð¸ (ÑƒÐºÑ€.)
+tags_ru = Ð¢ÐµÐ³Ð¸ (Ñ€Ð¾Ñ.)
+tags_en = Ð¢ÐµÐ³Ð¸ (eng.)
 
-meta_title_ru = SEO title (ðóñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
-meta_keywords_ru = Meta-keywords (ðóñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðóñ.)
-meta_description_ua = Meta-description (óêð.)
-meta_description_en = Meta-description (àíã.)
+meta_title_ru = SEO title (Ñ€ÑƒÑ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
+meta_keywords_ru = Meta-keywords (Ñ€ÑƒÑ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€ÑƒÑ.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
 
-template_id_preset = Øàáëîíû äëÿ ïóáëèêàöèé êàòåãîðèè
-template_id_preset_caption_tree_root = --- Íå âûáðàíû ---
+template_id_preset = Ð¨Ð°Ð±Ð»Ð¾Ð½Ñ‹ Ð´Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸
+template_id_preset_caption_tree_root = --- ÐÐµ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ñ‹ ---
 
 [PUBLICATIONS_MODIFIED]
-_caption_root_tree=Êîðåíü
-_LIST_TITLE=Ñïèñîê ïóáëèêàöèé
-_EDIT_TITLE=Ïóáëèêàöèÿ
-_LIST_LEVEL_UP=Íà óðîâåíü âûøå
-publication_id=¹¹
-template_id=Øàáëîí ïóáëèêàöèè
-caption=Íàçâàíèå
-system = Ñèñòåìíîå èìÿ
+_caption_root_tree=ÐšÐ¾Ñ€ÐµÐ½ÑŒ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_EDIT_TITLE=ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ
+_LIST_LEVEL_UP=ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+publication_id=â„–â„–
+template_id=Ð¨Ð°Ð±Ð»Ð¾Ð½ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+system = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
 
-parent_id=Êàòåãîðèÿ Ïóáëèêàöèé
-copy_of_id=Îðèãèíàë Ïóáëèêàöèè
-is_modified = Ïîäòâåðäèòü
+parent_id=ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+copy_of_id=ÐžÑ€Ð¸Ð³Ð¸Ð½Ð°Ð» ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+is_modified = ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ
 
-active_ru=Àêòèâíà(ðóñ.)
-active_en=Àêòèâíà (àíã.)
-active_ua=Àêòèâíà (óêð.)
-PARAMETERS_GROUP_NAME=Ïîëÿ ïóáëèêàöèè
-PARAMETERS_GROUP_NAME_RU=Ïîëÿ ïóáëèêàöèè (ðóñ.)
-PARAMETERS_GROUP_NAME_UA=Ïîëÿ ïóáëèêàöèè (óêð.)
-PARAMETERS_GROUP_NAME_EN=Ïîëÿ ïóáëèêàöèè (eng.)
-_sort_caption_ru=Çàãîëîâîê (ðóñ.)
-_sort_caption_ua=Çàãîëîâîê (óêð.)
-_sort_caption_en=Çàãîëîâîê (eng.)
-_sort_date=Äàòà
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð°(Ñ€ÑƒÑ.)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³.)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+PARAMETERS_GROUP_NAME_RU=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (Ñ€ÑƒÑ.)
+PARAMETERS_GROUP_NAME_UA=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME_EN=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (eng.)
+_sort_caption_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (Ñ€ÑƒÑ.)
+_sort_caption_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (ÑƒÐºÑ€.)
+_sort_caption_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (eng.)
+_sort_date=Ð”Ð°Ñ‚Ð°
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
 
-ls_is_priveledged = Ïðèâèë.
-is_priveledged = Ïðèâèëåãèðîâàííàÿ
-disable_comments = Çàïðåòèòü êîììåíòàðèè
-ls_disable_comments = - Êîììåíòàðèè
+ls_is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð».
+is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð»ÐµÐ³Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ
+disable_comments = Ð—Ð°Ð¿Ñ€ÐµÑ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
+ls_disable_comments = - ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
 
-target_entry_point=Òî÷êà âõîäà äëÿ ôîðìèðîâàíèÿ ññûëîê
-target_entry_point_caption_tree_root = >>> Ïî-óìîë÷àíèþ
-memo=Ïðè÷èíà îòêëîíåíèÿ èçìåíåíèé
+target_entry_point=Ð¢Ð¾Ñ‡ÐºÐ° Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑÑ‹Ð»Ð¾Ðº
+target_entry_point_caption_tree_root = >>> ÐŸÐ¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+memo=ÐŸÑ€Ð¸Ñ‡Ð¸Ð½Ð° Ð¾Ñ‚ÐºÐ»Ð¾Ð½ÐµÐ½Ð¸Ñ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ð¹
 
-tags_ua = Òåãè (óêð.)
-tags_ru = Òåãè (ðîñ.)
-tags_en = Òåãè (eng.)
+tags_ua = Ð¢ÐµÐ³Ð¸ (ÑƒÐºÑ€.)
+tags_ru = Ð¢ÐµÐ³Ð¸ (Ñ€Ð¾Ñ.)
+tags_en = Ð¢ÐµÐ³Ð¸ (eng.)
 
-meta_title_ru = SEO title (ðóñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
-meta_keywords_ru = Meta-keywords (ðóñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðóñ.)
-meta_description_ua = Meta-description (óêð.)
-meta_description_en = Meta-description (àíã.)
+meta_title_ru = SEO title (Ñ€ÑƒÑ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
+meta_keywords_ru = Meta-keywords (Ñ€ÑƒÑ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€ÑƒÑ.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
 
 [PUBLICATIONS_MODIFIED_EDITOR]
-_caption_root_tree=Êîðåíü
-_LIST_TITLE=Ñïèñîê ïóáëèêàöèé
-_EDIT_TITLE=Ïóáëèêàöèÿ
-_LIST_LEVEL_UP=Íà óðîâåíü âûøå
-publication_id=¹¹
-template_id=Øàáëîí ïóáëèêàöèè
-caption=Íàçâàíèå
-system = Ñèñòåìíîå èìÿ
+_caption_root_tree=ÐšÐ¾Ñ€ÐµÐ½ÑŒ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_EDIT_TITLE=ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ
+_LIST_LEVEL_UP=ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+publication_id=â„–â„–
+template_id=Ð¨Ð°Ð±Ð»Ð¾Ð½ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+system = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
 
-parent_id=Êàòåãîðèÿ Ïóáëèêàöèé
-is_modified = Ïîäòâåðäèòü
-copy_of_id=Îðèãèíàë Ïóáëèêàöèè
-active_ru=Àêòèâíà(ðóñ.)
-active_en=Àêòèâíà (àíã.)
-active_ua=Àêòèâíà (óêð.)
-PARAMETERS_GROUP_NAME=Ïîëÿ ïóáëèêàöèè
-PARAMETERS_GROUP_NAME_RU=Ïîëÿ ïóáëèêàöèè (ðóñ.)
-PARAMETERS_GROUP_NAME_UA=Ïîëÿ ïóáëèêàöèè (óêð.)
-PARAMETERS_GROUP_NAME_EN=Ïîëÿ ïóáëèêàöèè (eng.)
-_sort_caption_ru=Çàãîëîâîê (ðóñ.)
-_sort_caption_ua=Çàãîëîâîê (óêð.)
-_sort_caption_en=Çàãîëîâîê (eng.)
-_sort_date=Äàòà
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
+parent_id=ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ñ ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+is_modified = ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ
+copy_of_id=ÐžÑ€Ð¸Ð³Ð¸Ð½Ð°Ð» ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð°(Ñ€ÑƒÑ.)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³.)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+PARAMETERS_GROUP_NAME_RU=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (Ñ€ÑƒÑ.)
+PARAMETERS_GROUP_NAME_UA=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME_EN=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (eng.)
+_sort_caption_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (Ñ€ÑƒÑ.)
+_sort_caption_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (ÑƒÐºÑ€.)
+_sort_caption_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (eng.)
+_sort_date=Ð”Ð°Ñ‚Ð°
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
 
-ls_is_priveledged = Ïðèâèë.
-is_priveledged = Ïðèâèëåãèðîâàííàÿ
-disable_comments = Çàïðåòèòü êîììåíòàðèè
-ls_disable_comments = - Êîììåíòàðèè
+ls_is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð».
+is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð»ÐµÐ³Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ
+disable_comments = Ð—Ð°Ð¿Ñ€ÐµÑ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
+ls_disable_comments = - ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
 
 
-target_entry_point=Òî÷êà âõîäà äëÿ ôîðìèðîâàíèÿ ññûëîê
-target_entry_point_caption_tree_root = >>> Ïî-óìîë÷àíèþ
-memo=Ïðè÷èíà îòêëîíåíèÿ èçìåíåíèé
+target_entry_point=Ð¢Ð¾Ñ‡ÐºÐ° Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑÑ‹Ð»Ð¾Ðº
+target_entry_point_caption_tree_root = >>> ÐŸÐ¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+memo=ÐŸÑ€Ð¸Ñ‡Ð¸Ð½Ð° Ð¾Ñ‚ÐºÐ»Ð¾Ð½ÐµÐ½Ð¸Ñ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ð¹
 is_declined=
 
-tags_ua = Òåãè (óêð.)
-tags_ru = Òåãè (ðîñ.)
-tags_en = Òåãè (eng.)
+tags_ua = Ð¢ÐµÐ³Ð¸ (ÑƒÐºÑ€.)
+tags_ru = Ð¢ÐµÐ³Ð¸ (Ñ€Ð¾Ñ.)
+tags_en = Ð¢ÐµÐ³Ð¸ (eng.)
 
-meta_title_ru = SEO title (ðóñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
-meta_keywords_ru = Meta-keywords (ðóñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðóñ.)
-meta_description_ua = Meta-description (óêð.)
-meta_description_en = Meta-description (àíã.)
+meta_title_ru = SEO title (Ñ€ÑƒÑ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
+meta_keywords_ru = Meta-keywords (Ñ€ÑƒÑ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€ÑƒÑ.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
 
 [PUBLICATIONS_PUBLISHER]
-_caption_root_tree=Êîðåíü
-_LIST_TITLE=Ñïèñîê ïóáëèêàöèé
-_EDIT_TITLE=Ïóáëèêàöèÿ
-_LIST_LEVEL_UP=Íà óðîâåíü âûøå
-publication_id=¹¹
-template_id=Øàáëîí ïóáëèêàöèè
-caption=Íàçâàíèå
-system = Ñèñòåìíîå èìÿ
+_caption_root_tree=ÐšÐ¾Ñ€ÐµÐ½ÑŒ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_EDIT_TITLE=ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ
+_LIST_LEVEL_UP=ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+publication_id=â„–â„–
+template_id=Ð¨Ð°Ð±Ð»Ð¾Ð½ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+system = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
 
-active_ru=Àêòèâíà(ðóñ.)
-active_en=Àêòèâíà (àíã.)
-active_ua=Àêòèâíà (óêð.)
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð°(Ñ€ÑƒÑ.)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³.)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€.)
 
-PARAMETERS_GROUP_NAME=Ïîëÿ ïóáëèêàöèè
-PARAMETERS_GROUP_NAME_RU=Ïîëÿ ïóáëèêàöèè (ðóñ.)
-PARAMETERS_GROUP_NAME_UA=Ïîëÿ ïóáëèêàöèè (óêð.)
-PARAMETERS_GROUP_NAME_EN=Ïîëÿ ïóáëèêàöèè (eng.)
-_sort_caption_ru=Çàãîëîâîê (ðóñ.)
-_sort_caption_ua=Çàãîëîâîê (óêð.)
-_sort_caption_en=Çàãîëîâîê (eng.)
-_sort_date=Äàòà
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
+PARAMETERS_GROUP_NAME=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+PARAMETERS_GROUP_NAME_RU=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (Ñ€ÑƒÑ.)
+PARAMETERS_GROUP_NAME_UA=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME_EN=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (eng.)
+_sort_caption_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (Ñ€ÑƒÑ.)
+_sort_caption_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (ÑƒÐºÑ€.)
+_sort_caption_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (eng.)
+_sort_date=Ð”Ð°Ñ‚Ð°
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
 
 is_modified=
 original_publication_caption=
 is_declined=
 
-ls_is_priveledged = Ïðèâèë.
-is_priveledged = Ïðèâèëåãèðîâàííàÿ
-disable_comments = Çàïðåòèòü êîììåíòàðèè
-ls_disable_comments = - Êîììåíòàðèè
+ls_is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð».
+is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð»ÐµÐ³Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ
+disable_comments = Ð—Ð°Ð¿Ñ€ÐµÑ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
+ls_disable_comments = - ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
 
-target_entry_point=Òî÷êà âõîäà äëÿ ôîðìèðîâàíèÿ ññûëîê
-target_entry_point_caption_tree_root = >>> Ïî-óìîë÷àíèþ
+target_entry_point=Ð¢Ð¾Ñ‡ÐºÐ° Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑÑ‹Ð»Ð¾Ðº
+target_entry_point_caption_tree_root = >>> ÐŸÐ¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 
-tags_ua = Òåãè (óêð.)
-tags_ru = Òåãè (ðîñ.)
-tags_en = Òåãè (eng.)
+tags_ua = Ð¢ÐµÐ³Ð¸ (ÑƒÐºÑ€.)
+tags_ru = Ð¢ÐµÐ³Ð¸ (Ñ€Ð¾Ñ.)
+tags_en = Ð¢ÐµÐ³Ð¸ (eng.)
 
-meta_title_ru = SEO title (ðóñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
-meta_keywords_ru = Meta-keywords (ðóñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðóñ.)
-meta_description_ua = Meta-description (óêð.)
-meta_description_en = Meta-description (àíã.)
+meta_title_ru = SEO title (Ñ€ÑƒÑ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
+meta_keywords_ru = Meta-keywords (Ñ€ÑƒÑ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€ÑƒÑ.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
 
 [PUBLICATIONS_EDITOR]
-_caption_root_tree=Êîðåíü
-_LIST_TITLE=Ñïèñîê ïóáëèêàöèé
-_EDIT_TITLE=Ïóáëèêàöèÿ
-_LIST_LEVEL_UP=Íà óðîâåíü âûøå
-publication_id=¹¹
-template_id=Øàáëîí ïóáëèêàöèè
-caption=Íàçâàíèå
-system = Ñèñòåìíîå èìÿ
+_caption_root_tree=ÐšÐ¾Ñ€ÐµÐ½ÑŒ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+_EDIT_TITLE=ÐŸÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ
+_LIST_LEVEL_UP=ÐÐ° ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ Ð²Ñ‹ÑˆÐµ
+publication_id=â„–â„–
+template_id=Ð¨Ð°Ð±Ð»Ð¾Ð½ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ
+system = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
 
-active_ru=Àêòèâíà(ðóñ.)
-active_en=Àêòèâíà (àíã.)
-active_ua=Àêòèâíà (óêð.)
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð°(Ñ€ÑƒÑ.)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³.)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€.)
 
-PARAMETERS_GROUP_NAME=Ïîëÿ ïóáëèêàöèè
-PARAMETERS_GROUP_NAME_RU=Ïîëÿ ïóáëèêàöèè (ðóñ.)
-PARAMETERS_GROUP_NAME_UA=Ïîëÿ ïóáëèêàöèè (óêð.)
-PARAMETERS_GROUP_NAME_EN=Ïîëÿ ïóáëèêàöèè (eng.)
-_sort_caption_ru=Çàãîëîâîê (ðóñ.)
-_sort_caption_ua=Çàãîëîâîê (óêð.)
-_sort_caption_en=Çàãîëîâîê (eng.)
-_sort_date=Äàòà
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
+PARAMETERS_GROUP_NAME=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+PARAMETERS_GROUP_NAME_RU=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (Ñ€ÑƒÑ.)
+PARAMETERS_GROUP_NAME_UA=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (ÑƒÐºÑ€.)
+PARAMETERS_GROUP_NAME_EN=ÐŸÐ¾Ð»Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ (eng.)
+_sort_caption_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (Ñ€ÑƒÑ.)
+_sort_caption_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (ÑƒÐºÑ€.)
+_sort_caption_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº (eng.)
+_sort_date=Ð”Ð°Ñ‚Ð°
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
 
-ls_is_priveledged = Ïðèâèë.
-is_priveledged = Ïðèâèëåãèðîâàííàÿ
-disable_comments = Çàïðåòèòü êîììåíòàðèè
-ls_disable_comments = - Êîììåíòàðèè
+ls_is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð».
+is_priveledged = ÐŸÑ€Ð¸Ð²Ð¸Ð»ÐµÐ³Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ
+disable_comments = Ð—Ð°Ð¿Ñ€ÐµÑ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
+ls_disable_comments = - ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
 
-target_entry_point=Òî÷êà âõîäà äëÿ ôîðìèðîâàíèÿ ññûëîê
-target_entry_point_caption_tree_root = >>> Ïî-óìîë÷àíèþ
+target_entry_point=Ð¢Ð¾Ñ‡ÐºÐ° Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑÑ‹Ð»Ð¾Ðº
+target_entry_point_caption_tree_root = >>> ÐŸÐ¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 
 is_modified=
 original_publication_caption=
 is_declined=
 
-tags_ua = Òåãè (óêð.)
-tags_ru = Òåãè (ðîñ.)
-tags_en = Òåãè (eng.)
+tags_ua = Ð¢ÐµÐ³Ð¸ (ÑƒÐºÑ€.)
+tags_ru = Ð¢ÐµÐ³Ð¸ (Ñ€Ð¾Ñ.)
+tags_en = Ð¢ÐµÐ³Ð¸ (eng.)
 
-meta_title_ru = SEO title (ðóñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
-meta_keywords_ru = Meta-keywords (ðóñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðóñ.)
-meta_description_ua = Meta-description (óêð.)
-meta_description_en = Meta-description (àíã.)
+meta_title_ru = SEO title (Ñ€ÑƒÑ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
+meta_keywords_ru = Meta-keywords (Ñ€ÑƒÑ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€ÑƒÑ.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
 
 [MAPPING]
-_EDIT_TITLE=Ïðèâÿçêà ïóáëèêàöèè ê ñòðàíèöå
-_LIST_TITLE=Ñïèñîê îòîáðàæåíèé êîíòåíòà ïóáëèêàöèè
-mapping_id=¹¹
-caption=Íàçâàíèå îòîáðàæåíèÿ
-publication_type=Òèï îòîáðàæåíèÿ
-OPTIONS_PUBLICATION_TYPE=Òåêóùàÿ ïóáëèêàöèÿ|0
-OPTIONS_PUBLICATION_TYPE=Ñïèñîê Êàòåãîðèé|1
-OPTIONS_PUBLICATION_TYPE=Êðàòêèé Ñïèñîê âëîæåííûõ ïóáëèêàöèé|2
-OPTIONS_PUBLICATION_TYPE=Ðàçâåðíóòûé Ñïèñîê âëîæåííûõ ïóáëèêàöèé|3
-page_id=Ñèñòåìíàÿ ñòðàíèöà äëÿ îòîáðàæåíèÿ ïóáëèêàöèè
-sort_field=Ïîëå âûáîðêè
-OPTIONS_SORT_FIELD=Íàçâàíèå|0
-OPTIONS_SORT_FIELD=Äàòà èçìåíåíèÿ|1
-OPTIONS_SORT_FIELD=Ïðèîðèòåò|2
-OPTIONS_SORT_FIELD=Ñëó÷àéíî|3
-sort_order=Ïîðÿäîê âûáîðêè
-OPTIONS_SORT_ORDER=Ïî âîçðàñòàíèþ (àëôàâèòó)|0
-OPTIONS_SORT_ORDER=Ïî óáûâàíèþ|1
-start_index=Íà÷èíàòü âûâîä ñ
-end_index=Çàêàí÷èâàòü âûâîä ïîñëå
-active=Àêòèâíàÿ
-records_per_page=Êîëè÷åñòâî çàïèñåé íà ñòðàíèöå
-pages_per_decade=Êîëè÷åñòâî ñòðàíèö â äåêàäå
-xsl_template_caption_tree_root=>>> Äðóãîé øàáëîí
-system_name=Ñèñòåìíîå èìÿ
-target_entry_point=Òî÷êà âõîäà äëÿ ôîðìèðîâàíèÿ ññûëîê
-target_entry_point_caption_tree_root = >>> Ïî-óìîë÷àíèþ
-page_id_caption_tree_root  = >>> ÍÀ ÂÑÅÕ ÑÒÐÀÍÈÖÀÕ
+_EDIT_TITLE=ÐŸÑ€Ð¸Ð²ÑÐ·ÐºÐ° Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸ Ðº ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ð¹ ÐºÐ¾Ð½Ñ‚ÐµÐ½Ñ‚Ð° Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+mapping_id=â„–â„–
+caption=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ
+publication_type=Ð¢Ð¸Ð¿ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ
+OPTIONS_PUBLICATION_TYPE=Ð¢ÐµÐºÑƒÑ‰Ð°Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ|0
+OPTIONS_PUBLICATION_TYPE=Ð¡Ð¿Ð¸ÑÐ¾Ðº ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¹|1
+OPTIONS_PUBLICATION_TYPE=ÐšÑ€Ð°Ñ‚ÐºÐ¸Ð¹ Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð²Ð»Ð¾Ð¶ÐµÐ½Ð½Ñ‹Ñ… Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹|2
+OPTIONS_PUBLICATION_TYPE=Ð Ð°Ð·Ð²ÐµÑ€Ð½ÑƒÑ‚Ñ‹Ð¹ Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð²Ð»Ð¾Ð¶ÐµÐ½Ð½Ñ‹Ñ… Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹|3
+page_id=Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð°Ñ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð´Ð»Ñ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
+sort_field=ÐŸÐ¾Ð»Ðµ Ð²Ñ‹Ð±Ð¾Ñ€ÐºÐ¸
+OPTIONS_SORT_FIELD=ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ|0
+OPTIONS_SORT_FIELD=Ð”Ð°Ñ‚Ð° Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ|1
+OPTIONS_SORT_FIELD=ÐŸÑ€Ð¸Ð¾Ñ€Ð¸Ñ‚ÐµÑ‚|2
+OPTIONS_SORT_FIELD=Ð¡Ð»ÑƒÑ‡Ð°Ð¹Ð½Ð¾|3
+sort_order=ÐŸÐ¾Ñ€ÑÐ´Ð¾Ðº Ð²Ñ‹Ð±Ð¾Ñ€ÐºÐ¸
+OPTIONS_SORT_ORDER=ÐŸÐ¾ Ð²Ð¾Ð·Ñ€Ð°ÑÑ‚Ð°Ð½Ð¸ÑŽ (Ð°Ð»Ñ„Ð°Ð²Ð¸Ñ‚Ñƒ)|0
+OPTIONS_SORT_ORDER=ÐŸÐ¾ ÑƒÐ±Ñ‹Ð²Ð°Ð½Ð¸ÑŽ|1
+start_index=ÐÐ°Ñ‡Ð¸Ð½Ð°Ñ‚ÑŒ Ð²Ñ‹Ð²Ð¾Ð´ Ñ
+end_index=Ð—Ð°ÐºÐ°Ð½Ñ‡Ð¸Ð²Ð°Ñ‚ÑŒ Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ð¾ÑÐ»Ðµ
+active=ÐÐºÑ‚Ð¸Ð²Ð½Ð°Ñ
+records_per_page=ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð°Ð¿Ð¸ÑÐµÐ¹ Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ
+pages_per_decade=ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ† Ð² Ð´ÐµÐºÐ°Ð´Ðµ
+xsl_template_caption_tree_root=>>> Ð”Ñ€ÑƒÐ³Ð¾Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½
+system_name=Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ð¾Ðµ Ð¸Ð¼Ñ
+target_entry_point=Ð¢Ð¾Ñ‡ÐºÐ° Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ ÑÑÑ‹Ð»Ð¾Ðº
+target_entry_point_caption_tree_root = >>> ÐŸÐ¾-ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
+page_id_caption_tree_root  = >>> ÐÐ Ð’Ð¡Ð•Ð¥ Ð¡Ð¢Ð ÐÐÐ˜Ð¦ÐÐ¥
 
-ls_page_id=Ñòðàíèöà
+ls_page_id=Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°
 
-priveledged_only=Òîëüêî Ïðèâèëåãèðîâàííûå ïóáëèêàöèè
+priveledged_only=Ð¢Ð¾Ð»ÑŒÐºÐ¾ ÐŸÑ€Ð¸Ð²Ð¸Ð»ÐµÐ³Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸
 
-_priority=Îòîáðàæàòü ïîñëå ïðèâÿçêè
-_modified_by=Èçìåíåíî
-xsl_template=Ôàéë XSL-øàáëîíà
-include_template=Àâòîìàòè÷åñêè äîáàâëÿòü øàáëîí â XSL
+_priority=ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ Ð¿Ð¾ÑÐ»Ðµ Ð¿Ñ€Ð¸Ð²ÑÐ·ÐºÐ¸
+_modified_by=Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
+xsl_template=Ð¤Ð°Ð¹Ð» XSL-ÑˆÐ°Ð±Ð»Ð¾Ð½Ð°
+include_template=ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑ‚ÑŒ ÑˆÐ°Ð±Ð»Ð¾Ð½ Ð² XSL
 
-header=Âåðõíèé ðàçäåëèòåëü
-footer=Íèæíèé ðàçäåëèòåëü
-expose=Îòîáðàæàòü ïðèâÿçêó íà âåðõíèõ óðîâíÿõ èåðàðõèè ïóáëèêàöèé
-ls_expose=Íàâåðõ+
-always_on_page=Âñåãäà ïîêàçûâàòü íà ñòðàíèöå
-ls_always_on_page=+Âñåãäà
+header=Ð’ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+footer=ÐÐ¸Ð¶Ð½Ð¸Ð¹ Ñ€Ð°Ð·Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ
+expose=ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð²ÑÐ·ÐºÑƒ Ð½Ð° Ð²ÐµÑ€Ñ…Ð½Ð¸Ñ… ÑƒÑ€Ð¾Ð²Ð½ÑÑ… Ð¸ÐµÑ€Ð°Ñ€Ñ…Ð¸Ð¸ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¹
+ls_expose=ÐÐ°Ð²ÐµÑ€Ñ…+
+always_on_page=Ð’ÑÐµÐ³Ð´Ð° Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ
+ls_always_on_page=+Ð’ÑÐµÐ³Ð´Ð°
 ls_include_template = XSL+
-enable_comments = Ðàçðåøèòü êîììåíòàðèè
+enable_comments = Ð Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸
 ##page_id_caption_tree_root = root
-navigation = Íàâèãàöèîííàÿ ñòðîêà
-ls_navigation = Íàâèãàöèÿ+
+navigation = ÐÐ°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ°
+ls_navigation = ÐÐ°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ñ+
 
-tags_ua = Òåãè (óêð.)
-tags_ru = Òåãè (ðîñ.)
-tags_en = Òåãè (eng.)
+tags_ua = Ð¢ÐµÐ³Ð¸ (ÑƒÐºÑ€.)
+tags_ru = Ð¢ÐµÐ³Ð¸ (Ñ€Ð¾Ñ.)
+tags_en = Ð¢ÐµÐ³Ð¸ (eng.)
 
 [CONTEXT]
-publicationedit = Ðåäàêòèðîâàòü
-publicationactivate = Àêòèâèðîâàòü (ðóñ)
-publicationdeactivate = Äåàêòèâèðîâàòü (ðóñ)
-publicationdelete = Óäàëèòü
-publicationdelete_confirm = Âû óâåðåíû ÷òî õîäèòå óäàëèòü ïóáëèêàöèþ?
+publicationedit = Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ
+publicationactivate = ÐÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ (Ñ€ÑƒÑ)
+publicationdeactivate = Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ (Ñ€ÑƒÑ)
+publicationdelete = Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ
+publicationdelete_confirm = Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹ Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ð´Ð¸Ñ‚Ðµ ÑƒÐ´Ð°Ð»Ð¸Ñ‚ÑŒ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸ÑŽ?
 
 **/
 ?>

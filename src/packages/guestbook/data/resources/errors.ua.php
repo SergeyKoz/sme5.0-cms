@@ -1,9 +1,9 @@
 <?/*
 [MESSAGES]
-MESSAGE_ADDED=Âàøå ïîâ³äîìëåííÿ áóëî äîäàíå.
+MESSAGE_ADDED=Ð’Ð°ÑˆÐµ Ð¿Ð¾Ð²Ñ–Ð´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð±ÑƒÐ»Ð¾ Ð´Ð¾Ð´Ð°Ð½Ðµ.
 
 [GB_MESSAGE_FORM]
-INVALID_LENGTH_field_1=Ââåä³òü Âàø ï³äïèñ
-INVALID_LENGTH_field_2=Ââåä³òü ïîâ³äîìëåííÿ
-INVALID_LENGTH_field_3=Ââåä³òü e-mail
+INVALID_LENGTH_field_1=Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð’Ð°Ñˆ Ð¿Ñ–Ð´Ð¿Ð¸Ñ
+INVALID_LENGTH_field_2=Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð¿Ð¾Ð²Ñ–Ð´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ
+INVALID_LENGTH_field_3=Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ e-mail
 */?>

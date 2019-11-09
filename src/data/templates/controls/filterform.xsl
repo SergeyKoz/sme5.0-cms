@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:output method="html" version="1.0" encoding="windows-1251" omit-xml-declaration="no" media-type="text/html"/>
+	<xsl:output method="html" version="1.0" encoding="utf-8" omit-xml-declaration="no" media-type="text/html"/>
 	<xsl:template match="filterform">
 		<xsl:if test="control and (((../handler/last_level !='yes') or not (../handler/last_level)) and (../handler/disable_lastlevel_list='no'))">
 			<BR/>

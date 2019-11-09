@@ -20,7 +20,7 @@ class EmailTemplate
      * Mail encoding
      * var string $Encoding
      */
-    var $Encoding = "windows-1251";
+    var $Encoding = "utf-8";
 
     /**
      * Content type of emails

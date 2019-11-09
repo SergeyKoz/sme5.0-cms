@@ -1,195 +1,195 @@
 <?php /**
 [MAIN]
-sitemap_caption = ìàïè ñàéòà
+sitemap_caption = Ð¼Ð°Ð¿Ð¸ ÑÐ°Ð¹Ñ‚Ð°
 
 [StructurePage]
-_PageTitle=Ñòðóêòóðà ñàéòó :: Ñòðóêòóðà, íàëàøòóâàííÿ
-_confirm_move_page=Ïåðåì³ñòèòè ñòîð³íêó ³ âñ³ âêëàäåí³ ñòîð³íêè ó
-_confirm_delete_page=Âèäàëèòè öþ ñòîð³íêó ³ âñ³ âêëàäåí³?
-_confirm_delete_publications=Âè ä³éñíî õî÷åòå âèäàëèòè ÂÑ² ïóáë³êàö³¿ íà ñòîð³íö³?
-_caption_add_page=Äîäàòè íîâó ñòîð³íêó
+_PageTitle=Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° ÑÐ°Ð¹Ñ‚Ñƒ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°, Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ
+_confirm_move_page=ÐŸÐµÑ€ÐµÐ¼Ñ–ÑÑ‚Ð¸Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ñ– Ð²ÑÑ– Ð²ÐºÐ»Ð°Ð´ÐµÐ½Ñ– ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ Ñƒ
+_confirm_delete_page=Ð’Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸ Ñ†ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ñ– Ð²ÑÑ– Ð²ÐºÐ»Ð°Ð´ÐµÐ½Ñ–?
+_confirm_delete_publications=Ð’Ð¸ Ð´Ñ–Ð¹ÑÐ½Ð¾ Ñ…Ð¾Ñ‡ÐµÑ‚Ðµ Ð²Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸ Ð’Ð¡Ð† Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ñ— Ð½Ð° ÑÑ‚Ð¾Ñ€Ñ–Ð½Ñ†Ñ–?
+_caption_add_page=Ð”Ð¾Ð´Ð°Ñ‚Ð¸ Ð½Ð¾Ð²Ñƒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ
 
-_contextmenu_section_publications=Ïóáë³êàö³¿
-_contextmenu_create_publications=Ñòâîðèòè ïóáë³êàö³¿ òèïó
-_contextmenu_remove_publications=Âèäàëèòè ïóáë³êàö³¿
-_contextmenu_edit_publications=Ðåäàãóâàòè ïóáë³êàö³¿
-_contextmenu_section_edit=Ðåäàãóâàííÿ ñòîð³íêè
-_contextmenu_edit=Ðåäàãóâàííÿ çì³ñòó ñòîð³íêè
-_contextmenu_edit_ru=Ðåäàãóâàííÿ çì³ñòó ñòîð³íêè (ðîñ)
-_contextmenu_edit_ua=Ðåäàãóâàííÿ çì³ñòó ñòîð³íêè (óêð)
-_contextmenu_edit_en=Ðåäàãóâàííÿ çì³ñòó ñòîð³íêè (àíãë)
-_contextmenu_section_actions=Ä³¿
-_contextmenu_delete=Âèäàëèòè
-_contextmenu_add=Äîäàòè ñòîð³íêó
-_contextmenu_move=Ïåðåì³ñòèòè
-_contextmenu_activate=Àêòèâóâàòè
-_contextmenu_deactivate=Äåàêòèâóâàòè
-_contextmenu_activate_branch=Àêòèâóâàòè ã³ëêó
-_contextmenu_deactivate_branch=Äåàêòèâóâàòè ã³ëêó
-_contextmenu_properties=Âëàñòèâîñò³ ñòîð³íêè
-_contextmenu_caption=Ìåíþ
+_contextmenu_section_publications=ÐŸÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ñ—
+_contextmenu_create_publications=Ð¡Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ñ— Ñ‚Ð¸Ð¿Ñƒ
+_contextmenu_remove_publications=Ð’Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸ Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ñ—
+_contextmenu_edit_publications=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ñ‚Ð¸ Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ñ—
+_contextmenu_section_edit=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_contextmenu_edit=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð·Ð¼Ñ–ÑÑ‚Ñƒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_contextmenu_edit_ru=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð·Ð¼Ñ–ÑÑ‚Ñƒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (Ñ€Ð¾Ñ)
+_contextmenu_edit_ua=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð·Ð¼Ñ–ÑÑ‚Ñƒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (ÑƒÐºÑ€)
+_contextmenu_edit_en=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð·Ð¼Ñ–ÑÑ‚Ñƒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (Ð°Ð½Ð³Ð»)
+_contextmenu_section_actions=Ð”Ñ–Ñ—
+_contextmenu_delete=Ð’Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸
+_contextmenu_add=Ð”Ð¾Ð´Ð°Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ
+_contextmenu_move=ÐŸÐµÑ€ÐµÐ¼Ñ–ÑÑ‚Ð¸Ñ‚Ð¸
+_contextmenu_activate=ÐÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸
+_contextmenu_deactivate=Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸
+_contextmenu_activate_branch=ÐÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ð³Ñ–Ð»ÐºÑƒ
+_contextmenu_deactivate_branch=Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ð³Ñ–Ð»ÐºÑƒ
+_contextmenu_properties=Ð’Ð»Ð°ÑÑ‚Ð¸Ð²Ð¾ÑÑ‚Ñ– ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_contextmenu_caption=ÐœÐµÐ½ÑŽ
 
-_tooltip_activate=Çðîáèòè ñòîð³íêó äîñòóïíîþ
-_tooltip_deactivate=Çðîáèòè ñòîð³íêó íå äîñòóïíîþ
-_tooltip_activate_lang=Àêòèâóâàòè ìîâíó âåðñ³þ ñòîð³íêè
-_tooltip_deactivate_lang=Äåàêòèâóâàòè ìîâíó âåðñ³þ ñòîð³íêè
-_tooltip_activate_ru=Àêòèâóâàòè ðîñ³éñüêó âåðñ³þ ñòîð³íêè
-_tooltip_activate_ua=Àêòèâóâàòè óêðà¿íñüêó âåðñ³þ ñòîð³íêè
-_tooltip_activate_en=Àêòèâóâàòè àíãë³éñüêó âåðñ³þ ñòîð³íêè
-_tooltip_deactivate_ru=Äåàêòèâóâàòè ðîñ³éñüêó âåðñ³þ ñòîð³íêè
-_tooltip_deactivate_ua=Äåàêòèâóâàòè óêðà¿íñüêó âåðñ³þ ñòîð³íêè
-_tooltip_deactivate_en=Äåàêòèâóâàòè àíãë³éñüêó âåðñ³þ ñòîð³íêè
-_tooltip_move_up=Ïåðåì³ñòèòè âãîðó
-_tooltip_move_down=Ïåðåì³ñòèòè âíèç
+_tooltip_activate=Ð—Ñ€Ð¾Ð±Ð¸Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ÑŽ
+_tooltip_deactivate=Ð—Ñ€Ð¾Ð±Ð¸Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ð½Ðµ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ÑŽ
+_tooltip_activate_lang=ÐÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ð¼Ð¾Ð²Ð½Ñƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_deactivate_lang=Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ð¼Ð¾Ð²Ð½Ñƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_activate_ru=ÐÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ñ€Ð¾ÑÑ–Ð¹ÑÑŒÐºÑƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_activate_ua=ÐÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÑƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_activate_en=ÐÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ð°Ð½Ð³Ð»Ñ–Ð¹ÑÑŒÐºÑƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_deactivate_ru=Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ñ€Ð¾ÑÑ–Ð¹ÑÑŒÐºÑƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_deactivate_ua=Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÑƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_deactivate_en=Ð”ÐµÐ°ÐºÑ‚Ð¸Ð²ÑƒÐ²Ð°Ñ‚Ð¸ Ð°Ð½Ð³Ð»Ñ–Ð¹ÑÑŒÐºÑƒ Ð²ÐµÑ€ÑÑ–ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_tooltip_move_up=ÐŸÐµÑ€ÐµÐ¼Ñ–ÑÑ‚Ð¸Ñ‚Ð¸ Ð²Ð³Ð¾Ñ€Ñƒ
+_tooltip_move_down=ÐŸÐµÑ€ÐµÐ¼Ñ–ÑÑ‚Ð¸Ñ‚Ð¸ Ð²Ð½Ð¸Ð·
 
 [PropsPage]
-_PageTitle=Ðåäàãóâàííÿ âëàñòèâîñòåé ñòîðiíêè :: Ñòðóêòóðà, íàëàøòóâàííÿ òà íîâèíè
-_title_edit_properties=Ðåäàãóâàííÿ âëàñòèâîñòåé ñòîð³íêè :: Ñòðóêòóðà, íàëàøòóâàííÿ òà íîâèíè
-_title_page_activity=Àêòèâíà
-_title_page_system_name=Ñèñòåìíå ³ì'ÿ ñòîð³íêè
-##_title_active_in_ru_version=Àêòèâíà â ðîñ³éñüê³é âåðñ³¿
-##_title_active_in_ua_version=Àêòèâíà â óêðà¿íñüê³é âåðñ³¿
-##_title_active_in_en_version=Àêòèâíà â àíãë³éñüê³é âåðñ³¿
-_title_page_title=Çàãîëîâîê ñòîð³íêè
-##_title_page_title_in_ru_version=Çàãîëîâîê ñòîð³íêè â ðîñ³éñüê³é âåðñ³¿
-##_title_page_title_in_ua_version=Çàãîëîâîê ñòîð³íêè â óêðà¿íñüê³é âåðñ³¿
-##_title_page_title_in_en_version=Çàãîëîâîê ñòîð³íêè â àíãë³éñüê³é âåðñ³¿
-_title_show_in_top_menu=Ïîêàçóâàòè ó âåðõíüîìó ìåíþ
-_title_show_in_bottom_menu=Ïîêàçóâàòè ó íèæíüîìó ìåíþ
-_title_show_in_page_menu=Ïîêàçóâàòè â ìåíþ ñòîð³íêè
-_title_show_in_sitemap=Ïîêàçóâàòè â êàðò³ ñàéòó
-_caption_save=Çáåðåãòè
-_confirm_save_page_properties=Çáåðåãòè âëàñòèâîñò³ ñòîð³íêè?
-_confirm_cancel_properties_page=Â³äì³íèòè?
-_title_page_banners=Áàííåðè íà ñòîð³íö³
-_caption_cancel=Â³äì³íà
+_PageTitle=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð²Ð»Ð°ÑÑ‚Ð¸Ð²Ð¾ÑÑ‚ÐµÐ¹ ÑÑ‚Ð¾Ñ€iÐ½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°, Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚Ð° Ð½Ð¾Ð²Ð¸Ð½Ð¸
+_title_edit_properties=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð²Ð»Ð°ÑÑ‚Ð¸Ð²Ð¾ÑÑ‚ÐµÐ¹ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°, Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚Ð° Ð½Ð¾Ð²Ð¸Ð½Ð¸
+_title_page_activity=ÐÐºÑ‚Ð¸Ð²Ð½Ð°
+_title_page_system_name=Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ðµ Ñ–Ð¼'Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+##_title_active_in_ru_version=ÐÐºÑ‚Ð¸Ð²Ð½Ð° Ð² Ñ€Ð¾ÑÑ–Ð¹ÑÑŒÐºÑ–Ð¹ Ð²ÐµÑ€ÑÑ–Ñ—
+##_title_active_in_ua_version=ÐÐºÑ‚Ð¸Ð²Ð½Ð° Ð² ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÑ–Ð¹ Ð²ÐµÑ€ÑÑ–Ñ—
+##_title_active_in_en_version=ÐÐºÑ‚Ð¸Ð²Ð½Ð° Ð² Ð°Ð½Ð³Ð»Ñ–Ð¹ÑÑŒÐºÑ–Ð¹ Ð²ÐµÑ€ÑÑ–Ñ—
+_title_page_title=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+##_title_page_title_in_ru_version=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ Ð² Ñ€Ð¾ÑÑ–Ð¹ÑÑŒÐºÑ–Ð¹ Ð²ÐµÑ€ÑÑ–Ñ—
+##_title_page_title_in_ua_version=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ Ð² ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÑ–Ð¹ Ð²ÐµÑ€ÑÑ–Ñ—
+##_title_page_title_in_en_version=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ Ð² Ð°Ð½Ð³Ð»Ñ–Ð¹ÑÑŒÐºÑ–Ð¹ Ð²ÐµÑ€ÑÑ–Ñ—
+_title_show_in_top_menu=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð²ÐµÑ€Ñ…Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+_title_show_in_bottom_menu=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð½Ð¸Ð¶Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+_title_show_in_page_menu=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² Ð¼ÐµÐ½ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_title_show_in_sitemap=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² ÐºÐ°Ñ€Ñ‚Ñ– ÑÐ°Ð¹Ñ‚Ñƒ
+_caption_save=Ð—Ð±ÐµÑ€ÐµÐ³Ñ‚Ð¸
+_confirm_save_page_properties=Ð—Ð±ÐµÑ€ÐµÐ³Ñ‚Ð¸ Ð²Ð»Ð°ÑÑ‚Ð¸Ð²Ð¾ÑÑ‚Ñ– ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸?
+_confirm_cancel_properties_page=Ð’Ñ–Ð´Ð¼Ñ–Ð½Ð¸Ñ‚Ð¸?
+_title_page_banners=Ð‘Ð°Ð½Ð½ÐµÑ€Ð¸ Ð½Ð° ÑÑ‚Ð¾Ñ€Ñ–Ð½Ñ†Ñ–
+_caption_cancel=Ð’Ñ–Ð´Ð¼Ñ–Ð½Ð°
 
 
 
 
 [NewPage]
-_title_add_new_page=Äîäàâàííÿ íîâî¿ ñòîð³íêè :: Ñòðóêòóðà, íàëàøòóâàííÿ òà íîâèíè
-_PageTitle=Äîäàâàííÿ íîâî¿ ñòîð³íêè :: Ñòðóêòóðà, íàëàøòóâàííÿ òà íîâèíè
-_title_add_new_page_to=Äîäàòè ñòîð³íêó ó
-_title_add_publications_to_page=Äîäàòè íà ñòîð³íêó ïóáë³êàö³¿
-_tree_root=Êîð³íü
-_title_page_activity=Àêòèâíà
-_title_page_system_name=Ñèñòåìíå ³ì'ÿ ñòîð³íêè
-_title_page_title=Çàãîëîâîê ñòîð³íêè
-_title_show_in_top_menu=Ïîêàçóâàòè ó âåðõíüîìó ìåíþ
-_title_show_in_bottom_menu=Ïîêàçóâàòè ó íèæíüîìó ìåíþ
-_title_show_in_page_menu=Ïîêàçóâàòè â ìåíþ ñòîð³íêè
-_title_show_in_sitemap=Ïîêàçóâàòè â êàðò³ ñàéòó
-_caption_save=Çáåðåãòè
-_confirm_add_new_page=Äîäàòè ñòîð³íêó?
-_title_page_banners=Áàííåðè íà ñòîð³íö³
-_caption_no_publications=Áåç ïóáë³êàö³é
+_title_add_new_page=Ð”Ð¾Ð´Ð°Ð²Ð°Ð½Ð½Ñ Ð½Ð¾Ð²Ð¾Ñ— ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°, Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚Ð° Ð½Ð¾Ð²Ð¸Ð½Ð¸
+_PageTitle=Ð”Ð¾Ð´Ð°Ð²Ð°Ð½Ð½Ñ Ð½Ð¾Ð²Ð¾Ñ— ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°, Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚Ð° Ð½Ð¾Ð²Ð¸Ð½Ð¸
+_title_add_new_page_to=Ð”Ð¾Ð´Ð°Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ñƒ
+_title_add_publications_to_page=Ð”Ð¾Ð´Ð°Ñ‚Ð¸ Ð½Ð° ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ñ—
+_tree_root=ÐšÐ¾Ñ€Ñ–Ð½ÑŒ
+_title_page_activity=ÐÐºÑ‚Ð¸Ð²Ð½Ð°
+_title_page_system_name=Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ðµ Ñ–Ð¼'Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_title_page_title=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_title_show_in_top_menu=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð²ÐµÑ€Ñ…Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+_title_show_in_bottom_menu=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð½Ð¸Ð¶Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+_title_show_in_page_menu=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² Ð¼ÐµÐ½ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_title_show_in_sitemap=ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² ÐºÐ°Ñ€Ñ‚Ñ– ÑÐ°Ð¹Ñ‚Ñƒ
+_caption_save=Ð—Ð±ÐµÑ€ÐµÐ³Ñ‚Ð¸
+_confirm_add_new_page=Ð”Ð¾Ð´Ð°Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ?
+_title_page_banners=Ð‘Ð°Ð½Ð½ÐµÑ€Ð¸ Ð½Ð° ÑÑ‚Ð¾Ñ€Ñ–Ð½Ñ†Ñ–
+_caption_no_publications=Ð‘ÐµÐ· Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ°Ñ†Ñ–Ð¹
 
 [MovePage]
-_title_page_move=Îáåð³òü ñòîð³íêó, â ñåðåäèíó ÿêî¿ âè õî÷åòå ïåðåì³ñòèòè
-_title_page_move2=Ïåðåì³ùåííÿ ñòîð³íêè
-_PageTitle=Ïåðåì³ùåííÿ ñòîð³íêè :: Ñòðóêòóðà, íàëàøòóâàííÿ òà íîâèíè
-_confirm_move_page=Âè âïåâíåíi ùî áàæàåòå ïåðåìiñòèòè ñòîðiíêó
-_tree_root = Êîð³íü
+_title_page_move=ÐžÐ±ÐµÑ€Ñ–Ñ‚ÑŒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ, Ð² ÑÐµÑ€ÐµÐ´Ð¸Ð½Ñƒ ÑÐºÐ¾Ñ— Ð²Ð¸ Ñ…Ð¾Ñ‡ÐµÑ‚Ðµ Ð¿ÐµÑ€ÐµÐ¼Ñ–ÑÑ‚Ð¸Ñ‚Ð¸
+_title_page_move2=ÐŸÐµÑ€ÐµÐ¼Ñ–Ñ‰ÐµÐ½Ð½Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_PageTitle=ÐŸÐµÑ€ÐµÐ¼Ñ–Ñ‰ÐµÐ½Ð½Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°, Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ñ‚Ð° Ð½Ð¾Ð²Ð¸Ð½Ð¸
+_confirm_move_page=Ð’Ð¸ Ð²Ð¿ÐµÐ²Ð½ÐµÐ½i Ñ‰Ð¾ Ð±Ð°Ð¶Ð°ÐµÑ‚Ðµ Ð¿ÐµÑ€ÐµÐ¼iÑÑ‚Ð¸Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€iÐ½ÐºÑƒ
+_tree_root = ÐšÐ¾Ñ€Ñ–Ð½ÑŒ
 
 [EditContentPage]
-_PageTitle=Ðåäàãóâàííÿ çìicòó ñòîðiíêè :: Ñòðóêòóðà ñàéòà
-_confirm_save_content=Çáåðåãòè?
-_confirm_close_content_editor=Çàêðèòè ðåäàêòîð?
-_title_edit_page_content=Ðåäàãóâàííÿ âì³ñò ñòîð³íêè
-_title_edit_page_content_language=Ìîâà ñòîð³íêè
-_caption_save=Çáåðåãòè
-_caption_close=Çàêðèòè
+_PageTitle=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð·Ð¼icÑ‚Ñƒ ÑÑ‚Ð¾Ñ€iÐ½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° ÑÐ°Ð¹Ñ‚Ð°
+_confirm_save_content=Ð—Ð±ÐµÑ€ÐµÐ³Ñ‚Ð¸?
+_confirm_close_content_editor=Ð—Ð°ÐºÑ€Ð¸Ñ‚Ð¸ Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¾Ñ€?
+_title_edit_page_content=Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð²Ð¼Ñ–ÑÑ‚ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_title_edit_page_content_language=ÐœÐ¾Ð²Ð° ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+_caption_save=Ð—Ð±ÐµÑ€ÐµÐ³Ñ‚Ð¸
+_caption_close=Ð—Ð°ÐºÑ€Ð¸Ñ‚Ð¸
 
 [EDITCONTENT]
-_EDIT_TITLE = Ðåäàãóâàííÿ çì³ñòó ñòîð³íêè :: Ñòðóêòóðà
-content_ru = Êîíòåíò ñòîð³íêè (Ðîñ)
-content_ua = Êîíòåíò ñòîð³íêè (Óêð)
-content_en = Êîíòåíò ñòîð³íêè (Àíã)
+_EDIT_TITLE = Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð·Ð¼Ñ–ÑÑ‚Ñƒ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°
+content_ru = ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (Ð Ð¾Ñ)
+content_ua = ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (Ð£ÐºÑ€)
+content_en = ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (ÐÐ½Ð³)
 lng =
-tag_en = Òåãè (Àíã)
-tag_ua = Òåãè (Óêð)
-tag_ru = Òåãè (Ðîñ)
+tag_en = Ð¢ÐµÐ³Ð¸ (ÐÐ½Ð³)
+tag_ua = Ð¢ÐµÐ³Ð¸ (Ð£ÐºÑ€)
+tag_ru = Ð¢ÐµÐ³Ð¸ (Ð Ð¾Ñ)
 
 
 [NEW]
-_EDIT_TITLE=Ñòðóêòóðà ñàéòó::Äîäàâàííÿ íîâî¿ ñòîð³íêè
-GROUP_TITLE = Äîäàòêîâ³ ôóíêö³¿
-name = Ñèñòåìíå ³ì'ÿ ñòîð³íêè
-title = Çàãîëîâîê ñòîð³íêè
-show_in_top_menu = Ïîêàçóâàòè ó âåðõíüîìó ìåíþ
-show_in_page_menu = Ïîêàçóâàòè â ìåíþ ñòîð³íêè
-show_in_bottom_menu = Ïîêàçóâàòè ó íèæíüîìó ìåíþ
-show_in_sitemap = Ïîêàçóâàòè â êàðò³ ñàéòó
-active = Àêòèâíà
-banner_id = Áàíåðè ñòîð³íêè
-parent_id = Äîäàòè ñòîð³íêó ó
-parent_id_caption_tree_root = Êîð³íü
-point_type = Â³äêðèâàòè ñòîð³íêó
-OPTIONS_POINT_TYPE = Ïî çàìîâ÷àííþ|default
-OPTIONS_POINT_TYPE = Â íîâîìó â³êí³|blank
-point_page = Êëàññ ñòîð³íêè
-point_php_code = Äîäàòêîâèé PHP êîä
+_EDIT_TITLE=Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° ÑÐ°Ð¹Ñ‚Ñƒ::Ð”Ð¾Ð´Ð°Ð²Ð°Ð½Ð½Ñ Ð½Ð¾Ð²Ð¾Ñ— ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+GROUP_TITLE = Ð”Ð¾Ð´Ð°Ñ‚ÐºÐ¾Ð²Ñ– Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ—
+name = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ðµ Ñ–Ð¼'Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+title = Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+show_in_top_menu = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð²ÐµÑ€Ñ…Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+show_in_page_menu = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² Ð¼ÐµÐ½ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+show_in_bottom_menu = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð½Ð¸Ð¶Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+show_in_sitemap = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² ÐºÐ°Ñ€Ñ‚Ñ– ÑÐ°Ð¹Ñ‚Ñƒ
+active = ÐÐºÑ‚Ð¸Ð²Ð½Ð°
+banner_id = Ð‘Ð°Ð½ÐµÑ€Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+parent_id = Ð”Ð¾Ð´Ð°Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ Ñƒ
+parent_id_caption_tree_root = ÐšÐ¾Ñ€Ñ–Ð½ÑŒ
+point_type = Ð’Ñ–Ð´ÐºÑ€Ð¸Ð²Ð°Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ
+OPTIONS_POINT_TYPE = ÐŸÐ¾ Ð·Ð°Ð¼Ð¾Ð²Ñ‡Ð°Ð½Ð½ÑŽ|default
+OPTIONS_POINT_TYPE = Ð’ Ð½Ð¾Ð²Ð¾Ð¼Ñƒ Ð²Ñ–ÐºÐ½Ñ–|blank
+point_page = ÐšÐ»Ð°ÑÑ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+point_php_code = Ð”Ð¾Ð´Ð°Ñ‚ÐºÐ¾Ð²Ð¸Ð¹ PHP ÐºÐ¾Ð´
 
-active_ru=Àêòèâíà (ðîñ)
-active_ua=Àêòèâíà (óêð)
-active_en=Àêòèâíà (àíãë)
-title_ru=Çàãîëîâîê ñòðàíèöû (ðîñ)
-title_ua=Çàãîëîâîê ñòðàíèöû (óêð)
-title_en=Çàãîëîâîê ñòðàíèöû (àíãë)
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ñ€Ð¾Ñ)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³Ð»)
+title_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ (Ñ€Ð¾Ñ)
+title_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ (ÑƒÐºÑ€)
+title_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ (Ð°Ð½Ð³Ð»)
 
-meta_keywords_ru = Meta-keywords (ðîñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðîñ.)
-meta_description_en = Meta-description (àíã.)
-meta_description_ua = Meta-description (óêð.)
-meta_title_ru = SEO title (ðîñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
+meta_keywords_ru = Meta-keywords (Ñ€Ð¾Ñ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€Ð¾Ñ.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_title_ru = SEO title (Ñ€Ð¾Ñ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
 
-enable_comments = Äîçâîëèòè êîìåíòàð³
+enable_comments = Ð”Ð¾Ð·Ð²Ð¾Ð»Ð¸Ñ‚Ð¸ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ–
 
 [PROPS]
-_EDIT_TITLE=Ñòðóêòóðà ñàéòó::Ðåäàãóâàííÿ âëàñòèâîñòåé ñòîðiíêè
-GROUP_TITLE = Äîäàòêîâ³ ôóíêö³¿
-name = Ñèñòåìíå ³ì'ÿ ñòîð³íêè
-title = Çàãîëîâîê ñòîð³íêè
-show_in_top_menu = Ïîêàçóâàòè ó âåðõíüîìó ìåíþ
-show_in_page_menu = Ïîêàçóâàòè â ìåíþ ñòîð³íêè
-show_in_bottom_menu = Ïîêàçóâàòè ó íèæíüîìó ìåíþ
-show_in_sitemap = Ïîêàçóâàòè â êàðò³ ñàéòó
-active = Àêòèâíà
-banner_id = Áàíåðè ñòîð³íêè
-point_type = Â³äêðèâàòè ñòîð³íêó
-OPTIONS_POINT_TYPE = Ïî çàìîâ÷àííþ|default
-OPTIONS_POINT_TYPE = Â íîâîìó â³êí³|blank
-point_page = Êëàññ ñòîð³íêè
-point_php_code = Äîäàòêîâèé PHP êîä
+_EDIT_TITLE=Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° ÑÐ°Ð¹Ñ‚Ñƒ::Ð ÐµÐ´Ð°Ð³ÑƒÐ²Ð°Ð½Ð½Ñ Ð²Ð»Ð°ÑÑ‚Ð¸Ð²Ð¾ÑÑ‚ÐµÐ¹ ÑÑ‚Ð¾Ñ€iÐ½ÐºÐ¸
+GROUP_TITLE = Ð”Ð¾Ð´Ð°Ñ‚ÐºÐ¾Ð²Ñ– Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ—
+name = Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ðµ Ñ–Ð¼'Ñ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+title = Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+show_in_top_menu = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð²ÐµÑ€Ñ…Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+show_in_page_menu = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² Ð¼ÐµÐ½ÑŽ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+show_in_bottom_menu = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ñƒ Ð½Ð¸Ð¶Ð½ÑŒÐ¾Ð¼Ñƒ Ð¼ÐµÐ½ÑŽ
+show_in_sitemap = ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð² ÐºÐ°Ñ€Ñ‚Ñ– ÑÐ°Ð¹Ñ‚Ñƒ
+active = ÐÐºÑ‚Ð¸Ð²Ð½Ð°
+banner_id = Ð‘Ð°Ð½ÐµÑ€Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+point_type = Ð’Ñ–Ð´ÐºÑ€Ð¸Ð²Ð°Ñ‚Ð¸ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÑƒ
+OPTIONS_POINT_TYPE = ÐŸÐ¾ Ð·Ð°Ð¼Ð¾Ð²Ñ‡Ð°Ð½Ð½ÑŽ|default
+OPTIONS_POINT_TYPE = Ð’ Ð½Ð¾Ð²Ð¾Ð¼Ñƒ Ð²Ñ–ÐºÐ½Ñ–|blank
+point_page = ÐšÐ»Ð°ÑÑ ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+point_php_code = Ð”Ð¾Ð´Ð°Ñ‚ÐºÐ¾Ð²Ð¸Ð¹ PHP ÐºÐ¾Ð´
 
-active_ru=Àêòèâíà (ðîñ)
-active_ua=Àêòèâíà (óêð)
-active_en=Àêòèâíà (àíãë)
-title_ru=Çàãîëîâîê ñòîð³íêè (ðîñ)
-title_ua=Çàãîëîâîê ñòîð³íêè (óêð)
-title_en=Çàãîëîâîê ñòîð³íêè (àíãë)
+active_ru=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ñ€Ð¾Ñ)
+active_ua=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (ÑƒÐºÑ€)
+active_en=ÐÐºÑ‚Ð¸Ð²Ð½Ð° (Ð°Ð½Ð³Ð»)
+title_ru=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (Ñ€Ð¾Ñ)
+title_ua=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (ÑƒÐºÑ€)
+title_en=Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº ÑÑ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸ (Ð°Ð½Ð³Ð»)
 lng =
 
-meta_keywords_ru = Meta-keywords (ðîñ.)
-meta_keywords_en = Meta-keywords (àíã.)
-meta_keywords_ua = Meta-keywords (óêð.)
-meta_description_ru = Meta-description (ðîñ.)
-meta_description_en = Meta-description (àíã.)
-meta_description_ua = Meta-description (óêð.)
-meta_title_ru = SEO title (ðîñ.)
-meta_title_ua = SEO title (óêð.)
-meta_title_en = SEO title (àíã.)
+meta_keywords_ru = Meta-keywords (Ñ€Ð¾Ñ.)
+meta_keywords_en = Meta-keywords (Ð°Ð½Ð³.)
+meta_keywords_ua = Meta-keywords (ÑƒÐºÑ€.)
+meta_description_ru = Meta-description (Ñ€Ð¾Ñ.)
+meta_description_en = Meta-description (Ð°Ð½Ð³.)
+meta_description_ua = Meta-description (ÑƒÐºÑ€.)
+meta_title_ru = SEO title (Ñ€Ð¾Ñ.)
+meta_title_ua = SEO title (ÑƒÐºÑ€.)
+meta_title_en = SEO title (Ð°Ð½Ð³.)
 
-enable_comments = Äîçâîëèòè êîìåíòàð³
+enable_comments = Ð”Ð¾Ð·Ð²Ð¾Ð»Ð¸Ñ‚Ð¸ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ–
 
 [CHANGEMENU]
-_EDIT_TITLE = Çì³íà %s :: Ñòðóêòóðà
-page_id = Äåðåâî ñòîð³íîê
+_EDIT_TITLE = Ð—Ð¼Ñ–Ð½Ð° %s :: Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð°
+page_id = Ð”ÐµÑ€ÐµÐ²Ð¾ ÑÑ‚Ð¾Ñ€Ñ–Ð½Ð¾Ðº
 menu =
 
 

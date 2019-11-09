@@ -129,9 +129,9 @@ enable_comments = Enable comments
 
 [EDITCONTENT]
 _EDIT_TITLE = Edit page content :: Structure
-content_ru = Page content (Ğóñ)
-content_ua = Page content (Óêğ)
-content_en = Page content (Àíã)
+content_ru = Page content (Ğ ÑƒÑ)
+content_ua = Page content (Ğ£ĞºÑ€)
+content_en = Page content (ĞĞ½Ğ³)
 lng =
 tag_en = Tags (Eng)
 tag_ua = Tags (Ukr)

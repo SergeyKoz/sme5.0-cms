@@ -60,7 +60,7 @@
       $init_data["QUERY_STRING"]=$QUERY_STRING;
       if ($init_data["hlbeg"] == '') {$init_data["hlbeg"]='<font color="000088"><b>';}
       if ($init_data["hlend"] == '') $init_data["hlend"]="</b></font>";
-      $init_data["BrowserCharset"]="windows-1251";
+      $init_data["BrowserCharset"]="utf-8";
       $init_data["trackquery"]=0;
       if ($init_data["ps"]=="") $init_data["ps"]=20;
       if ($init_data["np"]=="") $init_data["np"]=0;

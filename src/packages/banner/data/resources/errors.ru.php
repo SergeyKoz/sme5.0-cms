@@ -1,8 +1,8 @@
 <?/**
 [CONTEXT_MESSAGES]
-CTX_BANNER_DEACTIVATED = Áàííåð äåàêòèâèðîâàí
-CTX_BANNER_DELETED = Áàííåð óäàëåí
-CTX_BANNER_LANGUAGE_DEACTIVATED = Áàííåð (Ðóñ) äåàêòèâèðîâàí
+CTX_BANNER_DEACTIVATED = Ð‘Ð°Ð½Ð½ÐµÑ€ Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½
+CTX_BANNER_DELETED = Ð‘Ð°Ð½Ð½ÐµÑ€ ÑƒÐ´Ð°Ð»ÐµÐ½
+CTX_BANNER_LANGUAGE_DEACTIVATED = Ð‘Ð°Ð½Ð½ÐµÑ€ (Ð ÑƒÑ) Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½
 
 **/
 ?>

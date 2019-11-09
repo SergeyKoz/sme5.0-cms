@@ -306,7 +306,7 @@ class FeedbackFormControl extends XmlControl {
              $mail_body = $this->RenderEmailTemplate();
              if($this->selected_department["encoding"]=="koi8-r"){
                 if($this->selected_department["content_type"]==1){// if html
-                     $mail_body = str_replace("text/html; charset=windows-1251", "text/html; charset=koi8-r", $mail_body);
+                     $mail_body = str_replace("text/html; charset=utf-8", "text/html; charset=koi8-r", $mail_body);
                 }
                 $mail_body = convert_cyr_string($mail_body, "w", "k");
              }

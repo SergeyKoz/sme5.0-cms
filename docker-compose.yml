@@ -1,0 +1,31 @@
+version: '3'
+services:
+  php-fpm:
+    build: ./.docker/php-fpm
+    volumes:
+      - ./site:/opt
+      - ./src:/opt/project/engine
+  nginx:
+    image: nginx
+    ports:
+      - 8000:8000
+    volumes:
+      - ./.docker/nginx/conf/default.conf:/etc/nginx/conf.d/default.conf
+      - ./site:/opt
+      - ./src:/opt/project/engine
+    depends_on:
+        - php-fpm
+        - database
+  database:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    volumes:
+      - ./.docker/database/site.sql:/docker-entrypoint-initdb.d/site.sql

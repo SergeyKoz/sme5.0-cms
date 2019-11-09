@@ -1,58 +1,58 @@
-<?/**
+<?php /**
 
 [MAIN]
-comments_posted = Îïóáë³êîâàíî
-comments_add = Äîäàòè êîìåíòàð
-comments_answer = Â³äïîâ³ñòè
-comments_user_name = Èìÿ
-comments_author = Àâòîð
-comments_to_author = â³äïîâ³â êîðèñòîâà÷ó
-comments_caption_1 = Êîìåíòàð
-comments_caption_2 = ñèìâîë³â
-comments_secure_code = Çàõèñíèé êîä
-comments_send = Â³äïðàâèòè
-comments_cancel = Â³äì³íèòè
+comments_posted = ÐžÐ¿ÑƒÐ±Ð»Ñ–ÐºÐ¾Ð²Ð°Ð½Ð¾
+comments_add = Ð”Ð¾Ð´Ð°Ñ‚Ð¸ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€
+comments_answer = Ð’Ñ–Ð´Ð¿Ð¾Ð²Ñ–ÑÑ‚Ð¸
+comments_user_name = Ð˜Ð¼Ñ
+comments_author = ÐÐ²Ñ‚Ð¾Ñ€
+comments_to_author = Ð²Ñ–Ð´Ð¿Ð¾Ð²Ñ–Ð² ÐºÐ¾Ñ€Ð¸ÑÑ‚Ð¾Ð²Ð°Ñ‡Ñƒ
+comments_caption_1 = ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€
+comments_caption_2 = ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ–Ð²
+comments_secure_code = Ð—Ð°Ñ…Ð¸ÑÐ½Ð¸Ð¹ ÐºÐ¾Ð´
+comments_send = Ð’Ñ–Ð´Ð¿Ñ€Ð°Ð²Ð¸Ñ‚Ð¸
+comments_cancel = Ð’Ñ–Ð´Ð¼Ñ–Ð½Ð¸Ñ‚Ð¸
 
-comments_content_group_title_ua = Ñòîð³íêè
-comments_content_group_title_ru = Ñòðàíèöû
+comments_content_group_title_ua = Ð¡Ñ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
+comments_content_group_title_ru = Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹
 comments_content_group_title_en = Pages
 
-comment_published_automaticaly = Êîìåíòàð îïóáë³êîâàíèé àâòîìàòè÷íî
-comment_email_title = Êîìåíòàð ç ñàéòó %s
+comment_published_automaticaly = ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€ Ð¾Ð¿ÑƒÐ±Ð»Ñ–ÐºÐ¾Ð²Ð°Ð½Ð¸Ð¹ Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡Ð½Ð¾
+comment_email_title = ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€ Ð· ÑÐ°Ð¹Ñ‚Ñƒ %s
 
-comment_vote_counted = Âàø ãîëîñ âðàõîâàíî
+comment_vote_counted = Ð’Ð°Ñˆ Ð³Ð¾Ð»Ð¾Ñ Ð²Ñ€Ð°Ñ…Ð¾Ð²Ð°Ð½Ð¾
 
 [COMMENTS]
-_EDIT_TITLE=Êîìåíòàð
-_LIST_TITLE=Ñïèñîê êîìåíòàð³â
-_LIST_LEVEL_UP = Äî ñïèñêó êîìåíòàð³â
+_EDIT_TITLE=ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ–Ð²
+_LIST_LEVEL_UP = Ð”Ð¾ ÑÐ¿Ð¸ÑÐºÑƒ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ–Ð²
 
-comment_id = ¹
-group_id = Ãðóïà êîìåíòàð³â
-posted=Äàòà/×àñ
-article_title=Ñòàòòÿ
-article_id=Íîìåð ñòàòò³
-comment=Êîìåíòàð
-author=Àâòîð
+comment_id = â„–
+group_id = Ð“Ñ€ÑƒÐ¿Ð° ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñ–Ð²
+posted=Ð”Ð°Ñ‚Ð°/Ð§Ð°Ñ
+article_title=Ð¡Ñ‚Ð°Ñ‚Ñ‚Ñ
+article_id=ÐÐ¾Ð¼ÐµÑ€ ÑÑ‚Ð°Ñ‚Ñ‚Ñ–
+comment=ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€
+author=ÐÐ²Ñ‚Ð¾Ñ€
 author_email=E-mail
-author_name=²'ìÿ
-user_id = Êîðèñòóâà÷
-published=Îïóáë³êîâàíèé
-article = Ãðóïà/ñòàòòÿ
-rating = Îö³íêà
-user_id_caption_tree_root = --- Íå îáðàíèé ---
+author_name=Ð†'Ð¼Ñ
+user_id = ÐšÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡
+published=ÐžÐ¿ÑƒÐ±Ð»Ñ–ÐºÐ¾Ð²Ð°Ð½Ð¸Ð¹
+article = Ð“Ñ€ÑƒÐ¿Ð°/ÑÑ‚Ð°Ñ‚Ñ‚Ñ
+rating = ÐžÑ†Ñ–Ð½ÐºÐ°
+user_id_caption_tree_root = --- ÐÐµ Ð¾Ð±Ñ€Ð°Ð½Ð¸Ð¹ ---
 
-filter_group_id = Ãðóïà
-filter_posted = Çà îñòàíí³ N äí³â
-filter_article_title = Íàçâà ñòàòò³
+filter_group_id = Ð“Ñ€ÑƒÐ¿Ð°
+filter_posted = Ð—Ð° Ð¾ÑÑ‚Ð°Ð½Ð½Ñ– N Ð´Ð½Ñ–Ð²
+filter_article_title = ÐÐ°Ð·Ð²Ð° ÑÑ‚Ð°Ñ‚Ñ‚Ñ–
 
 [COMMENTS_VOTES]
 _EDIT_TITLE=
-_LIST_TITLE=Ñïèñîê îö³íîê
-vote_id = ¹
-user = Êîðèñòóâà÷
-vote = Îö³íêà
-_lastmodified = Äàòà/÷àñ
+_LIST_TITLE=Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¾Ñ†Ñ–Ð½Ð¾Ðº
+vote_id = â„–
+user = ÐšÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡
+vote = ÐžÑ†Ñ–Ð½ÐºÐ°
+_lastmodified = Ð”Ð°Ñ‚Ð°/Ñ‡Ð°Ñ
 
 **/
 ?>

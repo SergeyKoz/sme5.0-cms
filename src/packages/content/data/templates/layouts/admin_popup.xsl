@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="windows-1251" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" version="1.0" encoding="windows-1251" omit-xml-declaration="yes"  media-type="text/html"/>
+    <xsl:output method="html" version="1.0" encoding="utf-8" omit-xml-declaration="yes"  media-type="text/html"/>
     <xsl:variable name="request_uri"><xsl:value-of select="/page/@request_uri" /></xsl:variable>
     <xsl:variable name="page_root"><xsl:value-of select="/page/@root" /></xsl:variable>    
     <!--xsl:include href="../admin_leftmenu.xsl"/-->

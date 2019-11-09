@@ -13,7 +13,7 @@ comments_secure_code = Secure code
 comments_send = Send
 comments_cancel = Cancel
 
-comments_content_group_title_ua = Ñòîð³íêè
+comments_content_group_title_ua = Ð¡Ñ‚Ð¾Ñ€Ñ–Ð½ÐºÐ¸
 comments_content_group_title_en = Pages
 
 comment_published_automaticaly = Comment published automaticaly
@@ -26,7 +26,7 @@ _EDIT_TITLE=Comment
 _LIST_TITLE=Comments list
 _LIST_LEVEL_UP = To comments list
 
-comment_id = ¹
+comment_id = â„–
 group_id = Comments group
 posted=Date/Time
 article_title=Article
@@ -48,7 +48,7 @@ filter_article_title = Article title
 [COMMENTS_VOTES]
 _EDIT_TITLE=
 _LIST_TITLE=Votes list
-vote_id = ¹
+vote_id = â„–
 user = User
 vote = Vote
 _lastmodified = Date/time

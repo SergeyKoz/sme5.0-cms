@@ -5,13 +5,13 @@
 sections=Comments
 
 [Comments]
-_title_ru=Комментарии
-_title_ua=Комментарi
+_title_ru=РљРѕРјРјРµРЅС‚Р°СЂРёРё
+_title_ua=РљРѕРјРјРµРЅС‚Р°СЂi
 _title_en=Comments
 
 link_url=?package=comments&page=itemslist&library=comments
-link_title_ru=Комментарии
-link_title_ua=Комментарi
+link_title_ru=РљРѕРјРјРµРЅС‚Р°СЂРёРё
+link_title_ua=РљРѕРјРјРµРЅС‚Р°СЂi
 link_title_en=Comments
 link_image=/img/comments.gif
 link_package=comments

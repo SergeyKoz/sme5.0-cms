@@ -1,8 +1,8 @@
 <?/*
 
 [SEARCH]
-TEXT_IS_EMPTY =  Ââåä³òü òåêñò äëÿ ïîøóêó
-EXTENSIONS_NOT_LOADED = Êîìïîíåíò mnoGoSearch íå çàâàíòàæåí
-SEARCH_ERROR = Ïîìèëêà ïîøóêó
+TEXT_IS_EMPTY =  Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‚ÐµÐºÑÑ‚ Ð´Ð»Ñ Ð¿Ð¾ÑˆÑƒÐºÑƒ
+EXTENSIONS_NOT_LOADED = ÐšÐ¾Ð¼Ð¿Ð¾Ð½ÐµÐ½Ñ‚ mnoGoSearch Ð½Ðµ Ð·Ð°Ð²Ð°Ð½Ñ‚Ð°Ð¶ÐµÐ½
+SEARCH_ERROR = ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð¿Ð¾ÑˆÑƒÐºÑƒ
 
 */?>

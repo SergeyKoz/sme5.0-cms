@@ -1,0 +1,80 @@
+/**
+* @site
+* @date 03.03.2010
+* @author eplatonov@activemedia.ua
+*/
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+}
+html {
+	height:100%;
+	border:none;
+}
+body {
+	height:100%;
+	background: #FFF;
+	font: 62.5% Arial, Tahoma, Verdana, Arial, sans-serif;
+	border:none;
+	color:#000;
+}
+img {border:none;}
+a {
+border:none;
+text-decoration:underline;
+/*color:#000;*/
+}
+a:hover {text-decoration:none;}
+ul, ol {border:none;}
+
+.fl{float:left;}
+.fr{float:right;}
+.clear {clear:both;}
+.block {display:block;}
+.red {color:#f00 !important;}
+.green {color:#008000 !important;}
+.margin20 {margin-left:20px}
+
+/* comments */
+
+.comment_vote {
+	display:inline-block;
+	width:13px;
+	height:13px;
+}
+
+.comment_up_disable {
+	background:url('../img/icons_vote_comments.png') no-repeat -13px -39px;
+}
+
+.comment_down_disable {
+	background:url('../img/icons_vote_comments.png') no-repeat 0px -39px;
+}
+
+.comment_up_enable {
+	background:url('../img/icons_vote_comments.png') no-repeat -13px -13px;
+}
+
+.comment_down_enable {
+	background:url('../img/icons_vote_comments.png') no-repeat 0px -13px;
+}
+
+.comment_up_voted {
+	background:url('../img/icons_vote_comments.png') no-repeat -13px 0px;
+}
+
+.comment_down_voted {
+	background:url('../img/icons_vote_comments.png') no-repeat 0px 0px;
+}
+
+.comment_rating_up {
+   font-weight: bold;
+   color: green;
+}
+.comment_rating_down {
+   font-weight: bold;
+   color: red;
+}
+.comment_rating {
+}
