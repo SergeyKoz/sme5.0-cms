@@ -8,7 +8,8 @@ The engine has high scalable modular structure. SME implements the MVC (Model-Vi
 - internationalization
 - XSLT templates
 
-#Installation
+Installation
+==================
 As the site is dockerized. Yo need to install [docker](https://www.docker.com/)
 
 - Download project from repository
